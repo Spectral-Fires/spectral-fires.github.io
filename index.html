@@ -1,36 +1,50 @@
 <html>
   <Body>
-    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-    <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
-    
     <div class="aoe">
     <p> Hello! </p>
     </div>
     </body>
- <script type="text/javascript">
-  $(document).ready(function() {
+<script type="text/javascript">
+dragElement(document.getElementByClassName(".aoe"));
 
-    $(".aoe").draggable({
-      helper: 'clone',
-      cursor: "move"
-    });
+function dragElement(elmnt) {
+  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+  if (document.getElementByClassName(elmnt.className)) {
+    /* if present, the header is where you move the DIV from:*/
+    document.getElementByClassName(elmnt.className).onmousedown = dragMouseDown;
+  } else {
+    /* otherwise, move the DIV from anywhere inside the DIV:*/
+    elmnt.onmousedown = dragMouseDown;
+  }
 
-    $("#sideboard").droppable({
-      accept: ".aoe",
-      drop: function(event, ui) {
-        $(this).append($(ui.draggable).clone());
-        $("#sideboard .aoe").addClass("new_item");
-        $(".new_item").removeClass("ui-draggable component_item");
-        $(".new_item").resizable({
-          handles: "all",
-          autoHide: true
-        });
-           }
+  function dragMouseDown(e) {
+    e = e || window.event;
+    e.preventDefault();
+    // get the mouse cursor position at startup:
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    document.onmouseup = closeDragElement;
+    // call a function whenever the cursor moves:
+    document.onmousemove = elementDrag;
+  }
 
-        });
-      }
-   
-    });
-  }); //    \\End--Ready
-</script>
+  function elementDrag(e) {
+    e = e || window.event;
+    e.preventDefault();
+    // calculate the new cursor position:
+    pos1 = pos3 - e.clientX;
+    pos2 = pos4 - e.clientY;
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    // set the element's new position:
+    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+  }
+
+  function closeDragElement() {
+    /* stop moving when mouse button is released:*/
+    document.onmouseup = null;
+    document.onmousemove = null;
+  }
+}
 </html>
