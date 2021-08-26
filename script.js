@@ -1,3 +1,8 @@
+function myFunction() 
+    {
+     alert("Hello");
+    }
+
 dragElement(document.getElementById("test"));
 
 function dragElement(elmnt) {
