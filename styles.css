@@ -7,7 +7,7 @@ body {
   z-index: 7;
 }
 
-#role {
+.role {
   position: absolute;
   z-index: 5;
 }
