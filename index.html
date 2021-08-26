@@ -1,5 +1,33 @@
 <html>
   <Body>
+    <div class="aoe">
     <p> Hello! </p>
+    </div>
     </body>
+ <script type="text/javascript">
+  $(document).ready(function() {
+
+    $(".aoe").draggable({
+      helper: 'clone',
+      cursor: "move"
+    });
+
+    $("#sideboard").droppable({
+      accept: ".aoe",
+      drop: function(event, ui) {
+        $(this).append($(ui.draggable).clone());
+        $("#sideboard .aoe").addClass("new_item");
+        $(".new_item").removeClass("ui-draggable component_item");
+        $(".new_item").resizable({
+          handles: "all",
+          autoHide: true
+        });
+           }
+
+        });
+      }
+   
+    });
+  }); //    \\End--Ready
+</script>
 </html>
