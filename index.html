@@ -3,13 +3,13 @@
     <div class="role"><img src="https://ffxiv.gamerescape.com/w/images/a/ac/Thaumaturge_Icon_10.png"></div>
     </body>
 <script type="text/javascript">
-dragElement(document.getElementByClassName("role"));
+dragElement(document.getElementsByClassName("role"));
 
-function dragElement("role") {
+function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
-  if (document.getElementByClassName("role")) {
+  if (document.getElementsByClassName("role")) {
     /* if present, the header is where you move the DIV from:*/
-    document.getElementByClassName("role").onmousedown = dragMouseDown;
+    document.getElementsByClassName("role").onmousedown = dragMouseDown;
   } else {
     /* otherwise, move the DIV from anywhere inside the DIV:*/
     elmnt.onmousedown = dragMouseDown;
