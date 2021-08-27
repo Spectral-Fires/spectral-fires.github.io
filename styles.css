@@ -6,6 +6,10 @@ p {
   font-family: optima, sans-serif;
   padding: 10px;
 }
+pre {
+    color: #eeeeee;
+  font-family: optima, sans-serif;
+}
 * {
   box-sizing: border-box;
 }
