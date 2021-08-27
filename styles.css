@@ -5,7 +5,6 @@ p {
   color: #eeeeee;
   font-family: optima, sans-serif;
   line-height: 1.5;
-  vertical-align: middle;
 }
 h3 {
   color: #444444;
@@ -27,7 +26,6 @@ h4 {
 a {
   text-decoration: none;
   color: #eeeeee;
-  vertical-align: middle;
 }
 a:hover {
   text-decoration: underline;
@@ -38,6 +36,9 @@ a:hover {
   box-sizing: border-box;
 }
 
+img.header {
+  vertical-align: middle;
+}
 #header {
   position: absolute;
   top: 0px;
