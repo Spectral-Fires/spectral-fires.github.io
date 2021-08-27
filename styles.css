@@ -7,8 +7,9 @@ p {
   padding: 10px;
 }
 pre {
-    color: #eeeeee;
+  color: #eeeeee;
   font-family: optima, sans-serif;
+  line-height: 1.5;
 }
 * {
   box-sizing: border-box;
