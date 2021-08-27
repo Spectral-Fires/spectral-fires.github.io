@@ -36,6 +36,17 @@ dragElement(document.getElementById("whm1"));
 dragElement(document.getElementById("sch1"));
 dragElement(document.getElementById("ast1"));
 
+dragElement(document.getElementById("tank"));
+dragElement(document.getElementById("healer"));
+dragElement(document.getElementById("melee"));
+dragElement(document.getElementById("ranged"));
+dragElement(document.getElementById("caster"));
+dragElement(document.getElementById("tank1"));
+dragElement(document.getElementById("healer1"));
+dragElement(document.getElementById("melee1"));
+dragElement(document.getElementById("ranged1"));
+dragElement(document.getElementById("caster1"));
+
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
   if (document.getElementById(elmnt.id)) {
