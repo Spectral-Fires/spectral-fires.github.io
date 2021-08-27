@@ -1,5 +1,16 @@
 body {
-  background-color: #111111;
+  background-color: #222222;
+}
+p {
+  color: #eeeeee;
+  font-family: optima, sans-serif;
+}
+
+#header {
+  background-color: #101010;
+  padding: 10px;
+  font-weight: bold;
+  width: 100%;
 }
 
 .drag{
