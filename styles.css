@@ -37,7 +37,6 @@ p {
   border: 2px solid #444444;
   border-radius: 5px;
   padding: 10px;
-  width: 90%;
   content: "";
   clear: both;
   display: table;
@@ -45,7 +44,7 @@ p {
 .innerbox {
   float: left;
   width: 25%;
-  padding: 50px;
+  padding: 100px;
 }
 
 .marker {
