@@ -33,6 +33,11 @@ p {
   border-radius: 5px;
   padding: 10px;
 }
+.innerbox {
+  float: left;
+  width: 25%;
+  padding: 50px;
+}
 
 .marker {
   z-index: 7;
