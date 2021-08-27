@@ -40,7 +40,7 @@ pre {
 .raidbox {
   border: 2px solid #444444;
   border-radius: 5px;
-  padding: 10px;
+  padding: 20px;
   content: "";
   clear: both;
   display: table;
