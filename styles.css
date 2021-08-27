@@ -8,6 +8,9 @@ p {
 }
 
 #header {
+  position: absolute;
+  top: 0px;
+  left: 0px;
   background-color: #101010;
   font-weight: bold;
   width: 100%;
