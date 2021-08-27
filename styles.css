@@ -23,6 +23,13 @@ h4 {
   margin: 10px 0px 0px 0px;
   padding: 0px; 
 }
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: white;
+}
 
 * {
   box-sizing: border-box;
