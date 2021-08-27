@@ -5,6 +5,7 @@ p {
   color: #eeeeee;
   font-family: optima, sans-serif;
   line-height: 1.5;
+  vertical-align: middle;
 }
 h3 {
   color: #444444;
@@ -25,10 +26,12 @@ h4 {
 }
 a {
   text-decoration: none;
+  color: #eeeeee;
+  vertical-align: middle;
 }
 a:hover {
   text-decoration: underline;
-  color: white;
+  color: #eeeeee;
 }
 
 * {
