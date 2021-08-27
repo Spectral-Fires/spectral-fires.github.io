@@ -20,6 +20,28 @@ dragElement(document.getElementById("brd"));
 dragElement(document.getElementById("mch"));
 dragElement(document.getElementById("dnc"));
 
+dragElement(document.getElementById("pld1"));
+dragElement(document.getElementById("war1"));
+dragElement(document.getElementById("drk1"));
+dragElement(document.getElementById("gnb1"));
+dragElement(document.getElementById("whm1"));
+
+dragElement(document.getElementById("pld1"));
+dragElement(document.getElementById("war1"));
+dragElement(document.getElementById("drk1"));
+dragElement(document.getElementById("gnb1"));
+dragElement(document.getElementById("sch1"));
+
+dragElement(document.getElementById("drg1"));
+dragElement(document.getElementById("mnk1"));
+dragElement(document.getElementById("nin1"));
+dragElement(document.getElementById("sam1"));
+dragElement(document.getElementById("ast1"));
+
+dragElement(document.getElementById("brd1"));
+dragElement(document.getElementById("mch1"));
+dragElement(document.getElementById("dnc1"));
+
 
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
