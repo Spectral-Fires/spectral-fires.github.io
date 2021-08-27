@@ -7,6 +7,12 @@ p {
   padding: 10px;
   line-height: 1.5;
 }
+h3{
+  font-family: optima, sans-serif;
+  padding: 0px;
+  line-height: 0.5; 
+  z-index: 5;
+}
 * {
   box-sizing: border-box;
 }
