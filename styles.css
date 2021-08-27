@@ -2,14 +2,13 @@ body {
   background-color: #111111;
 }
 
-.draggable{
+.drag{
   position: absolute;
 }
 .marker {
   z-index: 7;
 }
 .role {
-  position: absolute;
   z-index: 5;
 }
 .mob {
