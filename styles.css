@@ -28,8 +28,8 @@ a {
   color: #eeeeee;
 }
 a:hover {
-  text-decoration: underline;
-  color: #eeeeee;
+  text-decoration: none;
+  color: #f66f44;
 }
 
 * {
