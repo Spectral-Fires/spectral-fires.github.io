@@ -4,6 +4,8 @@ body {
 
 .drag{
   position: absolute;
+  left: 50%;
+  top: 50%;
 }
 .marker {
   z-index: 7;
