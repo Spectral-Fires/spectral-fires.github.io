@@ -8,6 +8,7 @@ p {
 }
 
 #textheader {
+  position: absolute;
   left: 200px;
 }
 #header {
