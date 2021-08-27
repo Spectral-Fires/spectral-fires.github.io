@@ -30,7 +30,7 @@ h3{
 }
 #container {
   position: fixed;
-  top: 50px;
+  top: 100px;
   left: 200px;
   right: 200px;
   padding: 5px;
@@ -44,6 +44,7 @@ h3{
 }
 .raidtitle {
   position: relative;
+  top: 2px;
   left: 45px;
   padding: 0px;
   display: block;
