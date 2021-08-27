@@ -15,9 +15,10 @@ function dragElement(elmnt) {
     elmnt.onmousedown = clone;
   }
   
-  function clone(elmnt)
+  function clone(elmnt) {
       var myDiv = document.getElementById(elmnt.id);
       var divClone = myDiv.cloneNode(true); // the true is for deep cloning
+  }
 
   function dragMouseDown(e) {
     e = e || window.event;
