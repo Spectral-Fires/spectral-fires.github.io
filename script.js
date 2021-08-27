@@ -2,45 +2,39 @@ dragElement(document.getElementById("pld"));
 dragElement(document.getElementById("war"));
 dragElement(document.getElementById("drk"));
 dragElement(document.getElementById("gnb"));
-dragElement(document.getElementById("whm"));
-
 dragElement(document.getElementById("blm"));
 dragElement(document.getElementById("smn"));
 dragElement(document.getElementById("rdm"));
 dragElement(document.getElementById("blu"));
-dragElement(document.getElementById("sch"));
-
 dragElement(document.getElementById("drg"));
 dragElement(document.getElementById("mnk"));
 dragElement(document.getElementById("nin"));
 dragElement(document.getElementById("sam"));
-dragElement(document.getElementById("ast"));
-
 dragElement(document.getElementById("brd"));
 dragElement(document.getElementById("mch"));
 dragElement(document.getElementById("dnc"));
+dragElement(document.getElementById("whm"));
+dragElement(document.getElementById("sch"));
+dragElement(document.getElementById("ast"));
 
 dragElement(document.getElementById("pld1"));
 dragElement(document.getElementById("war1"));
 dragElement(document.getElementById("drk1"));
 dragElement(document.getElementById("gnb1"));
-dragElement(document.getElementById("whm1"));
-
 dragElement(document.getElementById("blm1"));
 dragElement(document.getElementById("smn1"));
 dragElement(document.getElementById("rdm1"));
 dragElement(document.getElementById("blu1"));
-dragElement(document.getElementById("sch1"));
-
 dragElement(document.getElementById("drg1"));
 dragElement(document.getElementById("mnk1"));
 dragElement(document.getElementById("nin1"));
 dragElement(document.getElementById("sam1"));
-dragElement(document.getElementById("ast1"));
-
 dragElement(document.getElementById("brd1"));
 dragElement(document.getElementById("mch1"));
 dragElement(document.getElementById("dnc1"));
+dragElement(document.getElementById("whm1"));
+dragElement(document.getElementById("sch1"));
+dragElement(document.getElementById("ast1"));
 
 
 function dragElement(elmnt) {
