@@ -45,7 +45,8 @@ p {
 .innerbox {
   float: left;
   width: 25%;
-  padding: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .marker {
