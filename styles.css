@@ -21,8 +21,7 @@ p {
 }
 #container {
   position: fixed;
-  top: 150px;
-  left: 200px;
+  margin: 150px, 200px, 150px, 200px;
   padding: 5px;
   width: 100%;
 }
