@@ -7,11 +7,7 @@ p {
   padding: 10px;
 }
 
-.textheader {
-  position: absolute;
-  left: 200px;
-}
-.header {
+#header {
   position: absolute;
   top: 0px;
   left: 0px;
