@@ -7,9 +7,8 @@ p {
   line-height: 1.5;
 }
 h3{
-  color: #eeeeee;
+  color: #cccccc;
   font-family: optima, sans-serif;
-  text-transform: uppercase;
   padding: 0px; 
   z-index: 5;
 }
