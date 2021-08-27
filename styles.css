@@ -37,7 +37,7 @@ a:hover {
 }
 
 img#icon {
-  vertical-align: middle;
+  vertical-align: baseline;
 }
 #header {
   position: absolute;
