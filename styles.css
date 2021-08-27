@@ -29,6 +29,7 @@ p {
   top: 50%;
 }
 .raidbox {
+  float: left;
   border: 2px solid #444444;
   border-radius: 5px;
   padding: 10px;
