@@ -9,9 +9,7 @@ p {
 h3{
   color: #eeeeee;
   font-family: optima, sans-serif;
-  padding: 0px;
-  line-height: -1; 
-  line-indent: 100px;
+  padding: 0px; 
   z-index: 5;
 }
 
