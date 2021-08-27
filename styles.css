@@ -27,11 +27,16 @@ p {
   padding: 5px;
 }
 
-.drag{
+.drag {
   position: absolute;
   left: 50%;
   top: 50%;
 }
+.raidbox {
+  border: 2px solid #222222;
+  border-radius: 5px;
+}
+
 .marker {
   z-index: 7;
 }
