@@ -39,7 +39,7 @@ p {
   padding: 10px;
   content: "";
   clear: both;
-  display: table;
+  display: inline;
   margin: 10px 10px 10px 10px;
   width: 100%;
 }
