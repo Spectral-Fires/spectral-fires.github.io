@@ -12,12 +12,6 @@ function dragElement(elmnt) {
   } else {
     /* otherwise, move the DIV from anywhere inside the DIV:*/
     elmnt.onmousedown = dragMouseDown;
-    elmnt.onmousedown = clone;
-  }
-  
-  function clone(elmnt) {
-      var myDiv = document.getElementById(elmnt.id);
-      var divClone = myDiv.cloneNode(true); // the true is for deep cloning
   }
 
   function dragMouseDown(e) {
