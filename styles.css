@@ -4,14 +4,14 @@ body {
 p {
   color: #eeeeee;
   font-family: optima, sans-serif;
-  padding: 5px;
+  padding: 20px;
 }
 
 #header {
   background-color: #101010;
-  padding: 0px;
   font-weight: bold;
   width: 100%;
+  margin: 0px 0px 0px 0px;
 }
 
 .drag{
