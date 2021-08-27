@@ -9,6 +9,7 @@ p {
 h3{
   color: #eeeeee;
   font-family: optima, sans-serif;
+  text-transform: uppercase;
   padding: 0px; 
   z-index: 5;
 }
@@ -42,6 +43,7 @@ h3{
 }
 .raidtitle {
   position: relative;
+  top: 20;
   left: 45px;
   padding: 0px;
   display: block;
