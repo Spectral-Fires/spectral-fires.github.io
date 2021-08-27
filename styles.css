@@ -25,7 +25,7 @@ p {
   left: 200px;
   right: 200px;
   padding: 5px;
-  width: 100%;
+  width: auto;
 }
 
 .drag {
