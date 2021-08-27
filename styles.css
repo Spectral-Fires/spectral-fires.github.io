@@ -45,7 +45,16 @@ h4 {
   padding: 5px;
   width: auto;
 }
+#left {
+  width: 150px;
+  top: 0;
+  height: 60%;
+}
 
+.bar {
+  background-color: #545454;
+  position: relative;
+}
 .drag {
   position: absolute;
   left: 50%;
