@@ -41,7 +41,8 @@ h3{
   top: 50%;
 }
 .raidtitle {
-  position: fixed;
+  position: relative;
+  top: 20px;
   left: 50px;
   padding: 0px;
   display: block;
