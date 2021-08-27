@@ -77,6 +77,8 @@ h4 {
 .bar {
   background-color: #292929;
   position: absolute;
+  padding: 0px;
+  margin: 0px 0px 0px 0px;
 }
 .drag {
   position: absolute;
