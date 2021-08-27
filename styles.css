@@ -52,7 +52,7 @@ h4 {
   width: 250px;
   height: 800px;
   border-right: 3px solid #171717;
-  border-left: 5px solid #171717;
+  border-left: 5px solid #0c0c0c;
 }
 #right {
   top: 0;
@@ -60,7 +60,7 @@ h4 {
   width: 250px;
   height: 800px;
   border-left: 3px solid #171717;
-  border-right: 5px solid #171717;
+  border-right: 5px solid #0c0c0c;
 }
 #arena {
   background-color: #1c1c1c;
@@ -73,8 +73,9 @@ h4 {
   height: 200px;
   top: 800;
   border-top: 5px solid #171717;
-  border-left: 5px solid #171717;  
-  border-right: 5px solid #171717;
+  border-left: 5px solid #0c0c0c;  
+  border-right: 5px solid #0c0c0c;
+  border-bottom: 5px double #0c0c0c;
 }
 
 .bar {
