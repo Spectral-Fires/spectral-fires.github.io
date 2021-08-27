@@ -80,9 +80,6 @@ img#icon {
   height: 800px;
   border-left: 3px solid #171717;
   border-right: 5px solid #0c0c0c;
-  content: "";
-  clear: both;
-  display: table;
 }
 #arena {
   background-color: #1c1c1c;
@@ -98,9 +95,6 @@ img#icon {
   border-left: 5px solid #0c0c0c;  
   border-right: 5px solid #0c0c0c;
   border-bottom: 5px double #0c0c0c;
-  content: "";
-  clear: both;
-  display: table;
 }
 
 .bar {
