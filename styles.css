@@ -53,8 +53,9 @@ h4 {
 }
 
 .bar {
-  background-color: #545454;
+  background-color: #292929;
   position: relative;
+  top: -50;
 }
 .drag {
   position: absolute;
