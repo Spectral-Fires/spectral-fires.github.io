@@ -40,6 +40,11 @@ h3{
   left: 50%;
   top: 50%;
 }
+.raidtitle {
+  padding: 0px;
+  display: block;
+  margin: 0px 0px 0px 0px;
+}
 .raidbox {
   border: 2px solid #444444;
   border-radius: 5px;
