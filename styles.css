@@ -6,6 +6,10 @@ p {
   font-family: optima, sans-serif;
   line-height: 1.5;
 }
+span {
+  color: #444444;
+  font-weight: bold;
+}
 h3 {
   color: #444444;
   font-family: optima, sans-serif;
