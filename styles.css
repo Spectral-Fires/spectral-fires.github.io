@@ -44,7 +44,7 @@ h4 {
   right: 200px;
   padding: 5px;
   width: auto;
-  height: auto;
+  height: 100%;
 }
 #left {
   top: 0;
