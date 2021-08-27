@@ -6,6 +6,9 @@ p {
   font-family: optima, sans-serif;
   padding: 10px;
 }
+* {
+  box-sizing: border-box;
+}
 
 #header {
   position: absolute;
