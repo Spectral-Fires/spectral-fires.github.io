@@ -1,4 +1,8 @@
-dragElement(document.getElementById("test"));
+dragElement(document.getElementById("pld"));
+dragElement(document.getElementById("war"));
+dragElement(document.getElementById("drk"));
+dragElement(document.getElementById("gnb"));
+dragElement(document.getElementById("blm"));
 
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
