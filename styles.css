@@ -102,8 +102,6 @@ img#icon {
 }
 .drag {
   position: absolute;
-  left: 5px;
-  top: 5px;
 }
 .raidtitle {
   position: relative;
