@@ -41,6 +41,7 @@ p {
   content: "";
   clear: both;
   display: table;
+  margin: 10px 10px 10px 10px;
 }
 .innerbox {
   float: left;
