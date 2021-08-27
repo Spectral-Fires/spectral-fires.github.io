@@ -49,7 +49,13 @@ h4 {
 }
 #left {
   top: 0;
-  width: 150px;
+  width: 250px;
+  height: 800px;
+}
+#right {
+  top: 0;
+  right: 0;
+  width: 250px;
   height: 800px;
 }
 
