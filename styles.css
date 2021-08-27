@@ -37,7 +37,6 @@ p {
 .raidbox {
   border: 2px solid #444444;
   border-radius: 5px;
-  vertical-align: middle;
   padding: 10px;
   content: "";
   clear: both;
