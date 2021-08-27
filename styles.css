@@ -4,7 +4,7 @@ body {
 p {
   color: #eeeeee;
   font-family: optima, sans-serif;
-  padding: 20px;
+  padding: 10px;
 }
 
 #header {
@@ -15,6 +15,12 @@ p {
   font-weight: bold;
   width: 100%;
   margin: 0px 0px 0px 0px;
+}
+#container {
+  position: absolute;
+  top: 50px;
+  left: 200px;
+  padding: 5px;
 }
 
 .drag{
