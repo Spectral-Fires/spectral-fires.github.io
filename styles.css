@@ -2,27 +2,21 @@ body {
   background-color: #111111;
 }
 
-.marker {
+.dragable{
   position: absolute;
+}
+.marker {
   z-index: 7;
 }
-
 .role {
-  position: absolute;
   z-index: 5;
 }
-
 .mob {
-  position: absolute;
   z-index: 4;
 }
-  
 .waymark {
-  position: absolute;
   z-index: 3;
 }
-
 .aoe {
-  position: absolute;
   z-index: 1;
 }
