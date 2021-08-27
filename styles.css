@@ -143,6 +143,8 @@ img#icon {
   z-index: 7;
 }
 .role {
+  width: 20px;
+  height: 20px;
   z-index: 5;
 }
 .mob {
