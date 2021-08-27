@@ -10,10 +10,11 @@ h3{
   color: #eeeeee;
   font-family: optima, sans-serif;
   padding: 0px;
-  line-height: 0.5; 
+  line-height: -1; 
   line-indent: 100px;
   z-index: 5;
 }
+
 * {
   box-sizing: border-box;
 }
