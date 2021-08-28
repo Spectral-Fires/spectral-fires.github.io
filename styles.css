@@ -155,7 +155,7 @@ img#icon {
 }
 
 .dropa:hover, .dropdown:hover .dropbtn:hover {
-  background-color: #d3a03e;
+  color: #d3a03e
 }
 
 .dropdown-content {
