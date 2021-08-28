@@ -149,6 +149,7 @@ img#icon {
   border: none;
   outline: none;
   color: #eeeeee;
+  padding: 16px 20px;
   background-color: inherit;
   font-family: optima, sans-serif;
   margin: 0;
@@ -162,6 +163,7 @@ img#icon {
   display: none;
   position: relative;
   background-color: #141414;
+  
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 10;
