@@ -137,7 +137,7 @@ img#icon {
 
 /* Navbar */
 .dropdown {
-  position: absolute;
+  position: relatvive;
   top: 3px;
   right: 200px;
   overflow: hidden;
