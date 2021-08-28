@@ -161,8 +161,8 @@ img#icon {
 
 .dropdown-content {
   display: none;
-  position: relative;
-  right: 0;
+  position: absolute;
+  right: 200;
   background-color: #141414;
   
   min-width: 160px;
