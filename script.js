@@ -1,4 +1,4 @@
-window.addeventlistener("load", ready, false);
+window.onload("load", ready);
 
 function ready(e) {
   alert('Hello');
