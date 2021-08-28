@@ -1,4 +1,4 @@
-setTimeout(dragElement, 5000)
+setTimeout(dragElement, 1000)
 
 /* Tanks */
 dragElement(document.getElementById("pld"));
