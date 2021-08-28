@@ -103,6 +103,9 @@ img#icon {
 .drag {
   position: absolute;
 }
+.base {
+  filter: grayscale(100%);
+}
 .raidtitle {
   position: relative;
   top: 2px;
