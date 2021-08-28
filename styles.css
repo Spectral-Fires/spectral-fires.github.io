@@ -1,5 +1,10 @@
 body {
   background-color: #121212;
+  background-image: url('images/background.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-blend-mode: lighten;
+  background-position: 50% 50%;
 }
 p {
   color: #eeeeee;
