@@ -1,5 +1,4 @@
 window.onload = function ready(e) {
-  alert('Hello');
   /* Tanks */
   dragElement(document.getElementById("pld"));
   dragElement(document.getElementById("pld1"));
