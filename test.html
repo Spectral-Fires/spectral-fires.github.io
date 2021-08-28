@@ -1,7 +1,4 @@
 <html>
-  <script>
-    var elmnt;
-  </script>
   <head>
     <style>
       .drag {
@@ -13,15 +10,13 @@
     <div id="test" class="drag"><img src="/images/Omega.jpg" width="300" height="200"></div>
       
   <script>
-    let elements = new Array();
-    elements.concat(document.body.getElementsByClassName("drag"));
-    dragElement(document.elements);
+    dragElement("drag");
     
-    function dragElement(elmnt) {
+    function dragElement("drag") {
       var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
-      if (document.elements) {
+      if ("drag") {
         /* if present, the header is where you move the DIV from:*/
-        document.elements.onmousedown = dragMouseDown;
+        document.drag.onmousedown = dragMouseDown;
       } else {
         /* otherwise, move the DIV from anywhere inside the DIV:*/
         elmnt.onmousedown = dragMouseDown;
