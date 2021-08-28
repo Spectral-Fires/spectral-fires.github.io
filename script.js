@@ -1,3 +1,4 @@
+setTimeout(includeHTML, 2000);
 dragElement(document.getElementById("pld"));
 
 function dragElement(elmnt) {
