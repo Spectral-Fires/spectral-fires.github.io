@@ -147,15 +147,15 @@ img#icon {
   font-size: 16px;  
   border: none;
   outline: none;
-  color: white;
+  color: #141414;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+.dropdown:hover .dropbtn {
+  background-color: #d3a03e;
 }
 
 .dropdown-content {
