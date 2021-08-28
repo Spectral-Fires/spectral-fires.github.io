@@ -139,13 +139,15 @@ img#icon {
 .navbar {
   overflow: hidden;
   background-color: #333;
+  margin-right: 200px;
+  margin-top: -60px;
 }
 
 .navbar a {
   float: left;
   font-size: 18px;
   font-family: optima, sans-serif;
-  color: white;
+  color: #eeeeee;
   text-align: center;
   padding: 18px 22px;
   text-decoration: none;
@@ -160,7 +162,7 @@ img#icon {
   font-size: 18px;  
   border: none;
   outline: none;
-  color: white;
+  color: #eeeeee;
   padding: 18px 22px;
   background-color: inherit;
   font-family: optima, sans-serif;
@@ -168,13 +170,13 @@ img#icon {
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: #d3a03e;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: #141414;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -182,7 +184,7 @@ img#icon {
 
 .dropdown-content a {
   float: none;
-  color: black;
+  color: #eeeeee;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -190,7 +192,7 @@ img#icon {
 }
 
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: #d3a03e;
 }
 
 .dropdown:hover .dropdown-content {
