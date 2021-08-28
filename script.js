@@ -1,3 +1,5 @@
+includeHTML();
+
 dragElement(document.getElementById("pld"));
 dragElement(document.getElementById("war"));
 dragElement(document.getElementById("drk"));
