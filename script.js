@@ -108,7 +108,7 @@ dragElement(document.getElementById("exclaim6"));
 dragElement(document.getElementById("exclaim7"));
 dragElement(document.getElementById("exclaim8"));
 dragElement(document.getElementById("exclaim9"));
-dragElement(document.getElementById("exclaim10"));
+dragElement(document.getElementById("exclaim0"));
 
 dragElement(document.getElementById("x1"));
 dragElement(document.getElementById("x2"));
@@ -119,7 +119,7 @@ dragElement(document.getElementById("x6"));
 dragElement(document.getElementById("x7"));
 dragElement(document.getElementById("x8"));
 dragElement(document.getElementById("x9"));
-dragElement(document.getElementById("x10"));
+dragElement(document.getElementById("x0"));
 
 dragElement(document.getElementById("check1"));
 dragElement(document.getElementById("check2"));
@@ -130,7 +130,7 @@ dragElement(document.getElementById("check6"));
 dragElement(document.getElementById("check7"));
 dragElement(document.getElementById("check8"));
 dragElement(document.getElementById("check9"));
-dragElement(document.getElementById("check10"));
+dragElement(document.getElementById("check0"));
 
 dragElement(document.getElementById("sword1"));
 dragElement(document.getElementById("sword2"));
@@ -141,7 +141,7 @@ dragElement(document.getElementById("sword6"));
 dragElement(document.getElementById("sword7"));
 dragElement(document.getElementById("sword8"));
 dragElement(document.getElementById("sword9"));
-dragElement(document.getElementById("sword10"));
+dragElement(document.getElementById("sword0"));
 
 dragElement(document.getElementById("b1"));
 dragElement(document.getElementById("b2"));
@@ -152,7 +152,7 @@ dragElement(document.getElementById("b6"));
 dragElement(document.getElementById("b7"));
 dragElement(document.getElementById("b8"));
 dragElement(document.getElementById("b9"));
-dragElement(document.getElementById("b10"));
+dragElement(document.getElementById("b0"));
 
 dragElement(document.getElementById("r1"));
 dragElement(document.getElementById("r2"));
@@ -163,7 +163,7 @@ dragElement(document.getElementById("r6"));
 dragElement(document.getElementById("r7"));
 dragElement(document.getElementById("r8"));
 dragElement(document.getElementById("r9"));
-dragElement(document.getElementById("r10"));
+dragElement(document.getElementById("r0"));
 
 dragElement(document.getElementById("y1"));
 dragElement(document.getElementById("y2"));
@@ -174,7 +174,7 @@ dragElement(document.getElementById("y6"));
 dragElement(document.getElementById("y7"));
 dragElement(document.getElementById("y8"));
 dragElement(document.getElementById("y9"));
-dragElement(document.getElementById("y10"));
+dragElement(document.getElementById("y0"));
 
 dragElement(document.getElementById("g1"));
 dragElement(document.getElementById("g2"));
@@ -185,7 +185,7 @@ dragElement(document.getElementById("g6"));
 dragElement(document.getElementById("g7"));
 dragElement(document.getElementById("g8"));
 dragElement(document.getElementById("g9"));
-dragElement(document.getElementById("g10"));
+dragElement(document.getElementById("g0"));
 
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
