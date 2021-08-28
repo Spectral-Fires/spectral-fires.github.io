@@ -1,5 +1,4 @@
 setTimeout(includeHTML, 2000);
-dragElement(document.getElementById("pld"));
 
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
@@ -42,3 +41,4 @@ function dragElement(elmnt) {
   }
 }
 
+dragElement(document.getElementById("pld"));
