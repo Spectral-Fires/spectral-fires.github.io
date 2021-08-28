@@ -10,7 +10,8 @@
     <div id="test" class="drag"><img src="/images/Omega.jpg" width="300" height="200"></div>
       
   <script>
-    let elements = document.getElementsByClassname("drag");
+    let elements = new Array();
+    elements.concat(document.body.getElementsByClassName("drag"));
     dragElement(document.elements);
     
     function dragElement(elmnt) {
