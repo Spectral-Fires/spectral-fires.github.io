@@ -47,6 +47,7 @@ img#icon {
 }
 #header {
   position: absolute;
+  float: left;
   top: 0px;
   left: 0px;
   background-color: #0c0c0c;
