@@ -152,7 +152,7 @@ img#icon {
   width: 40px;
   height: 40px;
   border-style: dashed; 
-  border-width: 1px;
+  border-width: 2px;
 }
 .aoe {
   z-index: 1;
