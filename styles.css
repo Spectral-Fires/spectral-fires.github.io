@@ -5,7 +5,7 @@ body {
   background-attachment: scroll;
   background-blend-mode: luminosity;
   background-size: 768px 1440px;
-  background-position: 100% 75%;
+  background-position: 100% 25%;
 }
 p {
   color: #eeeeee;
