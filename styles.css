@@ -136,6 +136,8 @@ img#icon {
 
 .marker {
   z-index: 7;
+  width: 32px;
+  height: 32px;
 }
 .role {
   width: 32px;
@@ -147,7 +149,10 @@ img#icon {
 }
 .waymark {
   z-index: 3;
+  width: 40px;
+  height: 40px;
   border-style: dashed; 
+  border-width: 1px;
 }
 .aoe {
   z-index: 1;
