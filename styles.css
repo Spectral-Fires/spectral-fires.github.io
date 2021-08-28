@@ -147,6 +147,7 @@ img#icon {
 }
 .waymark {
   z-index: 3;
+  border-style: dashed; 
 }
 .aoe {
   z-index: 1;
