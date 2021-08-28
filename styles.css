@@ -138,6 +138,7 @@ img#icon {
 /* Navbar */
 .dropdown {
   position: relative;
+  float: right;
   top: 3px;
   right: 200px;
   display: block;
@@ -151,7 +152,7 @@ img#icon {
   padding: 18px 24px;
   background-color: inherit;
   font-family: optima, sans-serif;
-  margin: 0;
+  margin-right: 200px;
 }
 
 .dropa:hover, .dropdown:hover .dropbtn:hover {
