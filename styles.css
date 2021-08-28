@@ -155,6 +155,11 @@ img#icon {
   border-style: double; 
   border-width: 2px;
 }
+.other {
+  z-index: 2;
+  width: 48;
+  height: 48;
+}
 .aoe {
   z-index: 1;
 }
