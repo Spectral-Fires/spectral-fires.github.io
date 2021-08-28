@@ -138,13 +138,14 @@ img#icon {
 /* Navbar */
 .dropdown {
   position: absolute;
-  top: 10px;
+  top: 8px;
   right: 200px;
   overflow: hidden;
+  display: block;
 }
 
 .dropdown .dropbtn {
-  font-size: 16px;  
+  font-size: 18px;  
   border: none;
   outline: none;
   color: #eeeeee;
