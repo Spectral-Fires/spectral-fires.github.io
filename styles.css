@@ -145,6 +145,7 @@ img#icon {
   float: left;
   font-size: 18px;
   font-family: optima, sans-serif;
+  font-weight: normal;
   color: #eeeeee;
   text-align: center;
   padding: 18px 22px;
@@ -162,8 +163,8 @@ img#icon {
   outline: none;
   color: #eeeeee;
   padding: 18px 22px;
-  background-color: inherit;
   font-family: optima, sans-serif;
+  font-weight: normal;
   margin: 0;
 }
 
@@ -176,7 +177,7 @@ img#icon {
   position: absolute;
   right: 200px;
   background-color: #141414;
-  min-width: 160px;
+  min-width: 180px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
