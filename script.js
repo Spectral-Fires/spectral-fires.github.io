@@ -58,6 +58,38 @@ dragElement(document.getElementById("caster1"));
 dragElement(document.getElementById("caster2"));
 dragElement(document.getElementById("caster3"));
 
+/* Markers */
+dragElement(document.getElementById("mark1"));
+dragElement(document.getElementById("mark2"));
+dragElement(document.getElementById("mark3"));
+dragElement(document.getElementById("mark4"));
+dragElement(document.getElementById("mark5"));
+dragElement(document.getElementById("mark6"));
+dragElement(document.getElementById("mark7"));
+dragElement(document.getElementById("mark8"));
+dragElement(document.getElementById("chain1"));
+dragElement(document.getElementById("chain2"));
+dragElement(document.getElementById("chain3"));
+dragElement(document.getElementById("chain4"));
+dragElement(document.getElementById("chain5"));
+dragElement(document.getElementById("chain6"));
+dragElement(document.getElementById("chain7"));
+dragElement(document.getElementById("chain8"));
+dragElement(document.getElementById("ignore1"));
+dragElement(document.getElementById("ignore2"));
+dragElement(document.getElementById("ignore3"));
+dragElement(document.getElementById("ignore4"));
+dragElement(document.getElementById("ignore5"));
+dragElement(document.getElementById("ignore6"));
+dragElement(document.getElementById("ignore7"));
+dragElement(document.getElementById("ignore8"));
+dragElement(document.getElementById("square"));
+dragElement(document.getElementById("circle"));
+dragElement(document.getElementById("cross"));
+dragElement(document.getElementById("triangle"));
+
+/* Waymarks */
+
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
   if (document.getElementById(elmnt.id)) {
