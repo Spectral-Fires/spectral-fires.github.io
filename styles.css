@@ -3,7 +3,7 @@ body {
   background-image: url('images/background.png');
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-blend-mode: saturation;
+  background-blend-mode: color-dodge;
   background-size: 768px 1440px;
   background-position: 100% 150%;
 }
