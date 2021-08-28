@@ -1,6 +1,7 @@
-setTimeout(includeHTML, 2000);
+dragElement(document.getElementById("pld"));
 
 function dragElement(elmnt) {
+  setTimeout(includeHTML, 2000);
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
   if (document.getElementById(elmnt.id)) {
     /* if present, the header is where you move the DIV from:*/
@@ -40,5 +41,3 @@ function dragElement(elmnt) {
     document.onmousemove = null;
   }
 }
-
-dragElement(document.getElementById("pld"));
