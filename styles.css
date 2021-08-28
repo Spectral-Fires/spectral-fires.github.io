@@ -138,7 +138,7 @@ img#icon {
 /* Navbar */
 .dropdown {
   position: absolute;
-  top: 13px;
+  top: 10px;
   right: 200px;
   overflow: hidden;
 }
@@ -147,7 +147,7 @@ img#icon {
   font-size: 16px;  
   border: none;
   outline: none;
-  color: #141414;
+  color: #eeeeee;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
