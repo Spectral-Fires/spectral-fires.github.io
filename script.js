@@ -89,6 +89,14 @@ dragElement(document.getElementById("cross"));
 dragElement(document.getElementById("triangle"));
 
 /* Waymarks */
+dragElement(document.getElementById("waymarka"));
+dragElement(document.getElementById("waymarkb"));
+dragElement(document.getElementById("waymarkc"));
+dragElement(document.getElementById("waymarkd"));
+dragElement(document.getElementById("waymark1"));
+dragElement(document.getElementById("waymark2"));
+dragElement(document.getElementById("waymark3"));
+dragElement(document.getElementById("waymark4"));
 
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
