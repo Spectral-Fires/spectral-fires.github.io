@@ -162,6 +162,7 @@ img#icon {
   border: none;
   outline: none;
   color: #eeeeee;
+  background-color: inherit;
   padding: 21px 22px;
   font-family: optima, sans-serif;
   font-weight: normal;
