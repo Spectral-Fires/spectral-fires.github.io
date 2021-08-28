@@ -47,7 +47,6 @@ img#icon {
 }
 #header {
   position: absolute;
-  float: left;
   top: 0px;
   left: 0px;
   background-color: #0c0c0c;
@@ -138,7 +137,7 @@ img#icon {
 
 /* Navbar */
 .dropdown {
-  position: relatvive;
+  position: relative;
   top: 3px;
   right: 200px;
   overflow: hidden;
