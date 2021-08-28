@@ -1,11 +1,5 @@
 body {
   background-color: #121212;
-  background-image: url('images/background.png');
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-blend-mode: multiply;
-  background-size: 768px 1440px;
-  background-position: 108% 25%;
 }
 p {
   color: #eeeeee;
