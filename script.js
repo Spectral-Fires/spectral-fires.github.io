@@ -1,3 +1,5 @@
+setTimeout(dragElement, 5000)
+
 /* Tanks */
 dragElement(document.getElementById("pld"));
 dragElement(document.getElementById("pld1"));
@@ -186,8 +188,6 @@ dragElement(document.getElementById("g7"));
 dragElement(document.getElementById("g8"));
 dragElement(document.getElementById("g9"));
 dragElement(document.getElementById("g0"));
-
-setTimeout(dragElement, 3000)
 
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
