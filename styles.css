@@ -151,7 +151,7 @@ img#icon {
   z-index: 3;
   width: 40px;
   height: 40px;
-  border-style: dashed; 
+  border-style: double; 
   border-width: 2px;
 }
 .aoe {
