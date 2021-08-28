@@ -105,6 +105,7 @@ img#icon {
 }
 .base {
   filter: grayscale(100%);
+  z-index: 1;
 }
 .raidtitle {
   position: relative;
