@@ -29,8 +29,6 @@ function includeHTML() {
     }
   }
 }
-     
-    includeHTML();
     </script>
   </head>
   <body>
@@ -45,10 +43,14 @@ function includeHTML() {
       </script>
     </div>
     <div id="container" style="top: 63px;">
-      <div id="left" class="bar" w3-include-html="../leftdiv.html"></div>
+      <div id="left" class="bar" w3-include-html="../leftdiv.html">
+      </div>
       <div id="arena"><img src="F595nWh.jpeg" width="1422" height="800" style="display: block; margin-left: auto; margin-right: auto;"></div>
       <div id="right" class="bar"></div>
       <div id="bottom" class="bar"></div>
+        <script>
+          includeHTML();
+        </script>
       <script type="text/javascript" src="../script.js" defer></script>
 
       
