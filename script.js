@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", ready, false);
+window.addeventlistener("load", ready, false);
 
 function ready(e) {
   alert('Hello');
