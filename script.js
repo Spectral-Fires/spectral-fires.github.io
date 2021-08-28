@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", ready, false);
 
 function ready(e) {
+  alert('Hello');
   /* Tanks */
   dragElement(document.getElementById("pld"));
   dragElement(document.getElementById("pld1"));
