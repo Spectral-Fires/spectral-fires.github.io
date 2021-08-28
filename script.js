@@ -1,3 +1,5 @@
+includeHTML();
+
 function includeHTML() {
   var z, i, elmnt, file, xhttp;
   /* Loop through a collection of all HTML elements: */
@@ -25,6 +27,8 @@ function includeHTML() {
     }
   }
 }
+
+dragElement(document.getElementById("pld"));
 
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
@@ -67,6 +71,3 @@ function dragElement(elmnt) {
   }
 }
 
-dragElement(document.getElementById("pld"));
-
-includeHTML();
