@@ -4,7 +4,7 @@
 
         $(function() { $('.container') });
         $(function() { $('.drag').draggable() });
-        $(function() { $('.resize').resizable(); });
+        $(function() { $('.resize').draggable().resizable(); });
 
         // CREATE MORE DIV, WITH 'ABSOLUTE' POSITIONING.
         $('#btClickMe').click(function() {
