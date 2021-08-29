@@ -1,7 +1,8 @@
 window.onload = function() {
+ setTimeout(dragElement, 5000);
   /* Tanks */
     dragElement(document.getElementById("pld"));
-   dragElement(document.getElementById("pld1"));
+    dragElement(document.getElementById("pld1"));
     dragElement(document.getElementById("war"));
     dragElement(document.getElementById("war1"));
     dragElement(document.getElementById("drk"));
