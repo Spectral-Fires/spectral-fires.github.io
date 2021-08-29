@@ -227,6 +227,9 @@ img#icon {
 .aoe {
   z-index: 1;
 }
-.drag .resize {
+.drag {
+  position: absolute;
+}
+.resize {
   position: absolute;
 }
