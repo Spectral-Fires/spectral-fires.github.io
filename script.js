@@ -1,6 +1,6 @@
     var element_pos = 0;    // POSITION OF THE NEWLY CREATED ELEMENTS.
     var iCnt = 0;
-    $(document).ready(function() {
+    $(window).on("load", function() {
 
         $(function() { $('.container') });
         $(function() { $('.drag').draggable() });
