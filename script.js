@@ -4,8 +4,14 @@
 
         $(function() { $('.container') });
         $(function() { $('.drag').draggable() });
-        $(function() { $('.resize').draggable().resizable({aspectRatio: true}); });
-        $(function() { $('.fresize').draggable().resizable({aspectRatio: false}); });
+        $(function() { $('.resize').draggable().resizable({
+            aspectRatio: true 
+            containment: "#container"
+        }); });
+        $(function() { $('.fresize').draggable().resizable({
+            aspectRatio: false
+            containment: "#container"
+        }); });
 
         // CREATE MORE DIV, WITH 'ABSOLUTE' POSITIONING.
         $('#btClickMe').click(function() {
