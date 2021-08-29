@@ -99,9 +99,6 @@ img#icon {
   padding: 0px;
   margin: 0px 0px 0px 0px;
 }
-.drag {
-  position: absolute;
-}
 .base {
   filter: grayscale(100%);
   z-index: 1;
@@ -229,4 +226,7 @@ img#icon {
 }
 .aoe {
   z-index: 1;
+}
+.drag .resize {
+  position: absolute;
 }
