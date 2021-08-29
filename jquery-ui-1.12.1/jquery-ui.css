@@ -94,9 +94,6 @@
 	width: 100%;
 	height: 100%;
 }
-.ui-resizable {
-	position: relative;
-}
 .ui-resizable-handle {
 	position: absolute;
 	font-size: 0.1px;
