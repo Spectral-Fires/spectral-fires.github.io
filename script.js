@@ -1,5 +1,4 @@
 window.onload = function() {
-    initResizeElement();
   /* Tanks */
     dragElement(document.getElementById("pld"));
    dragElement(document.getElementById("pld1"));
@@ -197,6 +196,8 @@ window.onload = function() {
     dragElement(document.getElementById("shemi"));
     dragElement(document.getElementById("ehemi"));
     dragElement(document.getElementById("whemi"));
+    
+    initResizeElement();
 
   function dragElement(elmnt) {
     var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
