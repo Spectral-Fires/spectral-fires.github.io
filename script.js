@@ -4,11 +4,15 @@
 
         $(function() { $('.container') });
         $(function() { $('.drag').draggable({scroll: false}) });
-        $(function() { $('.resize').draggable().resizable({
+        $(function() { $('.resize').draggable()
+            .rotatable({wheelRotate:true})
+            .resizable({
             aspectRatio: true,
             scroll: false
         }); });
-        $(function() { $('.fresize').draggable().resizable({
+        $(function() { $('.fresize').draggable()
+            .rotatable({wheelRotate:true})
+            .resizable({
             aspectRatio: false,
             scroll: false
         }); });
