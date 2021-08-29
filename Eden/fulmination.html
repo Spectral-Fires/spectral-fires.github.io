@@ -39,7 +39,7 @@ function includeHTML() {
     <div id="header">
       <p style="font-size: 24px; margin: 13px 0px 14px 200px; background: rgba(0, 0, 0, 0.0)"><img id="icon" src="../images/planner.png" width="28" height="28" style="display: inline; margin-right: 10px;">    <a href="../index.html">XIV Planner</a></p>
       <div class="navbar" style="float: right;">
-        <a href="">Refresh Page</a>
+        <a id="refresh" onclick="">Refresh Page</a>
         <div class="dropdown">
           <button class="dropbtn">Other Fights <i class="fa fa-caret-down"></i></button>
           <div class="dropdown-content">
@@ -66,6 +66,12 @@ function includeHTML() {
       <div id="bottom" class="bar" w3-include-html="../botdiv.html"></div>
     <script>
       includeHTML();
+      
+          $(document).ready(function(){
+          $("#refresh").click(function(){
+            location.reload(true);
+        });
+    });
     </script>
     </div> 
   </body>
