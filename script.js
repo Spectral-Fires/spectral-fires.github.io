@@ -5,17 +5,16 @@
         $(function() { $('.container') });
         $(function() { $('.drag').draggable({scroll: false}) });
         $(function() { $('.resize').draggable()
-            .rotatable({wheelRotate:true})
             .resizable({
             aspectRatio: true,
             scroll: false
         }); });
         $(function() { $('.fresize').draggable()
-            .rotatable({wheelRotate:true})
             .resizable({
             aspectRatio: false,
             scroll: false
         }); });
+        $(function() { $('.rotate').rotatable({wheelRotate:true}) });
 
         // CREATE MORE DIV, WITH 'ABSOLUTE' POSITIONING.
         $('#btClickMe').click(function() {
