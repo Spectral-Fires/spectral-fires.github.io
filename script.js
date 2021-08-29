@@ -4,7 +4,8 @@
 
         $(function() { $('.container') });
         $(function() { $('.drag').draggable() });
-        $(function() { $('.resize').draggable().resizable(); });
+        $(function() { $('.resize').draggable().resizable({aspectRatio: true}); });
+        $(function() { $('.fresize').draggable().resizable({aspectRatio: false}); });
 
         // CREATE MORE DIV, WITH 'ABSOLUTE' POSITIONING.
         $('#btClickMe').click(function() {
