@@ -1,4 +1,4 @@
-window.onload = function ready(e) {
+window.onload = function() {
     initResizeElement();
   /* Tanks */
     dragElement(document.getElementById("pld"));
