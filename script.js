@@ -2,9 +2,9 @@
     var iCnt = 0;
     $(document).ready(function() {
 
-        $(function() { $('#container') });
-        $(function() { $('#drag').draggable() });
-        $(function() { $('#resize').resizable(); });
+        $(function() { $('.container') });
+        $(function() { $('.drag').draggable() });
+        $(function() { $('.resize').resizable(); });
 
         // CREATE MORE DIV, WITH 'ABSOLUTE' POSITIONING.
         $('#btClickMe').click(function() {
