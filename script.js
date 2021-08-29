@@ -14,7 +14,7 @@
             aspectRatio: false,
             scroll: false
         }); });
-        $(function() { $('.rotate').rotatable({wheelRotate:true, snap:false, step: 15, }) });
+        $(function() { $('.rotate').rotatable({wheelRotate:true, snap:true, step: 15, }) });
 
         // CREATE MORE DIV, WITH 'ABSOLUTE' POSITIONING.
         $('#btClickMe').click(function() {
