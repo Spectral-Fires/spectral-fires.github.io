@@ -3,7 +3,7 @@
     $(window).on("load", function() {
 
         $(function() { $('.container') });
-        $(function() { $('.drag').draggable(scroll: false) });
+        $(function() { $('.drag').draggable({scroll: false}) });
         $(function() { $('.resize').draggable().resizable({
             aspectRatio: true,
             scroll: false
