@@ -3,14 +3,14 @@
     $(window).on("load", function() {
 
         $(function() { $('.container') });
-        $(function() { $('.drag').draggable() });
+        $(function() { $('.drag').draggable(scroll: false) });
         $(function() { $('.resize').draggable().resizable({
             aspectRatio: true,
-            containment: "#container"
+            scroll: false
         }); });
         $(function() { $('.fresize').draggable().resizable({
             aspectRatio: false,
-            containment: "#container"
+            scroll: false
         }); });
 
         // CREATE MORE DIV, WITH 'ABSOLUTE' POSITIONING.
