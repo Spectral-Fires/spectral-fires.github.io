@@ -5,11 +5,11 @@
         $(function() { $('.container') });
         $(function() { $('.drag').draggable() });
         $(function() { $('.resize').draggable().resizable({
-            aspectRatio: true 
+            aspectRatio: true,
             containment: "#container"
         }); });
         $(function() { $('.fresize').draggable().resizable({
-            aspectRatio: false
+            aspectRatio: false,
             containment: "#container"
         }); });
 
