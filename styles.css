@@ -100,6 +100,7 @@ img#icon {
   margin: 0px 0px 0px 0px;
 }
 .base {
+  position: absolute;
   filter: grayscale(100%);
   z-index: 1;
 }
