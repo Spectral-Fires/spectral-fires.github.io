@@ -188,17 +188,6 @@ window.onload = function() {
     dragElement(document.getElementById("g8"));
     dragElement(document.getElementById("g9"));
     dragElement(document.getElementById("g0"));
-  /* AOES */
-    dragElement(document.getElementById("square"));
-    dragElement(document.getElementById("square_b"));
-    dragElement(document.getElementById("circle"));
-    dragElement(document.getElementById("circle_b"));
-    dragElement(document.getElementById("nhemi"));
-    dragElement(document.getElementById("shemi"));
-    dragElement(document.getElementById("ehemi"));
-    dragElement(document.getElementById("whemi"));
-    
-    initResizeElement();
 
   function dragElement(elmnt) {
     var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
