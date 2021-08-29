@@ -14,10 +14,10 @@
                 width: '120', height: '120', padding: '3', margin: '0'
             });
 
-            element_pos = element_pos + $('#divContainer').width() + 20;
+            element_pos = element_pos + $('.container').width() + 20;
             
             // APPEND THE NEWLY CREATED DIV TO "divContainer".
-            $(dynamic_div).appendTo('#divContainer').draggable();
+            $(dynamic_div).appendTo('.container').draggable();
 
             iCnt = iCnt + 1;
         });
