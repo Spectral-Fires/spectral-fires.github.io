@@ -78,6 +78,7 @@ img#icon {
   transform: translate(-5px, -5px);
   filter: grayscale(0%);
   box-shadow: 5px 5px 10px black;
+  transition: 2s;
 }
 
 .buttontext {
