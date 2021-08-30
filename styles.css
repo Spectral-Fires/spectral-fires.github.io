@@ -101,7 +101,6 @@ img#icon {
   width: 50%;
   border-radius: 5px;
   content: "";
-  clear: both;
   display: table;  
 }
 
@@ -110,6 +109,7 @@ img#icon {
   font-size: 36px;
   color: #eeeeee;
   padding: 5px;
+  margin-top: 25px;
   background-color: #171717;
   width: 100%;
   height: 48px;
