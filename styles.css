@@ -117,6 +117,18 @@ img#icon {
   border-radius: 5px;
 }
 
+.news {
+  padding: 10px;
+  text-align: left;
+  margin-top: 10px;
+  background-color: #171717;
+  clear: left;
+  width: 100%;
+  height: auto;
+  min-height: 100px;
+  border-radius: 5px;
+}
+
 /* NAV PAGES */
 
 .raidtitle {
