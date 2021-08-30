@@ -63,6 +63,14 @@ img#icon {
   width: auto;
   height: auto;
 }
+#footer {
+  position: absolute;  
+  color: 444444;
+  font-size: 12px;
+  font-family: optima, sans-serif;
+  bottom: 100px;
+  width: 100%;
+}
 
 .largebutton {
   float: left;
