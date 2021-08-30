@@ -84,8 +84,8 @@ img#icon {
 
 .buttontext {
   color: #EEEEEE;
-  font-size: 60px;
-  font-family: inherit;
+  font-size: 100px;
+  font-family: optima, sans-serif;
   text-transform: uppercase;
   text-shadow: 2px 2px 2px #141414;
   position: absolute;
