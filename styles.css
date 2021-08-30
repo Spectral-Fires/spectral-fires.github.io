@@ -66,8 +66,8 @@ img#icon {
 
 .largebutton {
   float: left;
-  width: 50%;
-  height: 50%;
+  width: 40%;
+  height: 40%;
   margin: 25px;
   filter: grayscale(80%);
   box-shadow: 2px 2px 10px black;
