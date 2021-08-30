@@ -82,6 +82,16 @@ img#icon {
   box-shadow: 5px 5px 10px black;
 }
 
+.buttontext {
+  color: #EEEEEE;
+  font-size: 36px;
+  text-shadow: 2px 2px 2px #141414;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 /* NAV PAGES */
 
 .raidtitle {
