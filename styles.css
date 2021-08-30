@@ -68,15 +68,17 @@ img#icon {
   float: left;
   width: 40%;
   height: 40%;
-  margin: 20px;
-  filter: grayscale(80%) brightness(-20%);
+  padding: 0px;
+  margin: 25px;
+  filter: grayscale(80%) brightness(0.8);
   box-shadow: 2px 2px 10px black;
 }
 
 .largebutton:hover {
+  padding: 0px;
   margin: 25px;
   transform: translate(2px, 2px);
-  filter: grayscale(0%) brightness(0%);
+  filter: grayscale(0%) brightness(1);
   box-shadow: 5px 5px 10px black;
   transition: 1s;
 }
