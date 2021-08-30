@@ -42,7 +42,7 @@ a:hover {
 }
 hr {
   border: 1px solid #444444;
-  padding: 5px;
+  margin: 37px 5px 37px 5px;
 }
 
 img#icon {
@@ -163,7 +163,6 @@ img#icon {
 .raidtitle {
   text-align: center;
   padding-top: 25px;
-  padding-bottom: 25px;
 }
 .raidbox {
   background-color: #1f1f1f;
@@ -171,13 +170,14 @@ img#icon {
   display: table;
   box-shadow: 2px 2px 2px;
 }
-.topbox {
-  padding-bottom: 75px;
-} 
 .innerbox {
   width: 50%;
-  padding-bottom: 75px;
   margin: auto;
+}
+.endbox {
+  width: 50%;
+  margin: auto;
+  padding-bottom: 75px;
 }
 
 /* RAID PAGES */
