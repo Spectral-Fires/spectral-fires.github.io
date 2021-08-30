@@ -96,8 +96,8 @@ img#icon {
 
 .minicontainer {
   float: left;
-  top-margin: 100px;
-  padding: 50px;
+  margintop: 75px;
+  padding: 25px;
   width: 50%;
   border-radius: 5px;
 }
