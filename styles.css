@@ -98,7 +98,7 @@ img#icon {
   position: absolute;
   top: 150px;
   right: 150px;
-  width: 45%;
+  width: auto;
   border-radius: 5px;
 }
 
