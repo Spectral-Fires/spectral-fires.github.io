@@ -42,7 +42,7 @@ a:hover {
 }
 hr {
   border: 1px solid #444444;
-  margin: 5px 5px 37px 5px;
+  margin: 5px 5px 5px 5px;
 }
 
 img#icon {
@@ -162,8 +162,7 @@ img#icon {
 }
 .raidtitle {
   text-align: center;
-  margin-top: 10px;
-  padding: 10px;
+  margin: 10px
 }
 .raidbox {
   float: left;
@@ -180,14 +179,13 @@ img#icon {
   padding: 10px;
 }
 .raidbox h3 {
-  color: #444444;
-  font-family: optima, sans-serif;
-  text-transform: uppercase;
   text-align: center;
   padding: 0px; 
-  z-index: 5;
-  margin: 20px 0px 0px 0px;
-  transform: translate(-50%, -50%);
+  margin: 0px 0px 0px 0px;
+  transform: translate(0%, -50%);
+}
+.raidbox h4 {
+  text-align: center;
 }
 
 /* RAID PAGES */
