@@ -95,10 +95,8 @@ img#icon {
 }
 
 .minicontainer {
-  position: absolute;
   float: left;
-  top: 100px;
-  left: 100px;
+  top-margin: 100px;
   padding: 50px;
   width: 50%;
   border-radius: 5px;
