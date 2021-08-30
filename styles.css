@@ -100,6 +100,7 @@ img#icon {
   width: 50%;
   border-radius: 5px;
   content: "";
+  clear: both;
   display: table;  
 }
 
