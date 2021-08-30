@@ -94,6 +94,20 @@ img#icon {
   transform: translate(-50%, -50%);
 }
 
+.title {
+  position: absolute;
+  top: 150px;
+  right: 150px;
+}
+
+.welcome {
+  positon: absolute;
+  background-color: #141414;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+}
+
 /* NAV PAGES */
 
 .raidtitle {
