@@ -96,8 +96,8 @@ img#icon {
 
 .minicontainer {
   float: left;
-  margin-top: 125px;
-  padding: 25px;
+  margin-top: 75px;
+  padding: 10px;
   width: 50%;
   border-radius: 5px;
   content: "";
@@ -106,9 +106,10 @@ img#icon {
 
 #welcome {
   font-family: optima, sans-serif;
-  font-size: 36px;
+  font-size: 25px;
   color: #eeeeee;
-  padding: 5px;
+  padding: 10px;
+  text-align: center;
   margin-top: 25px;
   background-color: #171717;
   width: 100%;
