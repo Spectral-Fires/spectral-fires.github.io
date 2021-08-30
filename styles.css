@@ -66,6 +66,8 @@ img#icon {
 
 .largebutton {
   position: absolute;
+  width: 400px;
+  height: 400px;
   padding: 20px;
   filter: grayscale drop-shadow(5px 2px 5px black);
 }
