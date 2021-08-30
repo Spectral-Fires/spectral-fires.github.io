@@ -154,6 +154,7 @@ img#icon {
   height: auto;
   min-height: 100px;
   border-radius: 5px;
+  overflow: auto;
 }
 
 .inews {
