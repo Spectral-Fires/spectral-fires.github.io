@@ -162,7 +162,8 @@ img#icon {
 }
 .raidtitle {
   text-align: center;
-  margin: 10px
+  margin: 10px;
+  height: 45px;
 }
 .raidbox {
   float: left;
