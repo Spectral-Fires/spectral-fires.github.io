@@ -42,7 +42,7 @@ a:hover {
 }
 hr {
   border: 1px solid #444444;
-  margin: 37px 5px 37px 5px;
+  margin: 5px 5px 37px 5px;
 }
 
 img#icon {
@@ -162,7 +162,7 @@ img#icon {
 }
 .raidtitle {
   text-align: center;
-  padding-top: 25px;
+  padding-top: 5px;
 }
 .raidbox {
   background-color: #1f1f1f;
@@ -173,10 +173,12 @@ img#icon {
 .innerbox {
   width: 50%;
   margin: auto;
+  padding-top: 32px;
 }
 .endbox {
   width: 50%;
   margin: auto;
+  padding-top: 32px;
   padding-bottom: 75px;
 }
 
