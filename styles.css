@@ -171,6 +171,7 @@ img#icon {
   border-radius: 20px;
   display: table;
   box-shadow: 2px 2px 2px;
+  width: 300px;
   margin: 0px 25px;
 }
 .innerbox {
