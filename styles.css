@@ -75,7 +75,7 @@ img#icon {
 
 .largebutton:hover {
   margin: 25px;
-  transform: translate(-5px, -5px);
+  transform: translate(2px, 2px);
   filter: grayscale(0%);
   box-shadow: 5px 5px 10px black;
   transition: 1s;
