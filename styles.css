@@ -94,11 +94,13 @@ img#icon {
   transform: translate(-50%, -50%);
 }
 
-#updates {
+#minicontainer {
   position: absolute;
-  top: 150px;
-  right: 150px;
-  width: auto;
+  float: left;
+  top: 100px;
+  left: 100px;
+  padding: 50px;
+  width: 50%;
   border-radius: 5px;
 }
 
