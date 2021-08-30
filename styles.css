@@ -94,14 +94,14 @@ img#icon {
   transform: translate(-50%, -50%);
 }
 
-.updates {
+#updates {
   position: absolute;
   top: 150px;
   right: 150px;
   width: 45%
 }
 
-.welcome {
+#welcome {
   positon: absolute;
   background-color: #141414;
   top: 0px;
