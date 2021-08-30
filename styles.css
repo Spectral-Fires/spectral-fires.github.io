@@ -104,11 +104,11 @@ img#icon {
 
 #welcome {
   font-family: optima, sans-serif;
-  font-size: 36px;
+  font-size: 24px;
   color: #eeeeee;
   text-align: center;
   margin: auto;
-  positon: absolute;
+  position: absolute;
   background-color: #171717;
   top: 0px;
   left: 0px;
