@@ -161,9 +161,16 @@ img#icon {
   box-shadow: 0px 2px 2px;
 }
 .raidtitle {
-  text-align: center;
-  margin: 10px;
-  height: 45px;
+  color: #EEEEEE;
+  font-family: optima, sans-serif;
+  font-size: 2vw;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px #141414;
+  position: relative;
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  user-select: none;
 }
 .raidbox {
   float: left;
@@ -186,6 +193,10 @@ img#icon {
 }
 .raidbox h4 {
   text-align: center;
+}
+.topbox {
+  height: 162.5px;
+  width: 300px;
 }
 
 /* RAID PAGES */
