@@ -69,13 +69,14 @@ img#icon {
   width: 400px;
   height: 400px;
   padding: 20px;
-  filter: grayscale drop-shadow(5px 2px 5px black);
+  filter: grayscale;
+  box-shadow: 2px 2px 10px black;
 }
 
 .largebutton:hover {
   position: absolute;
   padding: 20px;
-  box-shadow: 10px 5px 5px black;
+  box-shadow: 5px 5px 10px black;
 }
 
 /* NAV PAGES */
