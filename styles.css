@@ -109,7 +109,7 @@ img#icon {
   font-family: optima, sans-serif;
   font-size: 36px;
   color: #eeeeee;
-  text-align: center;
+  padding: 5px;
   background-color: #171717;
   width: 100%;
   height: 48px;
