@@ -69,13 +69,16 @@ img#icon {
   width: 400px;
   height: 400px;
   padding: 0px;
-  filter: grayscale(100%);
+  filter: grayscale(80%);
   box-shadow: 2px 2px 10px black;
 }
 
 .largebutton:hover {
   position: absolute;
   padding: 0px;
+  transform: translate(-10px, 10px);
+  
+  filter: grayscale(0%);
   box-shadow: 5px 5px 10px black;
 }
 
