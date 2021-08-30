@@ -190,13 +190,8 @@ img#icon {
   margin: auto;
   padding: 10px;
 }
-.raidbox h3 {
-  color: #d3a03e;
-  text-align: center;
-  padding: 0px; 
-  margin: 0px 0px 0px 0px;
-}
 .raidbox h4 {
+  color: #d3a03e;
   text-align: center;
 }
 .topbox {
