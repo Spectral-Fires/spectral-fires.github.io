@@ -163,10 +163,10 @@ img#icon {
   margin-right: 15px;
 }
 
-#text {
+.text {
   overflow: hidden;
 }
-#text p {
+.text p {
   font-size: 12px;
 }
 
