@@ -57,6 +57,11 @@ img#icon {
   height: 63px;
   margin: 0px 0px 0px 0px;
 }
+#header a:hover {
+  font-weight: normal;
+  text-decoration: none;
+  color: #d3a03e;
+}
 #container {
   position: absolute;
   top: 75px;
