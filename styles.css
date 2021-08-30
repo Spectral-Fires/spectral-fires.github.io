@@ -33,6 +33,7 @@ a {
   color: #eeeeee;
 }
 a:hover {
+  font-weight: bold;
   text-decoration: none;
   color: #d3a03e;
 }
