@@ -106,8 +106,8 @@ img#icon {
   font-family: optima, sans-serif;
   font-size: 24px;
   color: #eeeeee;
+  vertical-align: middle;
   text-align: center;
-  margin: auto;
   position: absolute;
   background-color: #171717;
   top: 0px;
