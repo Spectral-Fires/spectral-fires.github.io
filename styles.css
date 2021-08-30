@@ -68,7 +68,7 @@ img#icon {
   float: left;
   width: 40%;
   height: 40%;
-  margin: 10px;
+  margin: 20px;
   filter: grayscale(80%);
   box-shadow: 2px 2px 10px black;
 }
@@ -78,7 +78,7 @@ img#icon {
   transform: translate(-5px, -5px);
   filter: grayscale(0%);
   box-shadow: 5px 5px 10px black;
-  transition: 2s;
+  transition: 1s;
 }
 
 .buttontext {
