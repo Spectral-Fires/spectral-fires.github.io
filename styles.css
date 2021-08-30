@@ -129,6 +129,12 @@ img#icon {
   border-radius: 5px;
 }
 
+.inews {
+  float: left;
+  width: 60px;
+  height: 60px;
+}
+
 /* NAV PAGES */
 
 .raidtitle {
