@@ -187,6 +187,7 @@ img#icon {
   padding: 0px; 
   z-index: 5;
   margin: 20px 0px 0px 0px;
+  transform: translate(-50%, -50%);
 }
 
 /* RAID PAGES */
