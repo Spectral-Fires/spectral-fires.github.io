@@ -37,9 +37,12 @@ a:hover {
   font-weight: bold;
   color: #d3a03e;
 }
-
 * {
   box-sizing: border-box;
+}
+hr {
+  border: 1px solid #444444;
+  padding: 5px;
 }
 
 img#icon {
@@ -158,13 +161,9 @@ img#icon {
   box-shadow: 0px 2px 2px;
 }
 .raidtitle {
-  position: relative;
-  top: 200px;
-  width: 300px;
-  padding: 0px;
-  display: block;
   text-align: center;
-  margin: 0px 0px 0px 0px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 .raidbox {
   background-color: #1f1f1f;
