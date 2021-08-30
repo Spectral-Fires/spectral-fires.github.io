@@ -178,6 +178,15 @@ img#icon {
   margin: auto;
   padding: 10px;
 }
+.raidbox h3 {
+  color: #444444;
+  font-family: optima, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0px; 
+  z-index: 5;
+  margin: 20px 0px 0px 0px;
+}
 
 /* RAID PAGES */
 /* Navbar */
