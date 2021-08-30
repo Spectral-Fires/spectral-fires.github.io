@@ -80,6 +80,7 @@ img#icon {
   transform: translate(-5px, -5px);
   filter: grayscale(0%) brightness(1);
   box-shadow: 5px 5px 10px black;
+  transition: 1s;
 }
 
 .buttontext {
