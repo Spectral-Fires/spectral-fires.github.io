@@ -1,6 +1,6 @@
 /* Page */
 body {
-  background-color: #121212;
+  background-color: #0F0F0F;
 }
 p {
   color: #eeeeee;
@@ -49,7 +49,7 @@ img#icon {
   position: absolute;
   top: 0px;
   left: 0px;
-  background-color: #0c0c0c;
+  background-color: #010102;
   width: 100%;
   height: 63px;
   margin: 0px 0px 0px 0px;
@@ -111,17 +111,18 @@ img#icon {
   padding: 10px;
   text-align: center;
   margin-top: 25px;
-  background-color: #171717;
+  background-color: #141414;
   width: 100%;
   height: 48px;
   border-radius: 5px;
 }
 
 .news {
-  padding: 10px;
+  padding-left: 10px;
+  paddint-top: 10px
   text-align: left;
   margin-top: 10px;
-  background-color: #212121;
+  background-color: #171717;
   clear: left;
   width: 100%;
   height: auto;
@@ -140,7 +141,7 @@ img#icon {
   margin: 0px 0px 0px 0px;
 }
 .raidbox {
-  background-color: #141414;
+  background-color: #171717;
   border: 2px solid #444444;
   border-radius: 5px;
   padding: 10px;
@@ -219,7 +220,7 @@ img#icon {
 }
 
 .dropdown-content a:hover {
-  background-color: #171717;
+  background-color: #151515;
 }
 
 .dropdown:hover .dropdown-content {
@@ -259,7 +260,7 @@ img#icon {
   border-bottom: 5px double #0c0c0c;
 }
 .bar {
-  background-color: #212121;
+  background-color: #141414;
   position: absolute;
   padding: 0px;
   margin: 0px 0px 0px 0px;
