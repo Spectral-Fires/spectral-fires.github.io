@@ -172,7 +172,7 @@ img#icon {
   display: table;
   box-shadow: 2px 2px 2px;
   width: 300px;
-  margin: 0px 25px;
+  margin: 0px 25px 50px 25px;
 }
 .innerbox {
   width: 70%;
