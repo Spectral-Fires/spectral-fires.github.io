@@ -355,8 +355,8 @@ img#icon {
   position: absolute;
 }
 .resize {
-  position: absolute;
+  position: relative;
 }
 .fresize {
-  position: absolute;
+  position: relative;
 }
