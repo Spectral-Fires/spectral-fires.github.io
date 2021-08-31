@@ -3,7 +3,10 @@
     $(window).on("load", function() {
 
         $(function() { $('.container') });
-        $(function() { $('.drag').draggable({scroll: false}) });
+        $(function() { $('.drag').draggable({
+            scroll: false,
+            helper: 'clone'
+        }) });
         $(function() { $('.resize').draggable()
             .resizable({
             aspectRatio: true,
@@ -16,18 +19,20 @@
         }); });
         $(function() { $('.rotate').rotatable({wheelRotate:true, snap:true, step: 15, }) });
 
-        // CREATE MORE DIV, WITH 'ABSOLUTE' POSITIONING.
-        $('#btClickMe').click(function() {
+        $('#click').click(function() {
 
             var dynamic_div = $(document.createElement('div')).css({
-                border: '1px dashed', position: 'absolute', 
-                width: '120', height: '120', padding: '3', margin: '0'
+                position: 'absolute',
+                width: '120', 
+                height: '120', 
+                padding: '0', 
+                margin: '0'
             });
 
-            element_pos = element_pos + $('.container').width() + 20;
+            element_pos = element_pos + $('#divContainer');
             
             // APPEND THE NEWLY CREATED DIV TO "divContainer".
-            $(dynamic_div).appendTo('.container').draggable();
+            $(dynamic_div).appendTo('#divContainer').draggable().resizable();
 
             iCnt = iCnt + 1;
         });
