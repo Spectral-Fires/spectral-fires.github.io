@@ -368,6 +368,8 @@ img#icon {
   height: 48;
 }
 .aoe {
+  position: relative;
+  margin: 10px;
   z-index: 1;
 }
 .drag {
