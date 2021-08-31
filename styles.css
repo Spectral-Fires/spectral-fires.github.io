@@ -315,9 +315,8 @@ img#icon {
   border-radius: 5px;
   overflow: auto;
 }
-.base {
+.select {
   position: absolute;
-  filter: grayscale(100%);
   z-index: 1;
 }
 
