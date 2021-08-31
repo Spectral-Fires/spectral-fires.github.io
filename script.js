@@ -18,7 +18,7 @@
 
         // CREATE MORE DIV, WITH 'ABSOLUTE' POSITIONING.
         $('.select').click(function() {
-		$(this).clone().appendTo($(this).parent()).addClass('drag').removeAttr('id').css({
+		$(this).clone().appendTo('#catcher').addClass('drag').removeAttr('id').css({
           position: 'absolute',
           left: '5px',
           top: '5px'
