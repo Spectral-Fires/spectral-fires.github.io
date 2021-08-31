@@ -214,6 +214,11 @@ img#icon {
   height: 162.5px;
   width: 300px;
 }
+.trial {
+  color: #eeeeee;
+  font-family: optima, sans-serif;
+  line-height: 5;
+}
 
 /* RAID PAGES */
 /* Navbar */
