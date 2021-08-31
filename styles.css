@@ -304,6 +304,7 @@ img#icon {
   border-radius: 5px;
 }
 #bottom {
+  position: absolute;
   float: left;
   clear: both;
   padding: 20px;
