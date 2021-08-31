@@ -28,22 +28,22 @@
 
         // CREATE MORE DIV, WITH 'ABSOLUTE' POSITIONING.
         $('.selectr').click(function() {
-		$(this).clone().appendTo('#catcher').addClass('drag').removeAttr('id').css({
+		$(this).clone().appendTo('#catcher').addClass('dragr').removeAttr('id').css({
           position: 'absolute',
           left: '25px',
           top: '25px'
           })
-	$(function() { $('.drag').draggable().resizable({aspectRatio: true})});
+	$(function() { $('.dragr').draggable().resizable({aspectRatio: true})});
         });
 	  
         // CREATE MORE DIV, WITH 'ABSOLUTE' POSITIONING.
         $('.selectfr').click(function() {
-		$(this).clone().appendTo('#catcher').addClass('drag').removeAttr('id').css({
+		$(this).clone().appendTo('#catcher').addClass('dragfr').removeAttr('id').css({
           position: 'absolute',
           left: '25px',
           top: '25px'
           })
-	$(function() { $('.drag').draggable().resizable({aspectRatio: false})});
+	$(function() { $('.dragfr').draggable().resizable({aspectRatio: false})});
         });
 	    
     });
