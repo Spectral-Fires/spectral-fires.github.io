@@ -6,8 +6,8 @@
         $('.select').click(function() {
 		$(this).clone().appendTo('#catcher').addClass('drag').removeAttr('id').css({
           position: 'absolute',
-          left: '25px',
-          top: '25px'
+          left: '28px',
+          top: '28px'
           })
 	$(function() { $('.drag').draggable() });
         });  
@@ -16,8 +16,8 @@
         $('.selectr').click(function() {
 		$(this).clone().appendTo('#catcher').addClass('dragr').removeAttr('id').css({
           position: 'absolute',
-          left: '25px',
-          top: '25px'
+          left: '5px',
+          top: '5px'
           })
 	$(function() { $('.dragr').draggable().resizable({aspectRatio: true})});
 	$(function() { $('.rotate').rotatable({wheelRotate:true, snap:true, step: 15, }) });
@@ -27,8 +27,8 @@
         $('.selectfr').click(function() {
 		$(this).clone().appendTo('#catcher').addClass('dragfr').removeAttr('id').css({
           position: 'absolute',
-          left: '25px',
-          top: '25px'
+          left: '5px',
+          top: '5px'
           })
 	$(function() { $('.dragfr').draggable().resizable({aspectRatio: false})});
 	$(function() { $('.rotate').rotatable({wheelRotate:true, snap:true, step: 15, }) });
