@@ -298,6 +298,7 @@ img#icon {
   max-width: 84%;
   max-height: 800px;
   margin: auto;
+  aspect-ratio: 16/9;
   border-radius: 5px;
 }
 #bottom {
