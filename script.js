@@ -19,7 +19,7 @@
         // CREATE MORE DIV, WITH 'ABSOLUTE' POSITIONING.
         $('.role').click(function() {
 		$(this).clone().appendTo($(this).parent()).addClass('drag').removeAttr('id').css({
-          position: 'relative',
+          position: 'absolute',
           left: '5px',
           top: '5px'
           })
