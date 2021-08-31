@@ -23,5 +23,6 @@
           left: '5px',
           top: '5px'
           })
+	$(function() { $('.drag').draggable({scroll: false}) });
         });
     });
