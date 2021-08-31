@@ -308,7 +308,7 @@ img#icon {
   height: 25%;
 }
 .bar {
-  background-color: #212121;
+  background-color: #1f1f1f;
   padding: 0px;
   margin: 0px;
   min-width: 250px;
@@ -319,6 +319,14 @@ img#icon {
   position: absolute;
   z-index: 1;
 }
+#catcher {
+  position: relative;
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  z-index: 0;
+  border-radius: 5px;
+  background-color: #1f1f1f;
 
 /* Moveable Objects */
 
