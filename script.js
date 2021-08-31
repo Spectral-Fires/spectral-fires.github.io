@@ -18,14 +18,10 @@
 
         // CREATE MORE DIV, WITH 'ABSOLUTE' POSITIONING.
         $('#tank').click(function() {
-
-            var dynamic_div = $(this).clone.appendTo('body')
-
-            element_pos = element_pos + $('.container').width() + 20;
-            
-            // APPEND THE NEWLY CREATED DIV TO "divContainer".
-            $(dynamic_div).appendTo('.container').draggable();
-
-            iCnt = iCnt + 1;
+		$(this).clone().appendTo('body').addClass('drag').css({
+          position: 'absolute',
+          left: '5px',
+          top: '5px'
+          })
         });
     });
