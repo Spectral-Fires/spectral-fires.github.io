@@ -17,7 +17,7 @@
         $(function() { $('.rotate').rotatable({wheelRotate:true, snap:true, step: 15, }) });
 
         // CREATE MORE DIV, WITH 'ABSOLUTE' POSITIONING.
-        $('#tank').click(function() {
+        $(this).click(function() {
 		$(this).clone().appendTo($(this).parent()).addClass('drag').removeAttr('id').css({
           position: 'relative',
           left: '5px',
