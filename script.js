@@ -19,7 +19,7 @@
         // CREATE MORE DIV, WITH 'ABSOLUTE' POSITIONING.
         $('#tank').click(function() {
 		$(this).clone().appendTo('body').addClass('drag').css({
-          position: 'absolute',
+          position: 'relative',
           left: '5px',
           top: '5px'
           })
