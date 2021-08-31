@@ -253,6 +253,8 @@ img#icon {
 
 .navbar a:hover, .dropdown:hover .dropbtn {
   background-color: #d3a03e;
+  color: #eeeeee;
+}
 }
 
 .dropdown-content {
