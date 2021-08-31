@@ -217,7 +217,8 @@ img#icon {
 .trial {
   color: #eeeeee;
   font-family: optima, sans-serif;
-  line-height: 5;
+  line-height: 1.0;
+  margin-bottom: 50px;
 }
 
 /* RAID PAGES */
@@ -329,7 +330,7 @@ img#icon {
 }
 #catcher {
   position: absolute;
-  padding: 30px
+  padding: 30px;
   margin: 10px;
   width: 100px;
   height: 100px;
