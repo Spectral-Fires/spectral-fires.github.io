@@ -376,18 +376,11 @@ img#icon {
   height: 48;
 }
 .aoe {
+  float: left;
   position: relative;
   margin: 10px;
   z-index: 1;
 }
 .drag {
   position: absolute;
-}
-.resize {
-  float: left;
-  position: relative;
-}
-.fresize {
-  float: left;
-  position: relative;
 }
