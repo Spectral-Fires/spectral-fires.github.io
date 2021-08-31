@@ -17,7 +17,7 @@
         $(function() { $('.rotate').rotatable({wheelRotate:true, snap:true, step: 15, }) });
 
         // CREATE MORE DIV, WITH 'ABSOLUTE' POSITIONING.
-        $('.role').click(function() {
+        $('.select').click(function() {
 		$(this).clone().appendTo($(this).parent()).addClass('drag').removeAttr('id').css({
           position: 'absolute',
           left: '5px',
