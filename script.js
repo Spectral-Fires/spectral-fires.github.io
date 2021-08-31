@@ -20,8 +20,8 @@
         $('.select').click(function() {
 		$(this).clone().appendTo('#catcher').addClass('drag').removeAttr('id').css({
           position: 'absolute',
-          left: '5px',
-          top: '5px'
+          left: '25px',
+          top: '25px'
           })
 	$(function() { $('.drag').draggable({scroll: false}) });
         });
