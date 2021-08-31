@@ -44,6 +44,5 @@
           top: '25px'
           })
 	$(function() { $('.dragfr').draggable().resizable({aspectRatio: false})
-        });
-	    
+        });    
     });
