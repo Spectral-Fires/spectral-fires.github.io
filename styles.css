@@ -312,8 +312,8 @@ img#icon {
   padding: 0px;
   margin: 0px;
   min-width: 250px;
-  height: 75%;
   border-radius: 5px;
+  overflow: auto;
 }
 .base {
   position: absolute;
