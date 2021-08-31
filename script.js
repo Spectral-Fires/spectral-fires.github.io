@@ -33,7 +33,7 @@
           left: '25px',
           top: '25px'
           })
-	$(function() { $('.dragr').draggable().resizable({aspectRatio: true}).rotatable({wheelRotate:true, snap:true, step: 15, })});
+	$(function() { $('.dragr').draggable().resizable({aspectRatio: true})
         });
 	  
         // CREATE MORE DIV, WITH 'ABSOLUTE' POSITIONING.
@@ -43,7 +43,7 @@
           left: '25px',
           top: '25px'
           })
-	$(function() { $('.dragfr').draggable().resizable({aspectRatio: false}).rotatable({wheelRotate:true, snap:true, step: 15, })});
+	$(function() { $('.dragfr').draggable().resizable({aspectRatio: false})
         });
 	    
     });
