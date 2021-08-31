@@ -193,7 +193,7 @@ img#icon {
   padding: 10px;
 }
 .raidbox {
-  float: left;
+  float: left
   background-color: #1f1f1f;
   border-radius: 5px;
   display: table;
@@ -285,42 +285,38 @@ img#icon {
 /* Page Layout */
 
 #left {
-  float: left;
   padding: 20px;
   top: 0;
   width: 250px;
   height: 800px;
-  border-radius: 5px;
+  
 }
 #right {
-  float: left;
   padding: 20px;
   width: 250px;
   height: 800px;
-  border-radius: 5px;
 }
 #arena {
-  float: left;
   padding: 20px;
   background-color: #1c1c1c;
-  width: auto;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 88%;
+  margin: 0px 10px;
+  border-radius: 5px;
 }
 #bottom {
   float: left;
   clear: both;
   padding: 20px;
+  margin-top: 20px;
   width: 100%;
   height: 200px;
   top: 800;
-  border-radius: 5px;
 }
 .bar {
   background-color: #212121;
-  position: absolute;
   padding: 0px;
-  margin: 0px 0px 0px 0px;
+  margin: 0px;
+  border-radius: 5px;
 }
 .base {
   position: absolute;
