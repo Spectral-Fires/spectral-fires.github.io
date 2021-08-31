@@ -328,6 +328,14 @@ img#icon {
   z-index: 1;
   cursor: pointer;
 }
+.selectr {
+  z-index: 1;
+  cursor: pointer;
+}
+.selectrr {
+  z-index: 1;
+  cursor: pointer;
+}
 #catcher {
   position: absolute;
   padding: 30px;
