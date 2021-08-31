@@ -321,7 +321,8 @@ img#icon {
   cursor: pointer;
 }
 #catcher {
-  float: left;
+  position: absolute;
+  padding: 30px
   margin: 10px;
   width: 100px;
   height: 100px;
