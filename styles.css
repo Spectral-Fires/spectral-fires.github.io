@@ -193,7 +193,7 @@ img#icon {
   padding: 10px;
 }
 .raidbox {
-  float: left
+  float: left;
   background-color: #1f1f1f;
   border-radius: 5px;
   display: table;
