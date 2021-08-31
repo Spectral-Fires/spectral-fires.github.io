@@ -290,6 +290,7 @@ img#icon {
   max-width: 100%;
   margin: 0px 10px;
   border-radius: 5px;
+  box-shadow: 2px 2px 2px;
 }
 #arenaimg {
   display: block;
@@ -314,6 +315,7 @@ img#icon {
   min-width: 250px;
   border-radius: 5px;
   overflow: auto;
+  box-shadow: 2px 2px 2px;
 }
 .select {
   position: absolute;
@@ -329,6 +331,7 @@ img#icon {
   z-index: 0;
   border-radius: 5px;
   background-color: #1f1f1f;
+  box-shadow: 2px 2px 2px;
 }
 
 /* Moveable Objects */
