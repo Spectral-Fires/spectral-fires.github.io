@@ -1,0 +1,174 @@
+<html lang="en">
+  <head>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link href="/styles.css" rel="stylesheet">
+    <link href="/jquery-ui-1.12.1/jquery-ui.css" rel="stylesheet" type="text/css"/>
+    <link href="/jQuery-UI-Rotatable-Elements/jquery.ui.rotatable.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+    <script src="/jQuery-UI-Rotatable-Elements/jquery.ui.rotatable.js"></script>
+  </head>
+      <script>
+      function includeHTML() {
+        var z, i, elmnt, file, xhttp;
+        /* Loop through a collection of all HTML elements: */
+        z = document.getElementsByTagName("*");
+        for (i = 0; i < z.length; i++) {
+          elmnt = z[i];
+          /*search for elements with a certain atrribute:*/
+          file = elmnt.getAttribute("w3-include-html");
+          if (file) {
+            /* Make an HTTP request using the attribute value as the file name: */
+            xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+              if (this.readyState == 4) {
+                if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+                if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+                /* Remove the attribute, and call this function once more: */
+                elmnt.removeAttribute("w3-include-html");
+                includeHTML();
+              }
+            }
+            xhttp.open("GET", file, true);
+            xhttp.send();
+            /* Exit the function: */
+            return;
+          }
+        }
+      }
+
+        if (screen.width <= 699) {
+        document.location = "/mobile.html";
+        }
+    </script> 
+  <body>
+    <div id="header">
+      <p style="font-size: 24px; margin: 13px 0px 14px 200px; background: rgba(0, 0, 0, 0.0)"><img id="icon" src="/images/planner.png" width="28" height="28" style="display: inline; margin-right: 10px;">    <a href="../">XIV Planner</a></p>
+      <div class="navbar" style="float: right;">
+        <a href="./">Back</a>
+        <div class="dropdown">
+          <button class="dropbtn">Other Fights <i class="fa fa-caret-down"></i></button>
+          <div class="dropdown-content">
+            <a href="ressurection.html"><span>&nbsp; E1</span> Ressurection</a>
+            <a href="descent.html"><span>&nbsp; E2</span> Descent</a>
+            <a href="inundation.html"><span>&nbsp; E3</span> Inundation</a>
+            <a href="sepulture.html"><span>&nbsp; E4</span> Sepulture</a>
+            <a href="fulmination.html"><span>&nbsp; E5</span> Fulmination</a>
+            <a href="furor.html"><span>&nbsp; E6</span> Furor</a>
+            <a href="iconoclasm.html"><span>&nbsp; E7</span> Iconoclasm</a>
+            <a href="refulgence.html"><span>&nbsp; E8</span> Refulgence</a>
+            <a href="umbra.html"><span>&nbsp; E9</span> Umbra</a>
+            <a href="litany.html"><span>E10</span> Litany</a>
+            <a href="anamorphosis.html"><span>E11</span> Anamorphosis</a>
+            <a href="eternity.html"><span>E12</span> Eternity</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="container" style="top: 75px;">
+      <div id="flexbox" style="display: flex;">
+      <div id="left" class="bar">
+        <div w3-include-html="/jobs.html"></div>
+<!-- Roles -->
+        <div title="Tank" class="role select" style="top: 40; left: 180;"><img src="/images/roles/tank.png" width="32" height="32"></div>
+        <div title="Caster" class="role select" style="top: 75; left: 180;"><img src="/images/roles/caster.png" width="32" height="32"></div>
+        <div title="Melee" class="role select" style="top: 110; left: 180;"><img src="/images/roles/melee.png" width="32" height="32"></div>
+        <div title="Ranged" class="role select" style="top: 145; left: 180;"><img src="/images/roles/ranged.png" width="32" height="32"></div>
+        <div title="Healer" class="role select" style="top: 180; left: 180;"><img src="/images/roles/healer.png" width="32" height="32"></div>
+        
+<h4 style="position: absolute; left: 20px; top: 215px;">Ingame Markers</h4>
+        <div id="mark1" class="marker select" style="top: 250; left: 20;"><img src="/images/markers/mark1.png" width="32" height="32"></div>
+        <div id="mark2" class="marker select" style="top: 250; left: 55;"><img src="/images/markers/mark2.png" width="32" height="32"></div>
+        <div id="mark3" class="marker select" style="top: 250; left: 90;"><img src="/images/markers/mark3.png" width="32" height="32"></div>
+        <div id="mark4" class="marker select" style="top: 250; left: 125;"><img src="/images/markers/mark4.png" width="32" height="32"></div>
+        <div id="mark5" class="marker select" style="top: 250; left: 160;"><img src="/images/markers/mark5.png" width="32" height="32"></div>
+        <div id="chain1" class="marker select" style="top: 285; left: 20;"><img src="/images/markers/chain1.png" width="32" height="32"></div>
+        <div id="chain2" class="marker select" style="top: 285; left: 55;"><img src="/images/markers/chain2.png" width="32" height="32"></div>
+        <div id="chain3" class="marker select" style="top: 285; left: 90;"><img src="/images/markers/chain3.png" width="32" height="32"></div>
+        <div id="ignore1" class="marker select" style="top: 285; left: 125;"><img src="/images/markers/ignore1.png" width="32" height="32"></div>
+        <div id="ignore2" class="marker select" style="top: 285; left: 160;"><img src="/images/markers/ignore2.png" width="32" height="32"></div>
+        <div id="square" class="marker select" style="top: 320; left: 20;"><img src="/images/markers/square.png" width="32" height="32"></div>
+        <div id="circle" class="marker select" style="top: 320; left: 55;"><img src="/images/markers/circle.png" width="32" height="32"></div>
+        <div id="cross" class="marker select" style="top: 320; left: 90;"><img src="/images/markers/cross.png" width="32" height="32"></div>
+        <div id="triangle" class="marker select" style="top: 320; left: 125;"><img src="/images/markers/triangle.png" width="32" height="32"></div>
+
+<h4 style="position: absolute; left: 20px; top: 355px;">Additional Markers</h4>
+        <div id="mark6" class="marker select" style="top: 390; left: 20;"><img src="/images/markers/mark6.png" width="32" height="32"></div>
+        <div id="mark7" class="marker select" style="top: 390; left: 55;"><img src="/images/markers/mark7.png" width="32" height="32"></div>
+        <div id="mark8" class="marker select" style="top: 390; left: 90;"><img src="/images/markers/mark8.png" width="32" height="32"></div>
+        <div id="chain4" class="marker select" style="top: 390; left: 125;"><img src="/images/markers/chain4.png" width="32" height="32"></div>
+        <div id="chain5" class="marker select" style="top: 390; left: 160;"><img src="/images/markers/chain5.png" width="32" height="32"></div>
+        <div id="chain6" class="marker select" style="top: 425; left: 20;"><img src="/images/markers/chain6.png" width="32" height="32"></div>
+        <div id="chain7" class="marker select" style="top: 425; left: 55;"><img src="/images/markers/chain7.png" width="32" height="32"></div>
+        <div id="chain8" class="marker select" style="top: 425; left: 90;"><img src="/images/markers/chain8.png" width="32" height="32"></div>
+        <div id="ignore3" class="marker select" style="top: 425; left: 125;"><img src="/images/markers/ignore3.png" width="32" height="32"></div>
+        <div id="ignore4" class="marker select" style="top: 425; left: 160;"><img src="/images/markers/ignore4.png" width="32" height="32"></div>
+        <div id="ignore5" class="marker select" style="top: 460; left: 20;"><img src="/images/markers/ignore5.png" width="32" height="32"></div>
+        <div id="ignore6" class="marker select" style="top: 460; left: 55;"><img src="/images/markers/ignore6.png" width="32" height="32"></div>
+        <div id="ignore7" class="marker select" style="top: 460; left: 90;"><img src="/images/markers/ignore7.png" width="32" height="32"></div>
+        <div id="ignore8" class="marker select" style="top: 460; left: 125;"><img src="/images/markers/ignore8.png" width="32" height="32"></div>
+
+<h4 style="position: absolute; left: 20px; top: 495px;">Waymarks</h4>
+        <div id="waymarka" class="select" style="top: 530; left: 20;"><img class="waymark" src="/images/waymarkA.png" width="48" height="48" style="border-radius: 100px; border-color: #F58494; background-color:rgba(245, 132, 148, 0.3)"></div>
+        <div id="waymarkb" class="select" style="top: 530; left: 70;"><img class="waymark" src="/images/waymarkB.png" width="48" height="48" style="border-radius: 100px; border-color: #EEEC46; background-color:rgba(238, 236, 70, 0.3)"></div>
+        <div id="waymarkc" class="select" style="top: 530; left: 120;"><img class="waymark" src="/images/waymarkC.png" width="48" height="48"style="border-radius: 100px; border-color: #127DEE; background-color:rgba(18, 125, 238, 0.3)"></div>
+        <div id="waymarkd" class="select" style="top: 530; left: 170;"><img class="waymark" src="/images/waymarkD.png" width="48" height="48"style="border-radius: 100px; border-color: #9263a8; background-color:rgba(146, 99, 168, 0.3)"></div>
+        <div id="waymark1" class="select" style="top: 580; left: 20;"><img class="waymark" src="/images/waymark1.png" width="48" height="48" style="border-color: #F58494; background-color:rgba(245, 132, 148, 0.3)"></div>
+        <div id="waymark2" class="select" style="top: 580; left: 70;"><img class="waymark" src="/images/waymark2.png" width="48" height="48" style="border-color: #EEEC46; background-color:rgba(238, 236, 70, 0.3)"></div>
+        <div id="waymark3" class="select" style="top: 580; left: 120;"><img class="waymark" src="/images/waymark3.png" width="48" height="48" style="border-color: #127DEE; background-color:rgba(18, 125, 238, 0.3)"></div>
+        <div id="waymark4" class="select" style="top: 580; left: 170;"><img class="waymark" src="/images/waymark4.png" width="48" height="48" style="border-color: #9263a8; background-color:rgba(146, 99, 168, 0.3)"></div>
+
+<h4 style="position: absolute; left: 20px; top: 630px;">Other</h4>
+        <div id="exclaim" class="other select" style="top: 665; left: 20;"><img src="/images/other/exclaim.png" width="48" height="48"></div>
+        <div id="x" class="other select" style="top: 665; left: 70;"><img src="/images/other/x.png" width="48" height="48"></div>
+        <div id="sword" class="other select" style="top: 665; left: 120;"><img src="/images/other/sword.png" width="48" height="48"></div>
+        <div id="check" class="other select" style="top: 665; left: 170;"><img src="/images/other/check.png" width="48" height="48"></div>
+        <div id="blue" class="other select" style="top: 715; left: 20;"><img src="/images/other/blue.png" width="48" height="48"></div>
+        <div id="red" class="other select" style="top: 715; left: 70;"><img src="/images/other/red.png" width="48" height="48"></div>
+        <div id="yellow" class="other select" style="top: 715; left: 120;"><img src="/images/other/yellow.png" width="48" height="48"></div>
+        <div id="green" class="other select" style="top: 715; left: 170;"><img src="/images/other/green.png" width="48" height="48"></div>
+      </div>
+        
+      <div id="arena">
+        <div id="catcher"></div>
+        <img id="arenaimg" src="e8.jpeg">
+        </div>
+      <div id="right" class="bar">
+        <div id="boss" class="other selectr" style="position: relative; top: 20px; left: 40px; width:150; height: 150;"><img src="/images/other/boss.png" width="100%" height="100%"></div>
+        <div id="add1" class="other selectr" style="float: left; margin: 10px; position: relative; top: 40px; left: 40px; width:40; height: 40;"><img src="/images/other/add1.png" width="100%" height="100%"></div>
+        <div id="add2" class="other selectr" style="float: left; margin: 10px; position: relative; top: 40px; left: 40px; width:40; height: 40;"><img src="/images/other/add2.png" width="100%" height="100%"></div>
+        <div id="add3" class="other selectr" style="float: left; margin: 10px; position: relative; top: 40px; left: 40px; width:40; height: 40;"><img src="/images/other/add3.png" width="100%" height="100%"></div>
+        </div>
+      </div>
+      <div id="bottom" class="bar">
+      <h4 style="position: relative; left: 20px; top: 5px; width: 50%; margin-bottom: 10px;">AOE Markers</h4>
+
+        <div id="square" class="aoe selectfr" style="left: 20px; width:70; height: 70;"><img class="rotate" src="/images/aoes/square.png" width="100%" height="100%"></div>
+        <div id="square_b" class="aoe selectfr" style="left: 20px; width:70; height: 70;"><img class="rotate" src="/images/aoes/square_b.png" width="100%" height="100%"></div>
+        <div id="circle" class="aoe selectr" style="left: 20px; width:70; height: 70;"><img class="rotate" src="/images/aoes/circle.png" width="100%" height="100%"></div>
+        <div id="circle_b" class="aoe selectr" style="left: 20px; width:70; height: 70;"><img class="rotate" src="/images/aoes/circle_b.png" width="100%" height="100%"></div>
+        <div id="hemi" class="aoe selectr" style="left: 20px; width:70; height: 70;"><img class="rotate" src="/images/aoes/sw_hemi.png" width="100%" height="100%"></div>
+        <div id="donut" class="aoe selectr" style="left: 20px; width:70; height: 70;"><img class="rotate" src="/images/aoes/donut.png" width="100%" height="100%"></div>
+        <div id="eighthcone" class="aoe selectfr" style="left: 20px; width:70; height: 49.53;"><img class="rotate" src="/images/aoes/nw_cone.png" width="100%" height="100%"></div>
+        <div id="quartercone" class="aoe selectfr" style="left: 20px; width:70; height: 70;"><img class="rotate" src="/images/aoes/quarter_cone.png" width="100%" height="100%"></div>
+        <div title="Proximity" id="prox" class="aoe selectr" style="left: 20px; width:70; height: 70;"><img class="rotate" src="/images/aoes/proximity.png" width="100%" height="100%"></div>
+        <div title="Player Proximity" id="playerprox" class="aoe selectr" style="left: 20px; width:70; height: 70;"><img class="rotate" src="/images/aoes/proxtarget.png" width="100%" height="100%"></div>
+        <div title="Stack" id="circle" class="aoe selectr" style="left: 20px; width:70; height: 70;"><img class="rotate" src="/images/aoes/stack.png" width="100%" height="100%"></div>
+        <div title="Line Stack" id="circle_b" class="aoe selectr" style="left: 20px; width:70; height: 70;"><img class="rotate" src="/images/aoes/linestack.png" width="100%" height="100%"></div>
+        <div title="Linear Knockback" id="linearkb" class="aoe selectr" style="left: 20px; width:70; height: 70;"><img class="rotate" src="/images/aoes/linearkb.png" width="100%" height="100%"></div>
+        <div title="Radial Knockback" id="radialkb" class="aoe selectr" style="left: 20px; width:70; height: 70;"><img class="rotate" src="/images/aoes/radialkb.png" width="100%" height="100%"></div>
+        <div title="Eye" id="eye" class="aoe selectr" style="left: 20px; width:70; height: 70;"><img class="rotate" src="/images/aoes/eye.png" width="100%" height="100%"></div>
+      </div>
+      
+    <script>
+      includeHTML();
+      
+    function reloadPage(){
+        window.location.reload(true);
+    }
+    </script>
+    </div> 
+    <p style:"position: absolute; bottom: 100px; margin: auto; text-align: center;">Not working? CTRL+F5 to refresh your browser cache.</p>
+  </body>
+  <script type="text/javascript" src="/script.js" defer></script>
+</html>
