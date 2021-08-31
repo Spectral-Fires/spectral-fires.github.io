@@ -88,6 +88,7 @@ img#icon {
   left: 0px;
   width: 100%;
   margin: 0px 0px 0px 0px;
+  z-index: -5;
 }
 
 .largebutton {
