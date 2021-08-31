@@ -32,3 +32,10 @@
             iCnt = iCnt + 1;
         });
     });
+
+
+    if (screen.width <= 699) {
+    document.location = "mobile.html";
+    }
+
+
