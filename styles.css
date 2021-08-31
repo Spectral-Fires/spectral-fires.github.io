@@ -324,6 +324,7 @@ img#icon {
   box-shadow: 2px 2px 2px;
 }
 .select {
+  float: left
   position: relative;
   z-index: 1;
   cursor: pointer;
