@@ -2,20 +2,6 @@
     var iCnt = 0;
     $(window).on("load", function() {
 
-        $(function() { $('.container') });
-        $(function() { $('.drag').draggable() });
-        $(function() { $('.resize').draggable()
-            .resizable({
-            aspectRatio: true,
-            scroll: false
-        }); });
-        $(function() { $('.fresize').draggable()
-            .resizable({
-            aspectRatio: false,
-            scroll: false
-        }); });
-        $(function() { $('.rotate').rotatable({wheelRotate:true, snap:true, step: 15, }) });
-
         // CREATE MORE DIV, WITH 'ABSOLUTE' POSITIONING.
         $('.select').click(function() {
 		$(this).clone().appendTo('#catcher').addClass('drag').removeAttr('id').css({
@@ -34,6 +20,7 @@
           top: '25px'
           })
 	$(function() { $('.dragr').draggable().resizable({aspectRatio: true})});
+	$(function() { $('.rotate').rotatable({wheelRotate:true, snap:true, step: 15, }) });
         });
 	  
         // CREATE MORE DIV, WITH 'ABSOLUTE' POSITIONING.
@@ -44,6 +31,7 @@
           top: '25px'
           })
 	$(function() { $('.dragfr').draggable().resizable({aspectRatio: false})});
+	$(function() { $('.rotate').rotatable({wheelRotate:true, snap:true, step: 15, }) });
         });
 	    
     });
