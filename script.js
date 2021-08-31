@@ -4,8 +4,6 @@
 
         $(function() { $('.container') });
         $(function() { $('.drag').draggable({
-            helper: 'clone',
-            revert: false
         }) });
         $(function() { $('.resize').draggable()
             .resizable({
