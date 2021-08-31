@@ -17,12 +17,9 @@
         $(function() { $('.rotate').rotatable({wheelRotate:true, snap:true, step: 15, }) });
 
         // CREATE MORE DIV, WITH 'ABSOLUTE' POSITIONING.
-        $('#btClickMe').click(function() {
+        $('#tank').click(function() {
 
-            var dynamic_div = $(document.createElement('div')).css({
-                border: '1px dashed', position: 'absolute', 
-                width: '120', height: '120', padding: '3', margin: '0'
-            });
+            var dynamic_div = $(this).clone.appendTo('body')
 
             element_pos = element_pos + $('.container').width() + 20;
             
