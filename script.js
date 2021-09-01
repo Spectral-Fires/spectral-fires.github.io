@@ -7,7 +7,7 @@
           left: '30px',
           top: '30px'
           })
-	$(function() { $('.drag').draggable({containment: 'body'}).resizable({aspectRatio: true})});
+	$(function() { $('.drag').draggable({containment: 'body'})});
         });  
 
         // CREATE MORE DIV, WITH 'ABSOLUTE' POSITIONING.
