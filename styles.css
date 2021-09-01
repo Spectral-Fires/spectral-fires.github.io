@@ -10,7 +10,7 @@ p {
 ul {
   color: #eeeeee;
   font-family: optima, sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.5;
 }
 span {
@@ -50,10 +50,12 @@ hr {
   border: 1px solid #444444;
   margin: 5px 5px 5px 5px;
 }
-
 img#icon {
   vertical-align: text-bottom;
 }
+
+
+
 #header {
   position: absolute;
   top: 0px;
@@ -90,6 +92,8 @@ img#icon {
   margin: 0px 0px 0px 0px;
   z-index: -5;
 }
+
+
 
 .largebutton {
   float: left;
