@@ -342,7 +342,7 @@ img#icon {
   position: relative;
   z-index: 1;
   cursor: pointer;
-  filter: grayscale(50%);
+  filter: grayscale(65%);
 }
 .select:hover {
   filter: grayscale(0%);
@@ -350,7 +350,7 @@ img#icon {
 .selectr {
   z-index: 1;
   cursor: pointer;
-  filter: grayscale(50%);
+  filter: grayscale(65%);
 }
 .selectr:hover {
 	filter: grayscale(0%);
@@ -358,7 +358,7 @@ img#icon {
 .selectfr {
   z-index: 1;
   cursor: pointer;
-  filter: grayscale(50%);
+  filter: grayscale(65%);
 }
 .selectfr:hover {
 	filter: grayscale(0%);
