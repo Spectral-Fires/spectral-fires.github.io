@@ -11,7 +11,7 @@
       <script>
         /* This script summons the .html files for the toolbars */
         
-       $(window).on("load", function includeHTML() {
+       function includeHTML() {
         var z, i, elmnt, file, xhttp;
         /* Loop through a collection of all HTML elements: */
         z = document.getElementsByTagName("*");
@@ -37,7 +37,7 @@
             return;
           }
         }
-      });
+      }
 
         if (screen.width <= 699) {
         document.location = "/mobile.html";
@@ -102,7 +102,7 @@
       <div id="bottom" class="bar">
         <div w3-include-html="/botdiv.html"></div>
       </div>
-    <script>
+    <script defer> 
      includeHTML();
     </script>
     </div>
