@@ -51,7 +51,7 @@
       <p style="font-size: 24px; margin: 13px 0px 14px 200px; background: rgba(0, 0, 0, 0.0)"><img id="icon" src="/images/planner.png" width="28" height="28" style="display: inline; margin-right: 10px;">    <a href="/index.html">XIV Planner</a></p>
       <div class="navbar" style="float: right;">
         <a href="../">Back</a>
-        <a id="reset">Reset</a>
+        <a name="reset">Reset</a>
         <div class="dropdown">
           <button class="dropbtn">Other Fights <i class="fa fa-caret-down"></i></button>
           <div class="dropdown-content">
@@ -105,7 +105,7 @@
     <script defer> 
       includeHTML();
      
-      $(document).on("click","a[name='lnkViews']", function (e) {
+      $(document).on("click","a[name='reset']", function (e) {
       $('.drag').remove();
       $('.dragr').remove();
       $('.dragfr').remove();
