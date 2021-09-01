@@ -9,7 +9,7 @@
           left: '30px',
           top: '30px'
           })
-	$(function() { $('.drag').draggable({containment: '#arena'}).resizable({aspectRatio: true})});
+	$(function() { $('.drag').draggable({containment: '#container'}).resizable({aspectRatio: true})});
         });  
 
         // CREATE MORE DIV, WITH 'ABSOLUTE' POSITIONING.
@@ -19,7 +19,7 @@
           left: '5px',
           top: '5px'
           })
-	$(function() { $('.dragr').draggable({containment: '#arena'}).resizable({aspectRatio: true})});
+	$(function() { $('.dragr').draggable({containment: '#container'}).resizable({aspectRatio: true})});
 	$(function() { $('.rotate').rotatable({wheelRotate:true, snap:true, step: 15, }) });
         });
 	  
@@ -30,7 +30,7 @@
           left: '5px',
           top: '5px'
           })
-	$(function() { $('.dragfr').draggable({containment: '#arena'}).resizable({aspectRatio: false})});
+	$(function() { $('.dragfr').draggable({containment: '#container'}).resizable({aspectRatio: false})});
 	$(function() { $('.rotate').rotatable({wheelRotate:true, snap:true, step: 15, }) });
         });
 	    
