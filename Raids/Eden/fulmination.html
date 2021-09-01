@@ -8,10 +8,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
     <script src="/jQuery-UI-Rotatable-Elements/jquery.ui.rotatable.js"></script>
   </head>
-      <script>
+      <script defer>
         /* This script summons the .html files for the toolbars */
         
-       $document.ready(function includeHTML() {
+        function includeHTML() {
         var z, i, elmnt, file, xhttp;
         /* Loop through a collection of all HTML elements: */
         z = document.getElementsByTagName("*");
