@@ -8,7 +8,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
     <script src="/jQuery-UI-Rotatable-Elements/jquery.ui.rotatable.js"></script>
   </head>
-      <script defer>
+      <script>
         /* This script summons the .html files for the toolbars */
         
         function includeHTML() {
@@ -102,7 +102,7 @@
       <div id="bottom" class="bar">
         <div w3-include-html="/botdiv.html"></div>
       </div>
-    <script defer> 
+    <script> 
       includeHTML();
      
       $(document).on("click","a[name='reset']", function (e) {
