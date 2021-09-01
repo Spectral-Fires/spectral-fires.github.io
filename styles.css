@@ -176,12 +176,13 @@ img#icon {
 .raidimage {
   border-radius: 5px;
   box-shadow: 0px 2px 2px;
+  width: 100%;
   filter: grayscale(50%) brightness(0.5);
 }
 .raidtitle {
   color: #EEEEEE;
   font-family: optima, sans-serif;
-  font-size: 28px;
+  font-size: 1.2vw;
   text-transform: uppercase;
   text-shadow: 2px 2px 2px #141414;
   text-align: center;
@@ -198,7 +199,7 @@ img#icon {
   border-radius: 5px;
   display: table;
   box-shadow: 2px 2px 2px;
-  width: 300px;
+  width: 20%;
   min-height: 750px;
   margin: 0px 25px 50px 25px;
 }
@@ -213,7 +214,7 @@ img#icon {
 }
 .topbox {
   height: 162.5px;
-  width: 300px;
+  width: 100%;
 }
 .trial {
   color: #eeeeee;
