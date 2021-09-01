@@ -94,7 +94,7 @@ img#icon {
 .largebutton {
   float: left;
   width: 40%;
-  height: 40%;
+  aspect-ratio: 1/1;
   padding: 0px;
   margin: 25px;
   filter: grayscale(80%) brightness(0.8);
