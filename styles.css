@@ -329,14 +329,26 @@ img#icon {
   position: relative;
   z-index: 1;
   cursor: pointer;
+  filter: grayscale(80%);
+}
+.select:hover {
+  filter: grayscale(0%);
 }
 .selectr {
   z-index: 1;
   cursor: pointer;
+  filter: grayscale(80%);
+}
+.selectr:hover {
+	filter: grayscale(0%);
 }
 .selectfr {
   z-index: 1;
   cursor: pointer;
+  filter: grayscale(80%);
+}
+.selectfr:hover {
+	filter: grayscale(0%);
 }
 #catcher {
   position: absolute;
