@@ -1,5 +1,3 @@
-  var element_pos = 0;    // POSITION OF THE NEWLY CREATED ELEMENTS.
-    var iCnt = 0;
     $(window).on("load", function() {
 
         // CREATE MORE DIV, WITH 'ABSOLUTE' POSITIONING.
@@ -34,4 +32,4 @@
 	$(function() { $('.rotate').rotatable({wheelRotate:true, snap:true, step: 15, }) });
         });
 	    
-    });
+    })
