@@ -103,11 +103,9 @@
         <div w3-include-html="/botdiv.html"></div>
       </div>
     <script>
-      includeHTML();
-      
-    function reloadPage(){
-        window.location.reload(true);
-    }
+    $(window).on("load", function() {
+      includeHTML(); }
+
     </script>
     </div>
     <div id="footer"> XIV Planner 2021 | About Us | Contact </div>
