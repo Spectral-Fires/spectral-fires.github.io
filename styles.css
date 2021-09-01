@@ -167,11 +167,16 @@ img#icon {
   height: 60px;
   margin-right: 15px;
 }
+.date {
+	font-family: optima, sans-serif;
+	font-size: 14px;
+	color: #444444
+}
 .text {
   overflow: hidden;
 }
 .text p {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 /* NAV PAGES */
