@@ -54,7 +54,7 @@ img#icon {
   vertical-align: text-bottom;
 }
 
-
+/* Major Page Elements */
 
 #header {
   position: absolute;
@@ -145,16 +145,16 @@ img#icon {
   padding: 10px;
   text-align: center;
   margin-top: 25px;
-	margin-bottom: 10px;
+  margin-bottom: 10px;
   background-color: #1b1b1b;
   width: 100%;
   height: 48px;
   border-radius: 5px;
 }
 #news {
-	display: block;
-	overflow: auto;
-	height: 90%;
+  display: block;
+  overflow: auto;
+  height: 90%;
 }
 .news {
   padding: 10px;
@@ -174,9 +174,9 @@ img#icon {
   margin-right: 15px;
 }
 .date {
-	font-family: optima, sans-serif;
-	font-size: 14px;
-	color: #444444
+  font-family: optima, sans-serif;
+  font-size: 14px;
+  color: #444444
 }
 .text {
   overflow: hidden;
@@ -304,10 +304,12 @@ img#icon {
   display: block;
 }
 
-/* Page Layout */
+/* Toolbox */
+
 #arena {
   padding: 20px;
   background-color: #1c1c1c;
+  width: 100%;
   max-width: 100%;
   margin: 0px 10px;
   border-radius: 5px;
@@ -318,6 +320,7 @@ img#icon {
   padding: 20px;
   background-color: #1c1c1c;
   max-width: 84%;
+  max-height: 800px;
   margin: auto;
   border-radius: 5px;
 }
@@ -414,33 +417,33 @@ img#icon {
 
 /*Scrollbars*/
 .bar::-webkit-scrollbar-track {
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-	border-radius: 10px;
-	background-color: inherit;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  background-color: inherit;
 }
 
 .bar::-webkit-scrollbar {
-	width: 8px;
+  width: 8px;
 }
 
 .bar::-webkit-scrollbar-thumb {
-	border-radius: 10px;
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-	background-color: #555;
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: #555;
 }
 
 #news::-webkit-scrollbar-track {
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-	border-radius: 10px;
-	background-color: inherit;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  background-color: inherit;
 }
 
 #news::-webkit-scrollbar {
-	width: 8px;
+  width: 8px;
 }
 
 #news::-webkit-scrollbar-thumb {
-	border-radius: 10px;
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-	background-color: #555;
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: #555;
 }
