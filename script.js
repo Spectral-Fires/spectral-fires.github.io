@@ -14,9 +14,10 @@ var urlParams;
 })();
 
 if (urlParams["s"] = undefined) {
-	function (clear) { 
+	(function (clear) { 
 		return decodeURIComponent(clear.replace(pl, " "));
-	}}
+	})();
+}
 
 var imgsrc = '/images/' + urlParams["t"] + '/' + urlParams["a"] + urlParams["s"] + '.jpg';
 
