@@ -15,6 +15,8 @@ var urlParams;
 
 alert(urlParams["a"]);
 
+var imgsrc = '/images/' + t + '/' + a + s '.jpg';
+
 // Calls new objects and assigns them active functions //
 
 $(window).on("load", function() {
