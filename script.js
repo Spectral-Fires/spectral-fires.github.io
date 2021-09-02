@@ -14,9 +14,9 @@ var urlParams;
 })();
 
 if (urlParams["s"] == 'undefined') {
-	var imgsrc = '/images/' + urlParams["t"] + '/' + urlParams["a"] + '.jpg';
-	} else {
 	var imgsrc = '/images/' + urlParams["t"] + '/' + urlParams["a"] + urlParams["s"] + '.jpg';
+	} else {
+	var imgsrc = '/images/' + urlParams["t"] + '/' + urlParams["a"] + '.jpg';
 	}
 
 alert(imgsrc);
