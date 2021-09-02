@@ -15,7 +15,7 @@ var urlParams;
 
 if (urlParams["s"] = undefined) {
 	(function (clear) { 
-		return decodeURIComponent(clear.replace(pl, " "));
+		return decodeURIComponent(clear.replace(urlParams["S"], " "));
 	})();
 }
 
