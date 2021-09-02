@@ -18,7 +18,7 @@ alert(urlParams["e"]);
 alert(urlParams["a"]);
 alert(urlParams["s"]);
 
-var imgsrc = '/images/' + t + '/' + a + s '.jpg';
+// var imgsrc = '/images/' + t + '/' + a + s '.jpg';
 
 // Calls new objects and assigns them active functions //
 
