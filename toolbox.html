@@ -64,65 +64,89 @@ function includeHTML() {
     <div id="container" style="top: 75px;">
       <div id="flexbox" style="display: flex;">
       <div id="left" class="bar">
-        <div w3-include-html="/jobs.html"></div>
-<!-- Roles -->
-        <div title="Tank" class="role select" style="top: 40; left: 180;"><img src="/images/roles/tank.png" width="32" height="32"></div>
-        <div title="Caster" class="role select" style="top: 75; left: 180;"><img src="/images/roles/caster.png" width="32" height="32"></div>
-        <div title="Melee" class="role select" style="top: 110; left: 180;"><img src="/images/roles/melee.png" width="32" height="32"></div>
-        <div id="Ranged" class="role select" style="top: 145; left: 180;"><img src="/images/roles/ranged.png" width="32" height="32"></div>
-        <div id="Healer" class="role select" style="top: 180; left: 180;"><img src="/images/roles/healer.png" width="32" height="32"></div>
-        
-<h4 style="position: absolute; left: 20px; top: 215px;">Ingame Markers</h4>
-        <div id="mark1" class="marker select" style="top: 250; left: 20;"><img src="/images/markers/mark1.png" width="32" height="32"></div>
-        <div id="mark2" class="marker select" style="top: 250; left: 55;"><img src="/images/markers/mark2.png" width="32" height="32"></div>
-        <div id="mark3" class="marker select" style="top: 250; left: 90;"><img src="/images/markers/mark3.png" width="32" height="32"></div>
-        <div id="mark4" class="marker select" style="top: 250; left: 125;"><img src="/images/markers/mark4.png" width="32" height="32"></div>
-        <div id="mark5" class="marker select" style="top: 250; left: 160;"><img src="/images/markers/mark5.png" width="32" height="32"></div>
-        <div id="chain1" class="marker select" style="top: 285; left: 20;"><img src="/images/markers/chain1.png" width="32" height="32"></div>
-        <div id="chain2" class="marker select" style="top: 285; left: 55;"><img src="/images/markers/chain2.png" width="32" height="32"></div>
-        <div id="chain3" class="marker select" style="top: 285; left: 90;"><img src="/images/markers/chain3.png" width="32" height="32"></div>
-        <div id="ignore1" class="marker select" style="top: 285; left: 125;"><img src="/images/markers/ignore1.png" width="32" height="32"></div>
-        <div id="ignore2" class="marker select" style="top: 285; left: 160;"><img src="/images/markers/ignore2.png" width="32" height="32"></div>
-        <div id="square" class="marker select" style="top: 320; left: 20;"><img src="/images/markers/square.png" width="32" height="32"></div>
-        <div id="circle" class="marker select" style="top: 320; left: 55;"><img src="/images/markers/circle.png" width="32" height="32"></div>
-        <div id="cross" class="marker select" style="top: 320; left: 90;"><img src="/images/markers/cross.png" width="32" height="32"></div>
-        <div id="triangle" class="marker select" style="top: 320; left: 125;"><img src="/images/markers/triangle.png" width="32" height="32"></div>
-
-<h4 style="position: absolute; left: 20px; top: 355px;">Additional Markers</h4>
-        <div id="mark6" class="marker select" style="top: 390; left: 20;"><img src="/images/markers/mark6.png" width="32" height="32"></div>
-        <div id="mark7" class="marker select" style="top: 390; left: 55;"><img src="/images/markers/mark7.png" width="32" height="32"></div>
-        <div id="mark8" class="marker select" style="top: 390; left: 90;"><img src="/images/markers/mark8.png" width="32" height="32"></div>
-        <div id="chain4" class="marker select" style="top: 390; left: 125;"><img src="/images/markers/chain4.png" width="32" height="32"></div>
-        <div id="chain5" class="marker select" style="top: 390; left: 160;"><img src="/images/markers/chain5.png" width="32" height="32"></div>
-        <div id="chain6" class="marker select" style="top: 425; left: 20;"><img src="/images/markers/chain6.png" width="32" height="32"></div>
-        <div id="chain7" class="marker select" style="top: 425; left: 55;"><img src="/images/markers/chain7.png" width="32" height="32"></div>
-        <div id="chain8" class="marker select" style="top: 425; left: 90;"><img src="/images/markers/chain8.png" width="32" height="32"></div>
-        <div id="ignore3" class="marker select" style="top: 425; left: 125;"><img src="/images/markers/ignore3.png" width="32" height="32"></div>
-        <div id="ignore4" class="marker select" style="top: 425; left: 160;"><img src="/images/markers/ignore4.png" width="32" height="32"></div>
-        <div id="ignore5" class="marker select" style="top: 460; left: 20;"><img src="/images/markers/ignore5.png" width="32" height="32"></div>
-        <div id="ignore6" class="marker select" style="top: 460; left: 55;"><img src="/images/markers/ignore6.png" width="32" height="32"></div>
-        <div id="ignore7" class="marker select" style="top: 460; left: 90;"><img src="/images/markers/ignore7.png" width="32" height="32"></div>
-        <div id="ignore8" class="marker select" style="top: 460; left: 125;"><img src="/images/markers/ignore8.png" width="32" height="32"></div>
-
-<h4 style="position: absolute; left: 20px; top: 495px;">Waymarks</h4>
-        <div id="waymarka" class="select" style="top: 530; left: 20;"><img class="waymark" src="/images/waymarkA.png" width="48" height="48" style="border-radius: 100px; border-color: #F58494; background-color:rgba(245, 132, 148, 0.3)"></div>
-        <div id="waymarkb" class="select" style="top: 530; left: 70;"><img class="waymark" src="/images/waymarkB.png" width="48" height="48" style="border-radius: 100px; border-color: #EEEC46; background-color:rgba(238, 236, 70, 0.3)"></div>
-        <div id="waymarkc" class="select" style="top: 530; left: 120;"><img class="waymark" src="/images/waymarkC.png" width="48" height="48"style="border-radius: 100px; border-color: #127DEE; background-color:rgba(18, 125, 238, 0.3)"></div>
-        <div id="waymarkd" class="select" style="top: 530; left: 170;"><img class="waymark" src="/images/waymarkD.png" width="48" height="48"style="border-radius: 100px; border-color: #9263a8; background-color:rgba(146, 99, 168, 0.3)"></div>
-        <div id="waymark1" class="select" style="top: 580; left: 20;"><img class="waymark" src="/images/waymark1.png" width="48" height="48" style="border-color: #F58494; background-color:rgba(245, 132, 148, 0.3)"></div>
-        <div id="waymark2" class="select" style="top: 580; left: 70;"><img class="waymark" src="/images/waymark2.png" width="48" height="48" style="border-color: #EEEC46; background-color:rgba(238, 236, 70, 0.3)"></div>
-        <div id="waymark3" class="select" style="top: 580; left: 120;"><img class="waymark" src="/images/waymark3.png" width="48" height="48" style="border-color: #127DEE; background-color:rgba(18, 125, 238, 0.3)"></div>
-        <div id="waymark4" class="select" style="top: 580; left: 170;"><img class="waymark" src="/images/waymark4.png" width="48" height="48" style="border-color: #9263a8; background-color:rgba(146, 99, 168, 0.3)"></div>
-
-<h4 style="position: absolute; left: 20px; top: 630px;">Other</h4>
-        <div id="exclaim" class="other select" style="top: 665; left: 20;"><img src="/images/other/exclaim.png" width="48" height="48"></div>
-        <div id="x" class="other select" style="top: 665; left: 70;"><img src="/images/other/x.png" width="48" height="48"></div>
-        <div id="sword" class="other select" style="top: 665; left: 120;"><img src="/images/other/sword.png" width="48" height="48"></div>
-        <div id="check" class="other select" style="top: 665; left: 170;"><img src="/images/other/check.png" width="48" height="48"></div>
-        <div id="blue" class="other select" style="top: 715; left: 20;"><img src="/images/other/blue.png" width="48" height="48"></div>
-        <div id="red" class="other select" style="top: 715; left: 70;"><img src="/images/other/red.png" width="48" height="48"></div>
-        <div id="yellow" class="other select" style="top: 715; left: 120;"><img src="/images/other/yellow.png" width="48" height="48"></div>
-        <div id="green" class="other select" style="top: 715; left: 170;"><img src="/images/other/green.png" width="48" height="48"></div>
+<!-- Job & Role Icons -->
+      <h4 style="position: relative; margin-left: 20px; top: 5px; clear: left;">Jobs / Roles</h4>
+  <!-- Tank -->
+        <div title="PLD" class="role select" style="top: 15; left: 20;"><img src="/images/roles/pld.png"></div>
+        <div title="WAR" class="role select" style="top: 15; left: 20;"><img src="/images/roles/war.png"></div>
+        <div title="DRK" class="role select" style="top: 15; left: 20;"><img src="/images/roles/drk.png"></div>
+        <div title="GNB" class="role select" style="top: 15; left: 20;"><img src="/images/roles/gnb.png"></div>
+        <div title="Tank" class="role select" style="top: 15; left: 40;"><img src="/images/roles/tank.png" width="32" height="32"></div>
+  <!-- Caster -->
+        <div title="BLM" class="role select" style="top: 15; left: 20; clear: left;"><img src="/images/roles/blm.png"></div>
+        <div title="SMN" class="role select" style="top: 15; left: 20;"><img src="/images/roles/smn.png"></div>
+        <div title="RDM" class="role select" style="top: 15; left: 20;"><img src="/images/roles/rdm.png"></div>
+        <div title="BLU" class="role select" style="top: 15; left: 20;"><img src="/images/roles/blu.png"></div>
+        <div title="Caster" class="role select" style="top: 15; left: 40;"><img src="/images/roles/caster.png" width="32" height="32"></div>
+  <!-- Melee -->
+        <div title="DRG" class="role select" style="top: 15; left: 20; clear: left;"><img src="/images/roles/drg.png"></div>
+        <div title="MNK" class="role select" style="top: 15; left: 20;"><img src="/images/roles/mnk.png"></div>
+        <div title="NIN" class="role select" style="top: 15; left: 20;"><img src="/images/roles/nin.png"></div>
+        <div title="SAM" class="role select" style="top: 15; left: 20;"><img src="/images/roles/sam.png"></div>
+        <div title="Melee" class="role select" style="top: 15; left: 40;"><img src="/images/roles/melee.png" width="32" height="32"></div>
+  <!-- Ranged -->
+        <div title="BRD" class="role select" style="top: 15; left: 52; clear: left;"><img src="/images/roles/brd.png"></div>
+        <div title="MCH" class="role select" style="top: 15; left: 52;"><img src="/images/roles/mch.png"></div>
+        <div title="DNC" class="role select" style="top: 15; left: 52;"><img src="/images/roles/dnc.png"></div>
+        <div title="Ranged" class="role select" style="top: 15; left: 72;"><img src="/images/roles/ranged.png" width="32" height="32"></div>
+  <!-- Healer -->
+        <div title="WHM" class="role select" style="top: 15; left: 52; clear: left;"><img src="/images/roles/whm.png"></div>
+        <div title="SCH" class="role select" style="top: 15; left: 52;"><img src="/images/roles/sch.png"></div>
+        <div title="AST" class="role select" style="top: 15; left: 52;"><img src="/images/roles/ast.png"></div>
+        <div title="Healer" class="role select" style="top: 15; left: 72;"><img src="/images/roles/healer.png" width="32" height="32"></div>
+<!-- Markers & Indicators -->
+  <!-- Ingame Markers -->
+      <h4 style="position: relative; margin-left: 20px; top: 35px; clear: left;">Ingame Markers</h4>
+        <div id="mark1" class="marker select" style="top: 45; left: 20; clear: left;"><img src="/images/markers/mark1.png" width="32" height="32"></div>
+        <div id="mark2" class="marker select" style="top: 45; left: 20;"><img src="/images/markers/mark2.png" width="32" height="32"></div>
+        <div id="mark3" class="marker select" style="top: 45; left: 20;"><img src="/images/markers/mark3.png" width="32" height="32"></div>
+        <div id="mark4" class="marker select" style="top: 45; left: 20;"><img src="/images/markers/mark4.png" width="32" height="32"></div>
+        <div id="mark5" class="marker select" style="top: 45; left: 20;"><img src="/images/markers/mark5.png" width="32" height="32"></div>
+        <div id="chain1" class="marker select" style="top: 45; left: 20; clear: left;"><img src="/images/markers/chain1.png" width="32" height="32"></div>
+        <div id="chain2" class="marker select" style="top: 45; left: 20;"><img src="/images/markers/chain2.png" width="32" height="32"></div>
+        <div id="chain3" class="marker select" style="top: 45; left: 20;"><img src="/images/markers/chain3.png" width="32" height="32"></div>
+        <div id="ignore1" class="marker select" style="top: 45; left: 20;"><img src="/images/markers/ignore1.png" width="32" height="32"></div>
+        <div id="ignore2" class="marker select" style="top: 45; left: 20;"><img src="/images/markers/ignore2.png" width="32" height="32"></div>
+        <div id="square" class="marker select" style="top: 45; left: 20; clear: left;"><img src="/images/markers/square.png" width="32" height="32"></div>
+        <div id="circle" class="marker select" style="top: 45; left: 20;"><img src="/images/markers/circle.png" width="32" height="32"></div>
+        <div id="cross" class="marker select" style="top: 45; left: 20;"><img src="/images/markers/cross.png" width="32" height="32"></div>
+        <div id="triangle" class="marker select" style="top: 45; left: 20;"><img src="/images/markers/triangle.png" width="32" height="32"></div>
+  <!-- Additional Markers -->
+      <h4 style="position: relative; margin-left: 20px; top: 60px; clear: left;">Additional Markers</h4>
+        <div id="mark6" class="marker select" style="top: 70; left: 20; clear: left;"><img src="/images/markers/mark6.png" width="32" height="32"></div>
+        <div id="mark7" class="marker select" style="top: 70; left: 20;"><img src="/images/markers/mark7.png" width="32" height="32"></div>
+        <div id="mark8" class="marker select" style="top: 70; left: 20;"><img src="/images/markers/mark8.png" width="32" height="32"></div>
+        <div id="chain4" class="marker select" style="top: 70; left: 20;"><img src="/images/markers/chain4.png" width="32" height="32"></div>
+        <div id="chain5" class="marker select" style="top: 70; left: 20;"><img src="/images/markers/chain5.png" width="32" height="32"></div>
+        <div id="chain6" class="marker select" style="top: 70; left: 20; clear: left;"><img src="/images/markers/chain6.png" width="32" height="32"></div>
+        <div id="chain7" class="marker select" style="top: 70; left: 20;"><img src="/images/markers/chain7.png" width="32" height="32"></div>
+        <div id="chain8" class="marker select" style="top: 70; left: 20;"><img src="/images/markers/chain8.png" width="32" height="32"></div>
+        <div id="ignore3" class="marker select" style="top: 70; left: 20;"><img src="/images/markers/ignore3.png" width="32" height="32"></div>
+        <div id="ignore4" class="marker select" style="top: 70; left: 20;"><img src="/images/markers/ignore4.png" width="32" height="32"></div>
+        <div id="ignore5" class="marker select" style="top: 70; left: 20; clear: left;"><img src="/images/markers/ignore5.png" width="32" height="32"></div>
+        <div id="ignore6" class="marker select" style="top: 70; left: 20;"><img src="/images/markers/ignore6.png" width="32" height="32"></div>
+        <div id="ignore7" class="marker select" style="top: 70; left: 20;"><img src="/images/markers/ignore7.png" width="32" height="32"></div>
+        <div id="ignore8" class="marker select" style="top: 70; left: 20;"><img src="/images/markers/ignore8.png" width="32" height="32"></div>
+  <!-- Waymarks -->
+      <h4 style="position: relative; margin-left: 20px; top: 85px; clear: left;">Waymarks</h4>
+        <div id="waymarka" class="select" style="top: 95; left: 20; clear: left;"><img class="waymark" src="/images/waymarkA.png" width="48" height="48" style="border-radius: 100px; border-color: #F58494; background-color:rgba(245, 132, 148, 0.3)"></div>
+        <div id="waymarkb" class="select" style="top: 95; left: 20;"><img class="waymark" src="/images/waymarkB.png" width="48" height="48" style="border-radius: 100px; border-color: #EEEC46; background-color:rgba(238, 236, 70, 0.3)"></div>
+        <div id="waymarkc" class="select" style="top: 95; left: 20;"><img class="waymark" src="/images/waymarkC.png" width="48" height="48"style="border-radius: 100px; border-color: #127DEE; background-color:rgba(18, 125, 238, 0.3)"></div>
+        <div id="waymarkd" class="select" style="top: 95; left: 20;"><img class="waymark" src="/images/waymarkD.png" width="48" height="48"style="border-radius: 100px; border-color: #9263a8; background-color:rgba(146, 99, 168, 0.3)"></div>
+        <div id="waymark1" class="select" style="top: 95; left: 20; clear: left;"><img class="waymark" src="/images/waymark1.png" width="48" height="48" style="border-color: #F58494; background-color:rgba(245, 132, 148, 0.3)"></div>
+        <div id="waymark2" class="select" style="top: 95; left: 20;"><img class="waymark" src="/images/waymark2.png" width="48" height="48" style="border-color: #EEEC46; background-color:rgba(238, 236, 70, 0.3)"></div>
+        <div id="waymark3" class="select" style="top: 95; left: 20;"><img class="waymark" src="/images/waymark3.png" width="48" height="48" style="border-color: #127DEE; background-color:rgba(18, 125, 238, 0.3)"></div>
+        <div id="waymark4" class="select" style="top: 95; left: 20;"><img class="waymark" src="/images/waymark4.png" width="48" height="48" style="border-color: #9263a8; background-color:rgba(146, 99, 168, 0.3)"></div>
+   <!-- Other Objects -->
+      <h4 style="position: relative; margin-left: 20px; top: 115px; clear: left;">Other</h4>
+        <div id="exclaim" class="other select" style="top: 125; left: 20; clear: left;"><img src="/images/other/exclaim.png" width="48" height="48"></div>
+        <div id="x" class="other select" style="top: 125; left: 20;"><img src="/images/other/x.png" width="48" height="48"></div>
+        <div id="sword" class="other select" style="top: 125; left: 20;"><img src="/images/other/sword.png" width="48" height="48"></div>
+        <div id="check" class="other select" style="top: 125; left: 20;"><img src="/images/other/check.png" width="48" height="48"></div>
+        <div id="blue" class="other select" style="top: 125; left: 20; clear: left;"><img src="/images/other/blue.png" width="48" height="48"></div>
+        <div id="red" class="other select" style="top: 125; left: 20;"><img src="/images/other/red.png" width="48" height="48"></div>
+        <div id="yellow" class="other select" style="top: 125; left: 20;"><img src="/images/other/yellow.png" width="48" height="48"></div>
+        <div id="green" class="other select" style="top: 125; left: 20;"><img src="/images/other/green.png" width="48" height="48"></div>
       </div>
         
       <div id="arena">
