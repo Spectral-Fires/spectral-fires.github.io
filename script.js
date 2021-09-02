@@ -13,6 +13,10 @@ var urlParams;
        urlParams[decode(match[1])] = decode(match[2]);
 })();
 
+if urlParams = undefined {
+	return ""
+}
+
 var imgsrc = '/images/' + urlParams["t"] + '/' + urlParams["a"] + urlParams["s"] + '.jpg';
 
 alert(imgsrc);
