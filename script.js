@@ -14,12 +14,10 @@ var urlParams;
 })();
 
 if (urlParams["s"] = undefined) {
-	(function (clear) { 
-		return decodeURIComponent(clear.replace(urlParams["S"], " "));
-	)();})
-}
-
-var imgsrc = '/images/' + urlParams["t"] + '/' + urlParams["a"] + urlParams["s"] + '.jpg';
+	var imgsrc = '/images/' + urlParams["t"] + '/' + urlParams["a"] + '.jpg';
+	} else {
+	var imgsrc = '/images/' + urlParams["t"] + '/' + urlParams["a"] + urlParams["s"] + '.jpg';
+	}
 
 alert(imgsrc);
 
