@@ -13,7 +13,7 @@ var url;
        url[decode(match[1])] = decode(match[2]);
 })();
 
-if (url["s"] == 'undefined') {
+if (url["s"] === 'undefined') {
 	alert("S is undefined!");
 	var imgsrc = '/' + url["t"] + '/' + url["e"] + '/' + url["a"] + '.jpg';
 	} else {
