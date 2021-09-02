@@ -33,7 +33,8 @@ $(window).on("load", function() {
 		height: '80%'
 	  })
 	$(function() { $('.drag').draggable({containment: 'body'})});
-	});  
+	});
+	
 	// Full Motion / Fixed Aspect Ratio //
 	$('.selectr').click(function() {
 		$(this).clone().appendTo('#catcher').addClass('dragr').removeClass('selectr').removeAttr('id').css({
@@ -44,6 +45,7 @@ $(window).on("load", function() {
 	$(function() { $('.dragr').draggable({containment: 'body'}).resizable({aspectRatio: true})});
 	$(function() { $('.rotate').rotatable({wheelRotate:true, snap:true, step: 15, }) });
 	});
+	
 	// Full Motion / Free Ratio //
 	$('.selectfr').click(function() {
 		$(this).clone().appendTo('#catcher').addClass('dragfr').removeClass('selectfr').removeAttr('id').css({
@@ -54,5 +56,10 @@ $(window).on("load", function() {
 	$(function() { $('.dragfr').draggable({containment: 'body'}).resizable({aspectRatio: false})});
 	$(function() { $('.rotate').rotatable({wheelRotate:true, snap:true, step: 15, }) });
 	});
-
 	})
+
+      $(document).on("click","a[name='reset']", function (e) {
+      $('.drag').remove();
+      $('.dragr').remove();
+      $('.dragfr').remove();
+      });
