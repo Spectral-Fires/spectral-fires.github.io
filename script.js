@@ -13,11 +13,11 @@ var url;
        url[decode(match[1])] = decode(match[2]);
 })();
 
-if (typeof url["s"] == 'undefined') {
+if (typeof url['s'] == 'undefined') {
 	alert("S is undefined!");
-	var imgsrc = '/' + url["t"] + '/' + url["e"] + '/' + url["a"] + '.jpg';
+	var imgsrc = '/' + url['t'] + '/' + url['e'] + '/' + url['a'] + '.jpg';
 	} else {
-	var imgsrc = '/' + url["t"] + '/' + url["e"] + '/' + url["a"] + url["s"] + '.jpg';
+	var imgsrc = '/' + url['t'] + '/' + url['e'] + '/' + url['a'] + url['s'] + '.jpg';
 	}
 
 alert(imgsrc);
