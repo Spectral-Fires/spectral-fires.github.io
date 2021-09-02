@@ -16,7 +16,7 @@ var url;
 if (url["s"] == 'undefined') {
 	var imgsrc = '/' + url["t"] + '/' + url["e"] + '/' + url["a"] + '.jpg';
 	} else {
-	var imgsrc = '/' + url["t"] + '/' + url["e"] '/' + url["a"] + url["s"] + '.jpg';
+	var imgsrc = '/' + url["t"] + '/' + url["e"] + '/' + url["a"] + url["s"] + '.jpg';
 	}
 
 alert(imgsrc);
