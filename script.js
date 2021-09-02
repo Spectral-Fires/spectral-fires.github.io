@@ -15,10 +15,9 @@ var urlParams;
 
 if (urlParams["s"] == 'undefined') {
 	var imgsrc = '/' + urlParams["t"] + '/' + urlParams["a"] + urlParams["s"] + '.jpg';
-	} else if {
-	var imgsrc = '/' + urlParams["t"] + '/' + urlParams["a"] + '.jpg';
 	} else {
-	var imgsrc = '/images/namazu-ffxiv.gif' };	
+	var imgsrc = '/' + urlParams["t"] + '/' + urlParams["a"] + '.jpg';
+	}
 
 alert(imgsrc);
 
