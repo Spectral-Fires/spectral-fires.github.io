@@ -14,10 +14,11 @@ var urlParams;
 })();
 
 if (urlParams["s"] == 'undefined') {
-	var imgsrc = '/images/' + urlParams["t"] + '/' + urlParams["a"] + urlParams["s"] + '.jpg';
+	var imgsrc = '/' + urlParams["t"] + '/' + urlParams["a"] + urlParams["s"] + '.jpg';
+	} else if {
+	var imgsrc = '/' + urlParams["t"] + '/' + urlParams["a"] + '.jpg';
 	} else {
-	var imgsrc = '/images/' + urlParams["t"] + '/' + urlParams["a"] + '.jpg';
-	}
+	var imgsrc = '/images/namazu-ffxiv.gif' };	
 
 alert(imgsrc);
 
