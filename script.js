@@ -19,6 +19,9 @@ if (url["s"] == 'undefined') {
 	var imgsrc = '/' + url["t"] + '/' + url["e"] + '/' + url["a"] + url["s"] + '.jpg';
 	}
 
+const img = document.getElementById("arenaimg");
+    img.src = imgsrc;
+
 alert(imgsrc);
 
 // Calls new objects and assigns them active functions //
