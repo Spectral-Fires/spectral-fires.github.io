@@ -14,6 +14,7 @@ var url;
 })();
 
 if (url["s"] == 'undefined') {
+	alert("S is undefined!")
 	var imgsrc = '/' + url["t"] + '/' + url["e"] + '/' + url["a"] + '.jpg';
 	} else {
 	var imgsrc = '/' + url["t"] + '/' + url["e"] + '/' + url["a"] + url["s"] + '.jpg';
