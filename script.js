@@ -13,7 +13,7 @@ var urlParams;
        urlParams[decode(match[1])] = decode(match[2]);
 })();
 
-alert(urlParams["arena"]);
+alert(urlParams["a"]);
 
 // Calls new objects and assigns them active functions //
 
