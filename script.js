@@ -18,7 +18,7 @@ alert(urlParams["e"]);
 alert(urlParams["a"]);
 alert(urlParams["s"]);
 
-var imgsrc = '/images/' urlParams["t"] + '/' + urlParams["a"] + urlParams["s"] + '.jpg';
+var imgsrc = '/images/' + urlParams["t"] + '/' + urlParams["a"] + urlParams["s"] + '.jpg';
 
 alert(imgsrc);
 
