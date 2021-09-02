@@ -13,11 +13,6 @@ var urlParams;
        urlParams[decode(match[1])] = decode(match[2]);
 })();
 
-alert(urlParams["t"]);
-alert(urlParams["e"]);
-alert(urlParams["a"]);
-alert(urlParams["s"]);
-
 var imgsrc = '/images/' + urlParams["t"] + '/' + urlParams["a"] + urlParams["s"] + '.jpg';
 
 alert(imgsrc);
