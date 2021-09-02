@@ -13,7 +13,7 @@ var urlParams;
        urlParams[decode(match[1])] = decode(match[2]);
 })();
 
-if (urlParams["s"] = 'undefined') {
+if (urlParams["s"] == 'undefined') {
 	var imgsrc = '/images/' + urlParams["t"] + '/' + urlParams["a"] + '.jpg';
 	} else {
 	var imgsrc = '/images/' + urlParams["t"] + '/' + urlParams["a"] + urlParams["s"] + '.jpg';
