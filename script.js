@@ -14,13 +14,10 @@ var url;
 })();
 
 if (typeof url['s'] == 'undefined') {
-	alert("S is undefined!");
 	var imgsrc = '/' + url['t'] + '/' + url['e'] + '/' + url['a'] + '.jpg';
 	} else {
 	var imgsrc = '/' + url['t'] + '/' + url['e'] + '/' + url['a'] + url['s'] + '.jpg';
 	}
-
-alert(imgsrc);
 
 const img = document.getElementById("arenaimg");
     	img.src = imgsrc;
