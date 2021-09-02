@@ -1,6 +1,6 @@
 // Searches for and calls arena images //
 
-var urlParams;
+var url;
 (window.onpopstate = function () {
     var match,
         pl     = /\+/g,  // Regex for replacing addition symbol with a space
@@ -8,15 +8,15 @@ var urlParams;
         decode = function (s) { return decodeURIComponent(s.replace(pl, " ")); },
         query  = window.location.search.substring(1);
 
-    urlParams = {};
+    url = {};
     while (match = search.exec(query))
-       urlParams[decode(match[1])] = decode(match[2]);
+       url[decode(match[1])] = decode(match[2]);
 })();
 
-if (urlParams["s"] == 'undefined') {
-	var imgsrc = '/' + urlParams["t"] + '/' + urlParams["a"] + urlParams["s"] + '.jpg';
+if (url["s"] == 'undefined') {
+	var imgsrc = '/' + url["t"] + '/' + url["e"] + '/' + url["a"] + '.jpg';
 	} else {
-	var imgsrc = '/' + urlParams["t"] + '/' + urlParams["a"] + '.jpg';
+	var imgsrc = '/' + url["t"] + '/' + url["e"] '/' + url["a"] + url["s"] + '.jpg';
 	}
 
 alert(imgsrc);
