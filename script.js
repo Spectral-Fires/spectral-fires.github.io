@@ -31,8 +31,8 @@ $(window).on("load", function() {
 			position: 'absolute',
 			width: '80%',
 			height: '80%',
-			top: '10px',
-			left: '10px'
+			top: '45px',
+			left: '45px'
 	  })
 	$(function() { $('.drag').draggable({containment: 'body'})});
 	});
