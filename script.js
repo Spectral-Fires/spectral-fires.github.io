@@ -43,8 +43,8 @@ $(window).on("load", function() {
 	  		position: 'absolute',
 			width: '80%',
 			height: '80%',
-			top: '10px',
-			left: '10px'
+			top: '0px',
+			left: '0px'
 	  })
 	$(function() { $('.dragr').draggable({containment: 'body'}).resizable({aspectRatio: true})});
 	$(function() { $('.rotate').rotatable({wheelRotate:true, snap:true, step: 15, }) });
@@ -56,8 +56,8 @@ $(window).on("load", function() {
 		  	position: 'absolute',
 			width: '80%',
 			height: '80%',
-			top: '10px',
-			left: '10px'
+			top: '0px',
+			left: '0px'
 	  })
 	$(function() { $('.dragfr').draggable({containment: 'body'}).resizable({aspectRatio: false})});
 	$(function() { $('.rotate').rotatable({wheelRotate:true, snap:true, step: 15, }) });
