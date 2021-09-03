@@ -65,8 +65,8 @@ if (twostage.includes(url['a'])) {
 
 	var a2 = document.createElement("a");
 	var t2 = document.createTextNode("2");
-	a.appendChild(t)
-	a.setAttribute('href', "");
+	a2.appendChild(t2)
+	a2.setAttribute('href', "");
 	document.getElementById("stage-select").appendChild(a);
 	document.getElementById("stage-select").appendChild(a2);
 } else if (threestage.includes(url['a'])) {
@@ -77,13 +77,13 @@ if (twostage.includes(url['a'])) {
 
 	var a2 = document.createElement("a");
 	var t2 = document.createTextNode("2");
-	a.appendChild(t)
-	a.setAttribute('href', "");
+	a2.appendChild(t2)
+	a2.setAttribute('href', "");
 
 	var a3 = document.createElement("a");
 	var t3 = document.createTextNode("3");
-	a.appendChild(t)
-	a.setAttribute('href', "");
+	a3.appendChild(t3)
+	a3.setAttribute('href', "");
 
 	document.getElementById("stage-select").appendChild(a);
 	document.getElementById("stage-select").appendChild(a2);
@@ -96,18 +96,18 @@ if (twostage.includes(url['a'])) {
 
 	var a2 = document.createElement("a");
 	var t2 = document.createTextNode("2");
-	a.appendChild(t)
-	a.setAttribute('href', "");
+	a2.appendChild(t2)
+	a2.setAttribute('href', "");
 
 	var a3 = document.createElement("a");
 	var t3 = document.createTextNode("3");
-	a.appendChild(t)
-	a.setAttribute('href', "");
+	a3.appendChild(t3)
+	a3.setAttribute('href', "");
 	
 	var a3 = document.createElement("a");
 	var t3 = document.createTextNode("4");
-	a.appendChild(t)
-	a.setAttribute('href', "");
+	a4.appendChild(t4)
+	a4.setAttribute('href', "");
 
 	document.getElementById("stage-select").appendChild(a);
 	document.getElementById("stage-select").appendChild(a2);
