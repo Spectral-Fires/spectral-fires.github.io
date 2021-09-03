@@ -379,7 +379,7 @@ img#icon {
 
 /* Stage Select */
 
-#stage-select {
+.stage-select {
   position: absolute;
   right: 280px;
   width: 125px;
@@ -391,11 +391,12 @@ img#icon {
   text-align: center;
 }
 
-#stage-select a {
+.stage-select a {
 	padding: 7px 6px 6px 9px;
 	border: #151515;
 	border-style: solid;
 	border-width: 0px 0px 0px 2px;
+}
 
 /* Moveable Objects */
 
