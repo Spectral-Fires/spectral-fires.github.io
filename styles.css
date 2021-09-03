@@ -377,11 +377,15 @@ img#icon {
   background-color: #1f1f1f;
   box-shadow: 2px 2px 2px;
 }
+
+/* Stage Select */
+
 #stage-select {
   position: absolute;
-  padding: 30px;
+  right: 280px;
+  padding: 5px;
   margin: 10px;
-  width: 300px;
+  width: 150px;
   height: 40px;
   z-index: 0;
   border-radius: 5px;
