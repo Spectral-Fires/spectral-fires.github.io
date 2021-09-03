@@ -165,7 +165,7 @@ img#icon {
   width: 99%;
   height: auto;
   min-height: 100px;
-  border-radius: 5px;
+  border-radius: 5px 35px;
 }
 .inews {
   float: left;
