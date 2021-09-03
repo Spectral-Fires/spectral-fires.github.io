@@ -356,7 +356,7 @@ img#icon {
   filter: grayscale(65%);
 }
 .selectr:hover {
-	filter: grayscale(0%);
+  filter: grayscale(0%);
 }
 .selectfr {
   z-index: 1;
@@ -364,7 +364,7 @@ img#icon {
   filter: grayscale(65%);
 }
 .selectfr:hover {
-	filter: grayscale(0%);
+  filter: grayscale(0%);
 }
 #catcher {
   position: absolute;
@@ -382,7 +382,7 @@ img#icon {
 #stage-select {
   position: absolute;
   right: 280px;
-  width: 125px;
+  width: auto;
   height: 40px;
   z-index: 0;
   border-radius: 5px;
@@ -392,10 +392,10 @@ img#icon {
 }
 
 #stage-select a {
-	padding: 7px 6px 6px 9px;
-	border: #151515;
-	border-style: solid;
-	border-width: 0px 0px 0px 2px;
+  padding: 7px 6px 6px 9px;
+  border: #151515;
+  border-style: solid;
+  border-width: 0px 0px 0px 2px;
 }
 
 /* Moveable Objects */
