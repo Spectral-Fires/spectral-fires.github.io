@@ -57,11 +57,11 @@ const img = document.getElementById("arenaimg");
 
 // Checks the arena name against the stage arrays to summon a switchlist if needed //
 
-if (twostage.contains(url['a'])) {
+if (twostage.includes(url['a'])) {
 	alert("two stage arena!");
-} else if (typeof threestage.contains(url['a']) == 'true') {
+} else if (threestage.includes(url['a'])) {
 	alert("three stage arena!");
-} else if (typeof fourstage.contains(url['a']) == 'true') {
+} else if (fourstage.includes(url['a'])) {
 	alert("four stage arena!")
 } else {
 	alert("no stages detected!")
