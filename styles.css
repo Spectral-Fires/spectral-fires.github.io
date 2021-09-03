@@ -369,7 +369,6 @@ img#icon {
 #catcher {
   position: absolute;
   padding: 30px;
-  margin: 10px;
   width: 100px;
   height: 100px;
   z-index: 0;
@@ -383,15 +382,20 @@ img#icon {
 #stage-select {
   position: absolute;
   right: 280px;
-  padding: 5px;
-  margin: 10px;
-  width: 150px;
+  width: 125px;
   height: 40px;
   z-index: 0;
   border-radius: 5px;
   background-color: #1f1f1f;
   box-shadow: 2px 2px 2px;
+  text-align: center;
 }
+
+#stage-select a {
+	padding: 7px 6px 6px 9px;
+	border: #151515;
+	border-style: solid;
+	border-width: 0px 0px 0px 2px;
 
 /* Moveable Objects */
 
