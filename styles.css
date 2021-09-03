@@ -381,6 +381,7 @@ img#icon {
 
 #stage-select {
   position: absolute;
+  padding: 4px;
   right: 280px;
   width: auto;
   height: 40px;
@@ -392,10 +393,17 @@ img#icon {
 }
 
 #stage-select a {
-  padding: 7px 6px 6px 9px;
-  border: #151515;
-  border-style: solid;
-  border-width: 0px 0px 0px 2px;
+  font-family: optima, sans-serif;
+  color: #eeeeee;
+  padding: 0px 10px;
+  margin: 2px;
+  background-color: #151515;
+  border-radius: 5px;
+}
+
+#stage-select a:hover {
+  color: #eeeeee;
+  background-color: #d3a03e; 
 }
 
 /* Moveable Objects */
