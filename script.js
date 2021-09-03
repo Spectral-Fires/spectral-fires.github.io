@@ -15,7 +15,7 @@ var url;
 
 // Constructs a list of multi-state fights //
 
-let twostage = [
+var twostage = [
 	"howling-eye", 
 	"second-turn-4",
 	"thordans-reign",
@@ -31,18 +31,18 @@ let twostage = [
 	"hadess-elegy",
 	"cinder-drift",
 	"castrum-marinum",
-]
-let threestage = [
+];
+var threestage = [
 	"deltascape-v4.0",
 	"unending-coil-of-bahamut",
 	"umbra",
-]
-let fourstage = [
+];
+var fourstage = [
 	"cuff-of-the-son",
 	"weapons-refrain",
 	"epic-of-alexander",
 	"eternity",
-]
+];
 
 // Calls the arena //
 
@@ -57,7 +57,7 @@ const img = document.getElementById("arenaimg");
 
 // Checks the arena name against the stage arrays to summon a switchlist if needed //
 
-if (typeof twostage.contains(url['a']) == 'true') {
+if (twostage.contains(url['a'])) {
 	alert("two stage arena!");
 } else if (typeof threestage.contains(url['a']) == 'true') {
 	alert("three stage arena!");
