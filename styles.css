@@ -377,6 +377,17 @@ img#icon {
   background-color: #1f1f1f;
   box-shadow: 2px 2px 2px;
 }
+#stage-select {
+  position: absolute;
+  padding: 30px;
+  margin: 10px;
+  width: 300px;
+  height: 40px;
+  z-index: 0;
+  border-radius: 5px;
+  background-color: #1f1f1f;
+  box-shadow: 2px 2px 2px;
+}
 
 /* Moveable Objects */
 
