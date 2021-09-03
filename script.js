@@ -28,9 +28,11 @@ $(window).on("load", function() {
 	// Drag Only //
 	$('.select').click(function() {
 		$(this).clone().appendTo('#catcher').addClass('drag').removeClass('select').removeAttr('id').css({
-	  position: 'absolute',
-		width: '80%',
-		height: '80%'
+			position: 'absolute',
+			width: '80%',
+			height: '80%',
+			top: '0px',
+			left: '0px'
 	  })
 	$(function() { $('.drag').draggable({containment: 'body'})});
 	});
@@ -38,9 +40,11 @@ $(window).on("load", function() {
 	// Full Motion / Fixed Aspect Ratio //
 	$('.selectr').click(function() {
 		$(this).clone().appendTo('#catcher').addClass('dragr').removeClass('selectr').removeAttr('id').css({
-	  	position: 'absolute',
+	  		position: 'absolute',
 			width: '80%',
-			height: '80%'
+			height: '80%',
+			top: '0px',
+			left: '0px'
 	  })
 	$(function() { $('.dragr').draggable({containment: 'body'}).resizable({aspectRatio: true})});
 	$(function() { $('.rotate').rotatable({wheelRotate:true, snap:true, step: 15, }) });
@@ -49,9 +53,11 @@ $(window).on("load", function() {
 	// Full Motion / Free Ratio //
 	$('.selectfr').click(function() {
 		$(this).clone().appendTo('#catcher').addClass('dragfr').removeClass('selectfr').removeAttr('id').css({
-		  position: 'absolute',
+		  	position: 'absolute',
 			width: '80%',
-			height: '80%'
+			height: '80%',
+			top: '0px',
+			left: '0px'
 	  })
 	$(function() { $('.dragfr').draggable({containment: 'body'}).resizable({aspectRatio: false})});
 	$(function() { $('.rotate').rotatable({wheelRotate:true, snap:true, step: 15, }) });
