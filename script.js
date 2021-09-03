@@ -29,8 +29,6 @@ $(window).on("load", function() {
 	$('.select').click(function() {
 		$(this).clone().appendTo('#catcher').addClass('drag').removeClass('select').removeAttr('id').css({
 			position: 'absolute',
-			width: '80%',
-			height: '80%',
 			top: '34px',
 			left: '34px'
 	  })
@@ -41,8 +39,8 @@ $(window).on("load", function() {
 	$('.selectr').click(function() {
 		$(this).clone().appendTo('#catcher').addClass('dragr').removeClass('selectr').removeAttr('id').css({
 	  		position: 'absolute',
-			width: '80%',
-			height: '80%',
+			width: '95%',
+			height: '95%',
 			top: '0px',
 			left: '0px'
 	  })
@@ -54,8 +52,8 @@ $(window).on("load", function() {
 	$('.selectfr').click(function() {
 		$(this).clone().appendTo('#catcher').addClass('dragfr').removeClass('selectfr').removeAttr('id').css({
 		  	position: 'absolute',
-			width: '80%',
-			height: '80%',
+			width: '95%',
+			height: '95%',
 			top: '0px',
 			left: '0px'
 	  })
