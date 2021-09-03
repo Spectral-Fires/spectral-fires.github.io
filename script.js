@@ -114,7 +114,7 @@ if (twostage.includes(url['a'])) {
 	document.getElementById("stage-select").appendChild(a3);
 	document.getElementById("stage-select").appendChild(a4);
 } else {
-	alert("no stages detected!")
+	$('#stage-select').remove();
 }
 
 // TRANSFORM FUNCTIONS - Calls new objects and assigns them active functions //
