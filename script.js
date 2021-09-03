@@ -58,24 +58,61 @@ const img = document.getElementById("arenaimg");
 // Checks the arena name against the stage arrays to summon a switchlist if needed //
 
 if (twostage.includes(url['a'])) {
-	alert("two stage arena!");
-	function myFunction() {
-  		var a = document.createElement("a");
- 		var t = document.createTextNode("1");
- 		a.appendChild(t)
-  		a.setAttribute('href', "");
-  		
-		var a2 = document.createElement("a");
-		var t2 = document.createTextNode("2");
-		a.appendChild(t)
-		a.setAttribute('href', "");
-		document.getElementById("stage-select").appendChild(a);
-		document.getElementById("stage-select").appendChild(a2);
-}
+	var a = document.createElement("a");
+	var t = document.createTextNode("1");
+	a.appendChild(t)
+	a.setAttribute('href', "");
+
+	var a2 = document.createElement("a");
+	var t2 = document.createTextNode("2");
+	a.appendChild(t)
+	a.setAttribute('href', "");
+	document.getElementById("stage-select").appendChild(a);
+	document.getElementById("stage-select").appendChild(a2);
 } else if (threestage.includes(url['a'])) {
-	alert("three stage arena!");
+	var a = document.createElement("a");
+	var t = document.createTextNode("1");
+	a.appendChild(t)
+	a.setAttribute('href', "");
+
+	var a2 = document.createElement("a");
+	var t2 = document.createTextNode("2");
+	a.appendChild(t)
+	a.setAttribute('href', "");
+
+	var a3 = document.createElement("a");
+	var t3 = document.createTextNode("3");
+	a.appendChild(t)
+	a.setAttribute('href', "");
+
+	document.getElementById("stage-select").appendChild(a);
+	document.getElementById("stage-select").appendChild(a2);
+	document.getElementById("stage-select").appendChild(a3);
 } else if (fourstage.includes(url['a'])) {
-	alert("four stage arena!")
+	var a = document.createElement("a");
+	var t = document.createTextNode("1");
+	a.appendChild(t)
+	a.setAttribute('href', "");
+
+	var a2 = document.createElement("a");
+	var t2 = document.createTextNode("2");
+	a.appendChild(t)
+	a.setAttribute('href', "");
+
+	var a3 = document.createElement("a");
+	var t3 = document.createTextNode("3");
+	a.appendChild(t)
+	a.setAttribute('href', "");
+	
+	var a3 = document.createElement("a");
+	var t3 = document.createTextNode("4");
+	a.appendChild(t)
+	a.setAttribute('href', "");
+
+	document.getElementById("stage-select").appendChild(a);
+	document.getElementById("stage-select").appendChild(a2);
+	document.getElementById("stage-select").appendChild(a3);
+	document.getElementById("stage-select").appendChild(a4);
 } else {
 	alert("no stages detected!")
 }
