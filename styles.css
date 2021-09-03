@@ -403,6 +403,7 @@ img#icon {
 
 #stage-select a:hover {
   color: #eeeeee;
+  font-weight: normal;
   background-color: #d3a03e; 
 }
 
