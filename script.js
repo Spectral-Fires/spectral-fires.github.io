@@ -59,6 +59,19 @@ const img = document.getElementById("arenaimg");
 
 if (twostage.includes(url['a'])) {
 	alert("two stage arena!");
+	function myFunction() {
+  		var a = document.createElement("a");
+ 		var t = document.createTextNode("1");
+ 		a.appendChild(t)
+  		a.setAttribute('href', "");
+  		
+		var a2 = document.createElement("a");
+		var t2 = document.createTextNode("2");
+		a.appendChild(t)
+		a.setAttribute('href', "");
+		document.getElementById("stage-select").appendChild(a);
+		document.getElementById("stage-select").appendChild(a2);
+}
 } else if (threestage.includes(url['a'])) {
 	alert("three stage arena!");
 } else if (fourstage.includes(url['a'])) {
