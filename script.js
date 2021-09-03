@@ -104,8 +104,8 @@ if (twostage.includes(url['a'])) {
 	a3.appendChild(t3)
 	a3.setAttribute('href', "");
 	
-	var a3 = document.createElement("a");
-	var t3 = document.createTextNode("4");
+	var a4 = document.createElement("a");
+	var t4 = document.createTextNode("4");
 	a4.appendChild(t4)
 	a4.setAttribute('href', "");
 
