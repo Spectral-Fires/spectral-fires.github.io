@@ -1,4 +1,4 @@
-// Searches for and calls arena images //
+// ARENA CALLER - Parses URL for arena information //
 
 var url;
 (window.onpopstate = function () {
@@ -13,6 +13,39 @@ var url;
        url[decode(match[1])] = decode(match[2]);
 })();
 
+// Constructs a list of multi-state fights //
+
+const twostage = [
+	"howling-eye", 
+	"second-turn-4",
+	"thordans-reign",
+	"containment-bay-s1t7",
+	"burden-of-the-son",
+	"soul-of-the-creator",
+	"shinryus-domain",
+	"jade-stoa",
+	"tsukuyomis-pain",
+	"hells-kier",
+	"wreath-of-snakes",
+	"dancing-plague",
+	"hadess-elegy",
+	"cinder-drift",
+	"castrum-marinum",
+]
+const threestage = [
+	"deltascape-v4.0",
+	"unending-coil-of-bahamut",
+	"umbra",
+]
+const fourstage = [
+	"cuff-of-the-son",
+	"weapons-refrain",
+	"epic-of-alexander",
+	"eternity",
+]
+
+// Calls the arena //
+
 if (typeof url['s'] == 'undefined') {
 	var imgsrc = '/' + url['t'] + '/' + url['e'] + '/' + url['a'] + '.jpg';
 	} else {
@@ -22,7 +55,19 @@ if (typeof url['s'] == 'undefined') {
 const img = document.getElementById("arenaimg");
     	img.src = imgsrc;
 
-// Calls new objects and assigns them active functions //
+// Checks the arena name against the stage arrays to summon a switchlist if needed //
+
+if (twostage.contains(url['a'])) {
+	alert("two stage arena!");
+} else if (threestage.contains(url['a'])) {
+	alert("three stage arena!");
+} else if (fourstage.contains(url['a'])) {
+	alert("four stage arena!")
+} else {
+	alert("no stages detected!")
+}
+
+// TRANSFORM FUNCTIONS - Calls new objects and assigns them active functions //
 
 $(window).on("load", function() {
 	// Drag Only //
