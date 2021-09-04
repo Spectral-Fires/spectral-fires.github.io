@@ -57,58 +57,41 @@ const img = document.getElementById("arenaimg");
 
 // Checks the arena name against the stage arrays to summon a switchlist if needed //
 
-if (twostage.includes(url['a'])) {
 	var a = document.createElement("a");
 	var t = document.createTextNode("1");
-	a.appendChild(t)
-	a.setAttribute('href', "");
-
 	var a2 = document.createElement("a");
 	var t2 = document.createTextNode("2");
+	var a3 = document.createElement("a");
+	var t3 = document.createTextNode("3");
+	var a4 = document.createElement("a");
+	var t4 = document.createTextNode("4");
+
+if (twostage.includes(url['a'])) {
+	a.appendChild(t)
+	a.setAttribute('name', "1");
 	a2.appendChild(t2)
-	a2.setAttribute('href', "");
+	a2.setAttribute('name', "2");
 	document.getElementById("stage-select").appendChild(a);
 	document.getElementById("stage-select").appendChild(a2);
 } else if (threestage.includes(url['a'])) {
-	var a = document.createElement("a");
-	var t = document.createTextNode("1");
 	a.appendChild(t)
-	a.setAttribute('href', "");
-
-	var a2 = document.createElement("a");
-	var t2 = document.createTextNode("2");
+	a.setAttribute('name', "1");
 	a2.appendChild(t2)
-	a2.setAttribute('href', "");
-
-	var a3 = document.createElement("a");
-	var t3 = document.createTextNode("3");
+	a2.setAttribute('name', "2");
 	a3.appendChild(t3)
-	a3.setAttribute('href', "");
-
+	a3.setAttribute('name', "3");
 	document.getElementById("stage-select").appendChild(a);
 	document.getElementById("stage-select").appendChild(a2);
 	document.getElementById("stage-select").appendChild(a3);
 } else if (fourstage.includes(url['a'])) {
-	var a = document.createElement("a");
-	var t = document.createTextNode("1");
 	a.appendChild(t)
-	a.setAttribute('href', "");
-
-	var a2 = document.createElement("a");
-	var t2 = document.createTextNode("2");
+	a.setAttribute('name', "1");
 	a2.appendChild(t2)
-	a2.setAttribute('href', "");
-
-	var a3 = document.createElement("a");
-	var t3 = document.createTextNode("3");
+	a2.setAttribute('name', "2");
 	a3.appendChild(t3)
-	a3.setAttribute('href', "");
-	
-	var a4 = document.createElement("a");
-	var t4 = document.createTextNode("4");
+	a3.setAttribute('name', "3");
 	a4.appendChild(t4)
-	a4.setAttribute('href', "");
-
+	a4.setAttribute('name', "4");
 	document.getElementById("stage-select").appendChild(a);
 	document.getElementById("stage-select").appendChild(a2);
 	document.getElementById("stage-select").appendChild(a3);
@@ -117,6 +100,29 @@ if (twostage.includes(url['a'])) {
 	$('#stage-select').remove();
 }
 
+// Swaps the arena  //
+
+$(document).on("click","a[name='1']",
+	var imgsrc = '/' + url['t'] + '/' + url['e'] + '/' + url['a'] + '1' + '.jpg';
+	const img = document.getElementById("arenaimg");
+    	img.src = imgsrc;
+
+$(document).on("click","a[name='2']",
+	var imgsrc = '/' + url['t'] + '/' + url['e'] + '/' + url['a'] + '2' + '.jpg';
+	const img = document.getElementById("arenaimg");
+    	img.src = imgsrc;
+
+$(document).on("click","a[name='3']",
+	var imgsrc = '/' + url['t'] + '/' + url['e'] + '/' + url['a'] + '3' + '.jpg';
+	const img = document.getElementById("arenaimg");
+    	img.src = imgsrc;
+
+$(document).on("click","a[name='4']",
+	var imgsrc = '/' + url['t'] + '/' + url['e'] + '/' + url['a'] + '4' + '.jpg';
+	const img = document.getElementById("arenaimg");
+    	img.src = imgsrc;
+	
+	
 // TRANSFORM FUNCTIONS - Calls new objects and assigns them active functions //
 
 $(window).on("load", function() {
@@ -156,6 +162,8 @@ $(window).on("load", function() {
 	$(function() { $('.rotate').rotatable({wheelRotate:true, snap:true, step: 15, }) });
 	});
 	})
+
+// Clear all active transforms //
 
       $(document).on("click","a[name='reset']", function (e) {
       $('.drag').remove();
