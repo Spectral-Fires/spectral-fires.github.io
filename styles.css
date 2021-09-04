@@ -282,7 +282,7 @@ img#icon {
   position: absolute;
   right: 200px;
   background-color: #141414;
-  min-width: 180px;
+  min-width: 130px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 10;
 }
