@@ -236,7 +236,8 @@ img#icon {
   margin-bottom: 50px;
 }
 .noaccess {
-  color: #bbbbbb;
+  color: #444444;
+  font-style: italic;
   pointer-events: none;
 }
 
