@@ -28,7 +28,7 @@ var twostage = [
 	"hells-kier",
 	"wreath-of-snakes",
 	"dancing-plague",
-	"hadess-elegy",
+	"hades-elegy",
 	"cinder-drift",
 	"castrum-marinum",
 ];
