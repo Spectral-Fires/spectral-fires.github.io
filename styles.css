@@ -396,10 +396,9 @@ img#icon {
   margin: 2px;
   background-color: #151515;
   border-radius: 5px;
-}
-
-.active {
-  background-color: #d3a03e;
+  user-select: none;
+  pointer-events: none;
+  cursor: pointer;
 }
 
 #stage-select a:hover {
