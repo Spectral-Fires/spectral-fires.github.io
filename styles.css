@@ -397,7 +397,6 @@ img#icon {
   background-color: #151515;
   border-radius: 5px;
   user-select: none;
-  pointer-events: none;
   cursor: pointer;
 }
 
