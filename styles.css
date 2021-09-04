@@ -235,6 +235,10 @@ img#icon {
   line-height: 1.0;
   margin-bottom: 50px;
 }
+.noaccess {
+  color: #bbbbbb;
+  pointer-events: none;
+}
 
 /* RAID PAGES */
 /* Navbar */
@@ -401,12 +405,6 @@ img#icon {
 }
 
 #stage-select a:hover {
-  color: #eeeeee;
-  font-weight: normal;
-  background-color: #d3a03e; 
-}
-
-#stage-select a:target {
   color: #eeeeee;
   font-weight: normal;
   background-color: #d3a03e; 
