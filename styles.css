@@ -404,6 +404,10 @@ img#icon {
   background-color: #d3a03e; 
 }
 
+.active {
+  background-color: #d3a03e;
+}
+
 /* Moveable Objects */
 
 .marker {
