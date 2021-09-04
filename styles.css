@@ -125,6 +125,7 @@ img#icon {
   transform: translate(-50%, -50%);
   user-select: none;
   pointer-events: none;
+  text-align: center;
 }
 
 .minicontainer {
