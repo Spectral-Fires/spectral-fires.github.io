@@ -106,37 +106,37 @@ $(document).on("click","a[name='1']", function(one) {
 	var imgsrc = '/' + url['t'] + '/' + url['e'] + '/' + url['a'] + '1' + '.jpg';
 	const img = document.getElementById("arenaimg");
     	img.src = imgsrc;
-	a1.setAttribute('class', "active");
-	a2.removeAttribute('class', "active");
-	a3.removeAttribute('class', "active");
-	a4.removeAttribute('class', "active");
+	a1.setAttribute('style', "background-color: #d3a03e;");
+	a2.removeAttribute('style', "background-color: #d3a03e;");
+	a3.removeAttribute('style', "background-color: #d3a03e;");
+	a4.removeAttribute('style', "background-color: #d3a03e;");
 });
 $(document).on("click","a[name='2']", function(two) {
 	var imgsrc = '/' + url['t'] + '/' + url['e'] + '/' + url['a'] + '2' + '.jpg';
 	const img = document.getElementById("arenaimg");
     	img.src = imgsrc;
-	a2.setAttribute('class', "active");
-	a1.removeAttribute('class', "active");
-	a3.removeAttribute('class', "active");
-	a4.removeAttribute('class', "active");
+	a2.setAttribute('style', "background-color: #d3a03e;");
+	a1.removeAttribute('style', "background-color: #d3a03e;");
+	a3.removeAttribute('style', "background-color: #d3a03e;");
+	a4.removeAttribute('style', "background-color: #d3a03e;");
 });
 $(document).on("click","a[name='3']", function(three) {
 	var imgsrc = '/' + url['t'] + '/' + url['e'] + '/' + url['a'] + '3' + '.jpg';
 	const img = document.getElementById("arenaimg");
     	img.src = imgsrc;
-	a3.setAttribute('class', "active");
-	a1.removeAttribute('class', "active");
-	a2.removeAttribute('class', "active");
-	a4.removeAttribute('class', "active");
+	a3.setAttribute('style', "background-color: #d3a03e;");
+	a1.removeAttribute('style', "background-color: #d3a03e;");
+	a2.removeAttribute('style', "background-color: #d3a03e;");
+	a4.removeAttribute('style', "background-color: #d3a03e;");
 });
 $(document).on("click","a[name='4']", function(four) {
 	var imgsrc = '/' + url['t'] + '/' + url['e'] + '/' + url['a'] + '4' + '.jpg';
 	const img = document.getElementById("arenaimg");
     	img.src = imgsrc;
-	a4.setAttribute('class', "active");
-	a1.removeAttribute('class', "active");
-	a2.removeAttribute('class', "active");
-	a3.removeAttribute('class', "active");
+	a4.setAttribute('style', "background-color: #d3a03e;");
+	a1.removeAttribute('style', "background-color: #d3a03e;");
+	a2.removeAttribute('style', "background-color: #d3a03e;");
+	a3.removeAttribute('style', "background-color: #d3a03e;");
 });
 	
 // TRANSFORM FUNCTIONS - Calls new objects and assigns them active functions //
