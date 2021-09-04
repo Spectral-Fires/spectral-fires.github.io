@@ -102,26 +102,26 @@ if (twostage.includes(url['a'])) {
 
 // Swaps the arena  //
 
-$(document).on("click","a[name='1']",
-	const imgsrc = '/' + url['t'] + '/' + url['e'] + '/' + url['a'] + '1' + '.jpg';
+$(document).on("click","a[name='1']", function(one) {
+	var imgsrc = '/' + url['t'] + '/' + url['e'] + '/' + url['a'] + '1' + '.jpg';
 	const img = document.getElementById("arenaimg");
     	img.src = imgsrc;
-
-$(document).on("click","a[name='2']",
-	const imgsrc = '/' + url['t'] + '/' + url['e'] + '/' + url['a'] + '2' + '.jpg';
+};
+$(document).on("click","a[name='2']", function(two) {
+	var imgsrc = '/' + url['t'] + '/' + url['e'] + '/' + url['a'] + '2' + '.jpg';
 	const img = document.getElementById("arenaimg");
     	img.src = imgsrc;
-
-$(document).on("click","a[name='3']",
-	const imgsrc = '/' + url['t'] + '/' + url['e'] + '/' + url['a'] + '3' + '.jpg';
+};
+$(document).on("click","a[name='3']", function(three) {
+	var imgsrc = '/' + url['t'] + '/' + url['e'] + '/' + url['a'] + '3' + '.jpg';
 	const img = document.getElementById("arenaimg");
     	img.src = imgsrc;
-
-$(document).on("click","a[name='4']",
-	const imgsrc = '/' + url['t'] + '/' + url['e'] + '/' + url['a'] + '4' + '.jpg';
+};
+$(document).on("click","a[name='4']", function(four) {
+	var imgsrc = '/' + url['t'] + '/' + url['e'] + '/' + url['a'] + '4' + '.jpg';
 	const img = document.getElementById("arenaimg");
     	img.src = imgsrc;
-	
+};
 	
 // TRANSFORM FUNCTIONS - Calls new objects and assigns them active functions //
 
