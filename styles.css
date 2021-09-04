@@ -406,6 +406,12 @@ img#icon {
   background-color: #d3a03e; 
 }
 
+#stage-select a:active {
+  color: #eeeeee;
+  font-weight: normal;
+  background-color: #d3a03e; 
+}
+
 /* Moveable Objects */
 
 .marker {
