@@ -106,21 +106,37 @@ $(document).on("click","a[name='1']", function(one) {
 	var imgsrc = '/' + url['t'] + '/' + url['e'] + '/' + url['a'] + '1' + '.jpg';
 	const img = document.getElementById("arenaimg");
     	img.src = imgsrc;
+	a1.setAttribute('class', "active");
+	a2.removeAttribute('class', "active");
+	a3.removeAttribute('class', "active");
+	a4.removeAttribute('class', "active");
 });
 $(document).on("click","a[name='2']", function(two) {
 	var imgsrc = '/' + url['t'] + '/' + url['e'] + '/' + url['a'] + '2' + '.jpg';
 	const img = document.getElementById("arenaimg");
     	img.src = imgsrc;
+	a2.setAttribute('class', "active");
+	a1.removeAttribute('class', "active");
+	a3.removeAttribute('class', "active");
+	a4.removeAttribute('class', "active");
 });
 $(document).on("click","a[name='3']", function(three) {
 	var imgsrc = '/' + url['t'] + '/' + url['e'] + '/' + url['a'] + '3' + '.jpg';
 	const img = document.getElementById("arenaimg");
     	img.src = imgsrc;
+	a3.setAttribute('class', "active");
+	a1.removeAttribute('class', "active");
+	a2.removeAttribute('class', "active");
+	a4.removeAttribute('class', "active");
 });
 $(document).on("click","a[name='4']", function(four) {
 	var imgsrc = '/' + url['t'] + '/' + url['e'] + '/' + url['a'] + '4' + '.jpg';
 	const img = document.getElementById("arenaimg");
     	img.src = imgsrc;
+	a4.setAttribute('class', "active");
+	a1.removeAttribute('class', "active");
+	a2.removeAttribute('class', "active");
+	a3.removeAttribute('class', "active");
 });
 	
 // TRANSFORM FUNCTIONS - Calls new objects and assigns them active functions //
