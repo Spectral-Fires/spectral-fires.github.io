@@ -103,22 +103,22 @@ if (twostage.includes(url['a'])) {
 // Swaps the arena  //
 
 $(document).on("click","a[name='1']",
-	var imgsrc = '/' + url['t'] + '/' + url['e'] + '/' + url['a'] + '1' + '.jpg';
+	const imgsrc = '/' + url['t'] + '/' + url['e'] + '/' + url['a'] + '1' + '.jpg';
 	const img = document.getElementById("arenaimg");
     	img.src = imgsrc;
 
 $(document).on("click","a[name='2']",
-	var imgsrc = '/' + url['t'] + '/' + url['e'] + '/' + url['a'] + '2' + '.jpg';
+	const imgsrc = '/' + url['t'] + '/' + url['e'] + '/' + url['a'] + '2' + '.jpg';
 	const img = document.getElementById("arenaimg");
     	img.src = imgsrc;
 
 $(document).on("click","a[name='3']",
-	var imgsrc = '/' + url['t'] + '/' + url['e'] + '/' + url['a'] + '3' + '.jpg';
+	const imgsrc = '/' + url['t'] + '/' + url['e'] + '/' + url['a'] + '3' + '.jpg';
 	const img = document.getElementById("arenaimg");
     	img.src = imgsrc;
 
 $(document).on("click","a[name='4']",
-	var imgsrc = '/' + url['t'] + '/' + url['e'] + '/' + url['a'] + '4' + '.jpg';
+	const imgsrc = '/' + url['t'] + '/' + url['e'] + '/' + url['a'] + '4' + '.jpg';
 	const img = document.getElementById("arenaimg");
     	img.src = imgsrc;
 	
