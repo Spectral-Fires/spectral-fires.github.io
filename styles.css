@@ -185,6 +185,10 @@ img#icon {
 .text p {
   font-size: 14px;
 }
+.text span {
+  color: #d3a03e;
+  font-weight: bold;
+}
 
 /* NAV PAGES */
 .raidimage {
