@@ -10,7 +10,7 @@ p {
 ul {
   color: #eeeeee;
   font-family: optima, sans-serif;
-  font-size: 12px;
+  font-size: .6vw;
   line-height: 1.5;
 }
 span {
@@ -183,10 +183,10 @@ img#icon {
   overflow: hidden;
 }
 .text p {
-  font-size: 12px;
+  font-size: .6vw;
 }
 .text span {
-  font-size: 12px;
+  font-size: .6vw;
   color: #d3a03e;
   font-weight: bold;
 }
