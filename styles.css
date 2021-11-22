@@ -2,19 +2,21 @@
 body {
   background-color: #121212;
 }
+a {
+  color: #EEEEEE;
+  font-family: Lucida Console;
+  font-size: .8vw;
+}
 p {
   color: #eeeeee;
-  font-family: optima, sans-serif;
-  font-size: .6vw;
-  line-height: 1.5;
+  font-family: Lucida Console;
+  font-size: .8vw;
 }
 
 #navbar {
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0,0,0,0.5);
   position: sticky;
-  font-family: "Lucida Console";
-  font-size: 1.3vw;
-  color: #EEEEEE;
+  align: center;
   width: 100%;
   height: 40%;
 }
