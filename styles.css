@@ -11,6 +11,10 @@ p {
 
 #navbar {
   background-color: rgba(0,0,0,0.3);
+  position: absolute;
+  font-family: "Lucida Console";
+  font-size: 1.3vw;
+  color: #EEEEEE;
 }
 
 .header {
