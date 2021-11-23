@@ -20,6 +20,7 @@ p {
   position: fixed;
   margin: auto;
   width: 100%;
+  z-index: 1;
 }
 
 #navbar:a {
