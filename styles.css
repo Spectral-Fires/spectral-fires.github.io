@@ -6,13 +6,13 @@ body {
 a {
   color: #EEEEEE;
   font-family: Lucida Console;
-  font-size: 1vw;
+  font-size: 16px;
   text-decoration: none;
 }
 p {
   color: #eeeeee;
   font-family: Gill Sans, sans-serif;
-  font-size: 1vw;
+  font-size: 16px;
 }
 
 #navbar {
