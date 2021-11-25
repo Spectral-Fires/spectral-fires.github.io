@@ -20,17 +20,20 @@ p {
   position: fixed;
   margin: auto;
   width: 100%;
-  z-index: 1;
 }
 
-#navbar:a {
-  padding: 10px 50px;
+#navbar a {
+  padding: 50px 10px;
+}
+
+#logo {
+  display: block;
+  margin: auto;
+  padding: 100px;
 }
 
 .header {
   position: absolute;
-  background-image: url(../images/Header.png);
-  background-position: center top;
   height: 400px;
   width: 100%;
 }
