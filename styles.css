@@ -6,31 +6,29 @@ body {
 a {
   color: #EEEEEE;
   font-family: Lucida Console;
-  font-size: .8vw;
+  font-size: 1vw;
   text-decoration: none;
 }
 p {
   color: #eeeeee;
   font-family: Gill Sans, sans-serif;
-  font-size: .8vw;
+  font-size: 1vw;
 }
 
 #navbar {
   position: fixed;
   margin: 20px 0px;
   width: 100%;
+  text-align: center;
 }
-
 #navbar a {
-  padding: 150px 0px;
+  padding: 0px 1vw;
 }
-
 #logo {
   display: block;
   margin: auto;
   padding: 50px;
 }
-
 #crest {
   position: absolute;
   display: block;
