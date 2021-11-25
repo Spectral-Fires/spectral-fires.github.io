@@ -32,6 +32,7 @@ p {
 }
 
 #crest {
+  position: absolute;
   display: block;
   margin: auto;
   padding: 50px;
