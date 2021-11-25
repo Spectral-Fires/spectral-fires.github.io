@@ -17,12 +17,12 @@ p {
 
 #navbar {
   position: fixed;
-  margin: auto;
+  margin: 20px 0px;
   width: 100%;
 }
 
 #navbar a {
-  padding: 150px 20px;
+  padding: 150px 0px;
 }
 
 #logo {
