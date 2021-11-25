@@ -11,12 +11,11 @@ a {
 }
 p {
   color: #eeeeee;
-  font-family: Lucida Console;
+  font-family: Gill Sans, sans-serif;
   font-size: .8vw;
 }
 
 #navbar {
-  background-color: rgba(0,0,0,1);
   position: fixed;
   margin: auto;
   width: 100%;
