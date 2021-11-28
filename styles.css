@@ -40,6 +40,7 @@ p {
 .header {
   position: absolute;
   background-image: url(../images/Header.png);
-  height: 600px;
+  background-position: top;
+  height: 350px;
   width: 100%;
 }
