@@ -39,6 +39,7 @@ p {
 
 .header {
   position: absolute;
-  height: 400px;
+  background-image: url(../images/Header.png);
+  height: 600px;
   width: 100%;
 }
