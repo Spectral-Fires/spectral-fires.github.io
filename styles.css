@@ -29,7 +29,7 @@ span {
 }
 #navbar a {
   padding: 0px 1vw;
-  transition: background-color .5s, transform .5s;
+  transition: color .5s, transform .5s;
 }
 a.nav:hover {
   transform: translateY(-3px); 
