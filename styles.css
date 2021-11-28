@@ -30,7 +30,7 @@ span {
 #navbar a {
   padding: 0px 1vw;
 }
-#navbar a:hover {
+a#navbar:hover {
   padding: 0px 1vw;
   transform: translateY(-3px);
   animation-delay: 2s;
