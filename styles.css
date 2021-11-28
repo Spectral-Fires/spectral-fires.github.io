@@ -63,6 +63,7 @@ a#navbar:hover {
   flex-flow: row wrap;
   justify-content: center;
   align-items: flex-start;
+  gap: 15px 15px;
 }
 .mainrow {
   width: 70%;
