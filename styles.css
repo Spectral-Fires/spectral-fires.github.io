@@ -5,11 +5,16 @@ body {
 }
 a {
   color: #EEEEEE;
-  font-family: Lucida Console;
+  font-family: Gill Sans, sans-serif;
   font-size: 20px;
   text-decoration: none;
 }
 p {
+  color: #eeeeee;
+  font-family: Gill Sans, sans-serif;
+  font-size: 20px;
+}
+span {
   color: #eeeeee;
   font-family: Gill Sans, sans-serif;
   font-size: 20px;
