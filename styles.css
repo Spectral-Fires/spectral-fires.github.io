@@ -54,16 +54,20 @@ a#navbar:hover {
   background-position: top;
   height: 350px;
   width: 100%;
+  z-index: -1;
 }
 
 #container {
   padding-top: 300px;
-  z-index: 4;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   align-items: flex-start;
 }
-  
-
+.mainrow {
+  width: 70%;
+}
+.sidebar {
+  width: 20%;
+}
 
