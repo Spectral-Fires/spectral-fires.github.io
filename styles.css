@@ -25,6 +25,7 @@ span {
   margin: 20px 0px;
   width: 100%;
   text-align: center;
+  z-index: 3;
 }
 #navbar a {
   padding: 0px 1vw;
