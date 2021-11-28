@@ -34,6 +34,7 @@ a.nav:hover {
   padding: 0px 1vw;
   transform: translateY(-3px);
   animation-delay: 2s;
+  color: #4d81f8;
 }
 #logo {
   display: block;
