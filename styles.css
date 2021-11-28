@@ -59,7 +59,7 @@ a#navbar:hover {
 #container {
   padding-top: 300px;
   z-index: 4;
-  style: flex;
+  display: flex;
   flex-flow: row wrap;
   justify-content: center;
   align-items: flex-start;
