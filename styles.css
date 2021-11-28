@@ -75,4 +75,7 @@ a.nav:hover {
   background: #1F1F1F;
   border-radius: 10px;
 }
+.content {
+  padding: 20px;
+}
 
