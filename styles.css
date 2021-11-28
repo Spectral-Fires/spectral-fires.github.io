@@ -29,11 +29,10 @@ span {
 }
 #navbar a {
   padding: 0px 1vw;
+  transition: background-color .5s, transform .5s;
 }
 a.nav:hover {
-  padding: 0px 1vw;
-  transform: translateY(-3px);
-  animation-delay: 2s;
+  transform: translateY(-3px); 
   color: #4d81f8;
 }
 #logo {
