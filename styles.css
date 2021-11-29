@@ -116,6 +116,40 @@ a.nav:hover {
   align-items: flex start;
   gap: 50px 50px;
 }
+.oinfo {
+  position: relative;
+  height: 512px;
+  width: 512px;
+}
+.oinfo_layer {
+  position: absolute;
+  top: 412px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(77, 129, 248, 0.6);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+.oinfo:hover .oinfo_layer {
+  visibility: visible;
+  opacity: 1;
+}
+.oinfo_text {
+  transition: .2s;
+  transform: translateY(1em);
+}
+.oinfo__wrap:hover .oinfo_text {
+  transform: translateY(0);
+}
+
 .catthead {
   width: 100%;
   display: block;
