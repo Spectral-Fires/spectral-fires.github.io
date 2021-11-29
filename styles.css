@@ -25,7 +25,7 @@ h2 {
 p {
   color: #BBB;
   font-family: Gill Sans, sans-serif;
-  font-size: max(.7vw, 12px);
+  font-size: max(.9vw, 14px);
   margin: 0px;
 }
 span {
@@ -37,7 +37,7 @@ ol {
   counter-reset: item;
   color: #BBB;
   font-family: Gill Sans, sans-serif;
-  font-size: max(.7vw, 12px);
+  font-size: max(.9vw, 14px);
   line-height: 1.5;
 }
 
