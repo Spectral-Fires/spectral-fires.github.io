@@ -18,7 +18,7 @@ h1 {
 h2 {
   font-size: max(.9vw, 20px);
   font-family: Gill Sans, sans-serif;
-  color: #BBB;
+  color: #EEE;
   margin: 5px;
   text-shadow: 2px 2px #000;
 }
@@ -171,6 +171,7 @@ a.nav:hover {
 .oinfo_text {
   text-shadow: 2px 2px #000;
   font-size: max(.7vw, 16px);
+  color: #EEE;
 }
 .catthead {
   width: 100%;
