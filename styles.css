@@ -23,10 +23,11 @@ span {
 
 #navbar {
   position: fixed;
-  margin: 20px 0px;
+  padding: 10px 0px;
   width: 100%;
   text-align: center;
   z-index: 3;
+  background-color: rgba(0,0,0,0.5);
 }
 #navbar a {
   padding: 0px 1vw;
