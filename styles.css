@@ -61,7 +61,6 @@ a.nav:hover {
 }
 
 #container {
-  background: #1F1F1F;
   padding-top: 300px;
   display: flex;
   flex-flow: row wrap;
@@ -87,9 +86,11 @@ a.nav:hover {
 }
 .mainrow {
   width: 100%;
+  background: #1C1C1C;
 }
 .sidebar {
   width: 100%;
+  background: #1C1C1C;
 }
 .content {
   padding: 20px;
