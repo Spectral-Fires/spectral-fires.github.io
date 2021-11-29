@@ -43,7 +43,8 @@ a.nav:hover {
 #crest {
   display: block;
   margin: auto;
-  width: 55%;
+  width: 100%;
+  max-width: 256px;
   z-index: 0;
 }
 
