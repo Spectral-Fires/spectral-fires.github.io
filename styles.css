@@ -161,4 +161,5 @@ a.nav:hover {
  background-image: url(../images/FC1.png);
  background-position: center;
  background-size: 100%;
+ filter: blur(2px);
 }
