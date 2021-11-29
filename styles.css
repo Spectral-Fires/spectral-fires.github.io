@@ -111,9 +111,11 @@ a.nav:hover {
   width: 100%;
 }
 .sidebar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 35%;
-  height: 150px;
-  max-height: 150px;
+  max-height: 145px;
   border-radius: 5px;
 }
 .content {
