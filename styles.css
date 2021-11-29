@@ -19,8 +19,7 @@ h2 {
   font-size: max(.9vw, 14px);
   font-family: Gill Sans, sans-serif;
   color: #FFF;
-  margin-bottom: 5px;
-  margin-right: 5px;
+  margin-right: 15px;
   text-shadow: 2px 2px #000;
 }
 p {
