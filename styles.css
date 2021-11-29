@@ -15,6 +15,11 @@ h1 {
   text-transform: uppercase;
   color: #4d81f8;
 }
+h2 {
+  font-size: max(.9vw, 14px);
+  font-family: Gill Sans, sans-serif;
+  color: #FFF;
+}
 p {
   color: #eeeeee;
   font-family: Gill Sans, sans-serif;
@@ -134,8 +139,6 @@ a.nav:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-
-  /* transition effect. not necessary */
   transition: opacity .2s, visibility .2s;
 }
 .oinfo:hover .oinfo_layer {
