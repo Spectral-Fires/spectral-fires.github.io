@@ -68,10 +68,20 @@ a.nav:hover {
   gap: 15px 15px;
 }
 .maincontainer {
-    width: 70%;
+  width: 70%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 15px 15px;
 }
 .subcontainer {
-    width: 20%;
+  width: 20%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 15px 15px;
 }
 .mainrow {
   width: 100%;
