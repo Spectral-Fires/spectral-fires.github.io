@@ -59,8 +59,8 @@ a.nav:hover {
   padding-top: 300px;
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
-  align-items: flex-start;
+  justify-content: center safe;
+  align-items: flex-start safe;
   gap: 15px 15px;
 }
 .mainrow {
