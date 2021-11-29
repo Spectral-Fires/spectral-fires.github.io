@@ -19,7 +19,8 @@ h2 {
   font-size: max(.9vw, 14px);
   font-family: Gill Sans, sans-serif;
   color: #FFF;
-  margin-bottom: 4px;
+  margin-bottom: 5px;
+  margin-right: 5px;
   text-shadow: 2px 2px #000;
 }
 p {
@@ -141,7 +142,7 @@ a.nav:hover {
   justify-content: center;
 }
 .oinfo_text {
-  transform: translateY(1.1em);
+  transform: translateY(1.2em);
   text-shadow: 2px 2px #000;
 }
 
