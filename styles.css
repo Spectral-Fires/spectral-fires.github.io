@@ -27,7 +27,7 @@ span {
   width: 100%;
   text-align: center;
   z-index: 3;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.8);
 }
 #navbar a {
   padding: 0px 1vw;
