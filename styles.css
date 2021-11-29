@@ -70,7 +70,7 @@ a.nav:hover {
 .maincontainer {
   width: 70%;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column;
   justify-content: center;
   align-items: flex-start;
   gap: 15px 15px;
@@ -78,7 +78,7 @@ a.nav:hover {
 .subcontainer {
   width: 20%;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column;
   justify-content: center;
   align-items: flex-start;
   gap: 15px 15px;
