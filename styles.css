@@ -134,14 +134,14 @@ a.nav:hover {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(77, 129, 248, 0.6);
+  background: rgba(58, 92, 171, 0.8);
   color: #fff;
   display: flex;
+  flex-flow: column;
   align-items: center;
   justify-content: center;
 }
 .oinfo_text {
-  transform: translateY(1.2em);
   text-shadow: 2px 2px #000;
 }
 
