@@ -110,7 +110,9 @@ a.nav:hover {
   gap: 50px 50px;
 }
 .texthead {
-  width: 100%
+  width: 100%;
+  display: block;
+  margin: auto;
 }
 .portrait {
   width: 100%;
