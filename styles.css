@@ -39,6 +39,8 @@ a.nav:hover {
   display: block;
   margin: auto;
   padding: 50px;
+  width: 100%;
+  max-width: 921px;
 }
 #crest {
   display: block;
