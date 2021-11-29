@@ -79,7 +79,7 @@ a.nav:hover {
   border-radius: 3px;
 }
 .maincontainer {
-  width: 75%;
+  width: 100%;
   display: flex;
   flex-flow: column;
   justify-content: center;
@@ -87,9 +87,9 @@ a.nav:hover {
   gap: 15px 15px;
 }
 .sidecontainer {
-  width: 20%;
+  width: 100%;
   display: flex;
-  flex-flow: column;
+  flex-flow: row wrap;
   justify-content: center;
   align-items: flex-start;
   gap: 15px 15px;
@@ -98,7 +98,7 @@ a.nav:hover {
   width: 100%;
 }
 .sidebar {
-  width: 100%;
+  width: 45%;
   border-radius: 3px;
 }
 .content {
