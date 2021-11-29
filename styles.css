@@ -75,7 +75,7 @@ a.nav:hover {
   align-items: flex-start;
   gap: 15px 15px;
 }
-.subcontainer {
+.sidecontainer {
   width: 20%;
   display: flex;
   flex-flow: column;
