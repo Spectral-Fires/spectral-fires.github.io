@@ -20,6 +20,7 @@ h2 {
   font-family: Gill Sans, sans-serif;
   color: #FFF;
   margin-bottom: 4px;
+  text-shadow: 2px 2px #000;
 }
 p {
   color: #eeeeee;
@@ -138,6 +139,10 @@ a.nav:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.oinfo_text {
+  transform: translateY(1.1em);
+  text-shadow: 2px 2px #000;
 }
 
 .catthead {
