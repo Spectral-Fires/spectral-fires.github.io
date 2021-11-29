@@ -52,7 +52,7 @@ a.nav:hover {
 }
 
 .header {
-  position: absolute;
+  position: static;
   background-image: url(../images/Header.png);
   background-position: top;
   height: 350px;
@@ -61,15 +61,17 @@ a.nav:hover {
 }
 
 #container {
-  padding-top: 300px;
+  width: 90%;
+  background: #1C1C1C;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   align-items: flex-start;
   gap: 15px 15px;
+  transform: translate(0px,-50px);
 }
 .maincontainer {
-  width: 70%;
+  width: 75%;
   display: flex;
   flex-flow: column;
   justify-content: center;
@@ -86,11 +88,9 @@ a.nav:hover {
 }
 .mainrow {
   width: 100%;
-  background: #1C1C1C;
 }
 .sidebar {
   width: 100%;
-  background: #1C1C1C;
 }
 .content {
   padding: 20px;
