@@ -39,6 +39,7 @@ ol {
   font-family: Gill Sans, sans-serif;
   font-size: max(.7vw, 12px);
   margin: 0px;
+  line-height: 2;
 }
 
 ol > li {
