@@ -139,14 +139,14 @@ a.nav:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: opacity .2s, visibility .2s;
+  transition: opacity .5s, visibility .5s;
 }
 .oinfo:hover .oinfo_layer {
   visibility: visible;
   opacity: 1;
 }
 .oinfo_text {
-  transition: .2s;
+  transition: .5s;
   transform: translateY(1em);
 }
 .oinfo__wrap:hover .oinfo_text {
