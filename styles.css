@@ -6,11 +6,11 @@ body {
 a {
   color: #EEEEEE;
   font-family: Gill Sans, sans-serif;
-  font-size: 1vw;
+  font-size: max(1vw, 20px);
   text-decoration: none;
 }
 h1 {
-  font-size: 1.5vw;
+  font-size: max(1.5vw, 36px);
   font-family: Gill Sans, sans-serif;
   text-transform: uppercase;
   color: #bbbbbb;
@@ -18,13 +18,13 @@ h1 {
 p {
   color: #eeeeee;
   font-family: Gill Sans, sans-serif;
-  font-size: .8vw;
+  font-size: max(.6vw, 16px);
   margin: 0px;
 }
 span {
   color: #eeeeee;
   font-family: Gill Sans, sans-serif;
-  font-size: 1vw;
+  font-size: max(1vw, 20px);;
 }
 
 #navbar {
