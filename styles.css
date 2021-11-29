@@ -26,6 +26,9 @@ span {
   font-family: Gill Sans, sans-serif;
   font-size: max(.9vw, 14px);;
 }
+hr {
+  border: 2px solid #222222;
+}
 
 #navbar {
   position: fixed;
