@@ -25,7 +25,7 @@ h2 {
 p {
   color: #eeeeee;
   font-family: Gill Sans, sans-serif;
-  font-size: max(.7vw, 16px);
+  font-size: max(.7vw, 12px);
   margin: 0px;
 }
 span {
@@ -143,6 +143,7 @@ a.nav:hover {
 }
 .oinfo_text {
   text-shadow: 2px 2px #000;
+  font-size: max(.7vw, 16px);
 }
 
 .catthead {
