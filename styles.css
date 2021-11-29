@@ -145,7 +145,6 @@ a.nav:hover {
   text-shadow: 2px 2px #000;
   font-size: max(.7vw, 16px);
 }
-
 .catthead {
   width: 100%;
   display: block;
@@ -157,4 +156,9 @@ a.nav:hover {
   max-width: 450px;
   border-radius: 3px;
   box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+.discord {
+ background-image: url(../images/FC1.png);
+ background-position: center;
+ background-size: 100%;
 }
