@@ -110,3 +110,7 @@ a.nav:hover {
   gap: 50px 50px;
 }
 
+.portrait {
+  width: 100%;
+  max-width: 512px;
+}
