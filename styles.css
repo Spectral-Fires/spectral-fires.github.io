@@ -69,17 +69,17 @@ a.nav:hover {
   gap: 15px 15px;
 }
 .maincontainer {
+  width: 65%;
   display: flex;
-  flex-grow: 3;
   flex-flow: column;
   justify-content: center;
   align-items: flex-start;
   gap: 15px 15px;
 }
 .sidecontainer {
+  width: 25%;
   display: flex;
   flex-flow: column;
-  flex-grow: 1;
   justify-content: center;
   align-items: flex-start;
   gap: 15px 15px;
