@@ -109,8 +109,12 @@ a.nav:hover {
   align-items: flex start;
   gap: 50px 50px;
 }
-
+.texthead {
+  width: 100%
+}
 .portrait {
   width: 100%;
   max-width: 512px;
+  border-radius: 3px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
 }
