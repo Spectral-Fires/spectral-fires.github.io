@@ -13,7 +13,7 @@ h1 {
   font-size: max(1.3vw, 24px);
   font-family: Gill Sans, sans-serif;
   text-transform: uppercase;
-  color: #4d81f8;
+  color: #3d97ff;
 }
 h2 {
   font-size: max(.9vw, 20px);
@@ -73,7 +73,7 @@ hr {
   transition: color .5s;
 }
 a.nav:hover {
-  color: #4d81f8;
+  color: 3d97ff;
 }
 #logo {
   display: block;
