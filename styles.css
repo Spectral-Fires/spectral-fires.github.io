@@ -4,7 +4,7 @@ body {
   margin: 0px;
 }
 a {
-  color: #EEEEEE;
+  color: #BBB;
   font-family: Gill Sans, sans-serif;
   font-size: max(.9vw, 14px);
   text-decoration: none;
@@ -18,24 +18,24 @@ h1 {
 h2 {
   font-size: max(.9vw, 20px);
   font-family: Gill Sans, sans-serif;
-  color: #FFF;
+  color: #BBB;
   margin: 5px;
   text-shadow: 2px 2px #000;
 }
 p {
-  color: #eeeeee;
+  color: #BBB;
   font-family: Gill Sans, sans-serif;
   font-size: max(.7vw, 12px);
   margin: 0px;
 }
 span {
-  color: #eeeeee;
+  color: #BBB;
   font-family: Gill Sans, sans-serif;
   font-size: max(.9vw, 14px);;
 }
 ol {
   counter-reset: item;
-  color: #eeeeee;
+  color: #BBB;
   font-family: Gill Sans, sans-serif;
   font-size: max(.7vw, 12px);
   line-height: 1.5;
@@ -73,7 +73,7 @@ hr {
   transition: color .5s;
 }
 a.nav:hover {
-  color: 3d97ff;
+  color: #3d97ff;
 }
 #logo {
   display: block;
