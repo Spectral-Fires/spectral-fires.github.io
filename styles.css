@@ -33,18 +33,25 @@ span {
   font-family: Gill Sans, sans-serif;
   font-size: max(.9vw, 14px);;
 }
-OL { 
-  font-size: max(.9vw, 20px);
+ol {
+  counter-reset: item;
+  color: #eeeeee;
   font-family: Gill Sans, sans-serif;
-  color: #eee;
-  counter-reset: item 
+  font-size: max(.7vw, 12px);
+  margin: 0px;
 }
-LI {
-  display: block 
+
+ol > li {
+  counter-increment: item;
 }
-LI:before { 
-  content: counters(item, ".") " "; 
-  counter-increment: item 
+
+ol ol > li {
+  display: block;
+}
+
+ol ol > li:before {
+  content: counters(item, ".") ". ";
+  margin-left: -20px;
 }
 
 hr {
