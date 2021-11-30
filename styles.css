@@ -32,6 +32,7 @@ p {
   font-family: Gill Sans, sans-serif;
   font-size: max(.9vw, 14px);
   margin: 0px;
+  line-height: 1.2;
 }
 span {
   color: #333;
@@ -43,6 +44,7 @@ ul {
   font-family: Gill Sans, sans-serif;
   font-size: max(.9vw, 14px);
   margin: 0;
+  line-height: 1.2;
 }
 ol {
   counter-reset: item;
@@ -50,6 +52,7 @@ ol {
   font-family: Gill Sans, sans-serif;
   font-size: max(.9vw, 14px);
   margin: 0;
+  line-height: 1.2;
 }
 
 ol > li {
