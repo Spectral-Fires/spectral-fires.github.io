@@ -40,6 +40,12 @@ span {
   font-family: Gill Sans, sans-serif;
   font-size: max(.9vw, 14px);;
 }
+ul {
+  color: #BBB;
+  font-family: Gill Sans, sans-serif;
+  font-size: max(.9vw, 14px);
+  margin: 0;
+}
 ol {
   counter-reset: item;
   color: #BBB;
