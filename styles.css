@@ -144,6 +144,11 @@ a.nav:hover {
 .content {
   padding: 20px;
 }
+.discord {
+ background-image: url(../images/FC1.png);
+ background-position: center;
+ background-size: 100%;
+}
 .officer {
   display: flex;
   flex-flow: row wrap;
@@ -186,8 +191,7 @@ a.nav:hover {
   border-radius: 3px;
   box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
 }
-.discord {
- background-image: url(../images/FC1.png);
- background-position: center;
- background-size: 100%;
+.job {
+  position: absolute;
+  right: 20px;
 }
