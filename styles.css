@@ -95,7 +95,8 @@ a.nav:hover {
   position: static;
   background-image: url(../images/Header.png);
   background-position: top;
-  height: 350px;
+  background-size: cover;
+  height: 375px;
   width: 100%;
   z-index: -1;
 }
