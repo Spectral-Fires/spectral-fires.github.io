@@ -81,6 +81,10 @@ hr {
   text-align: center;
   z-index: 3;
   background-color: rgba(18,18,18,0.9);
+  border: 2px solid #000;
+  border-top: 0px;
+  border-bottom-left-radius: 10em 2em;
+  border-bottom-right-radius: 10em 2em;
 }
 #navbar a {
   padding: 0px 2vw;
