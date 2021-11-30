@@ -26,8 +26,6 @@ h3 {
   font-size: max(1vw, 16px);
   font-family: Gill Sans, sans-serif;
   color: #555;
-  margin: 5px;
-  text-shadow: 2px 2px #000;
 }
 p {
   color: #BBB;
