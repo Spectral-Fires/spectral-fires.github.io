@@ -217,4 +217,5 @@ a.nav:hover {
 .job {
   position: absolute;
   right: 20px;
+  max-width: 32px;
 }
