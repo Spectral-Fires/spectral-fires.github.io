@@ -80,7 +80,7 @@ hr {
   width: 25%;
   background-color: rgba(18,18,18,1.0);
   z-index: 3;
-
+}
 #navbar {
   position: fixed;
   padding: 10px 0px;
