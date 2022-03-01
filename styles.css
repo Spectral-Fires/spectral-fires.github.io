@@ -75,11 +75,16 @@ hr {
   width: 100%;
 }
 #ToC {
-  width: 25%;
-  background-color: rgba(18,18,18,1.0);
-  z-index: 3;
-  padding: 10px 10px;
-  gap: 10px 25px;
+    width: 25%;
+    background-color: rgba(18,18,18,1.0);
+    gap: 10px 25px;
+    line-height: 1.5;
+    white-space: nowrap;
+    margin: 10px 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #BBB;
 }
 #navbar {
   position: fixed;
