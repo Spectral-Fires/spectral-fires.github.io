@@ -1,5 +1,6 @@
 body {
   background-image: url(/images/FCHouse.png);
+  filter: blur(4px);
   background-color: #121212;
   margin: 0px;
 }
