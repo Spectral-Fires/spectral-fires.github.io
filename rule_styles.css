@@ -38,7 +38,7 @@ p {
 span {
   color: #CCC;
   font-family: Gill Sans, sans-serif;
-  font-size: max(.9vw, 14px);;
+  font-size: max(1vw, 14px);;
 }
 ul {
   color: #BBB;
@@ -58,13 +58,18 @@ ol {
 #ToC {
     width: 25%;
     background-color: rgba(18,18,18,0.9);
-    gap: 10px 25px;
     line-height: 1.5;
-    white-space: nowrap;
+    padding: 10px 10px;
     margin: 10px 10px;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
     color: #BBB;
+}
+#content {    
+    width: 25%;
+    background-color: rgba(28,28,28,0.9);
+    padding: 10px 10px;
+    margin: 10px 10px;
 }
     
