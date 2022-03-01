@@ -75,8 +75,6 @@ hr {
   width: 100%;
 }
 #ToC {
-  position: fixed;
-  display: block;
   width: 25%;
   background-color: rgba(18,18,18,1.0);
   z-index: 3;
