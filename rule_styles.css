@@ -69,5 +69,7 @@ ol {
     background-color: rgba(28,28,28,0.9);
     padding: 10px 10px;
     margin: 10px 10px;
+    border-radius: 3px;
+    border: 4px solid #121212;
 }
     
