@@ -1,0 +1,69 @@
+body {
+  background-image: url(/images/FCHouse.png);
+  background-color: #121212;
+  margin: 0px;
+}
+a {
+  color: #BBB;
+  font-family: Gill Sans, sans-serif;
+  font-size: max(.9vw, 14px);
+  text-decoration: none;
+}
+h1 {
+  font-size: max(1.3vw, 24px);
+  font-family: Gill Sans, sans-serif;
+  text-transform: uppercase;
+  color: #3d97ff;
+}
+h2 {
+  font-size: max(.9vw, 20px);
+  font-family: Gill Sans, sans-serif;
+  color: #EEE;
+  margin: 5px;
+  text-shadow: 2px 2px #000;
+}
+h3 {
+  font-size: max(1vw, 16px);
+  font-family: Gill Sans, sans-serif;
+  color: #555;
+}
+p {
+  color: #BBB;
+  font-family: Gill Sans, sans-serif;
+  font-size: max(.9vw, 14px);
+  margin: 0px;
+  line-height: 1.2;
+}
+span {
+  color: #CCC;
+  font-family: Gill Sans, sans-serif;
+  font-size: max(.9vw, 14px);;
+}
+ul {
+  color: #BBB;
+  font-family: Gill Sans, sans-serif;
+  font-size: max(.9vw, 14px);
+  margin: 0;
+  line-height: 1.2;
+}
+ol {
+  counter-reset: item;
+  color: #BBB;
+  font-family: Gill Sans, sans-serif;
+  font-size: max(.9vw, 14px);
+  margin: 0;
+  line-height: 1.2;
+}
+#ToC {
+    width: 25%;
+    background-color: rgba(18,18,18,0.9);
+    gap: 10px 25px;
+    line-height: 1.5;
+    white-space: nowrap;
+    margin: 10px 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #BBB;
+}
+    
