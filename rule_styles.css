@@ -1,7 +1,5 @@
 body {
-  background-image: url(/images/FCHouse.png);
-  filter: blur(4px);
-  background-color: #121212;
+  background-color: #000000;
   margin: 0px;
 }
 a {
