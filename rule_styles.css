@@ -72,4 +72,6 @@ ol {
     border-radius: 3px;
     border: 4px solid #121212;
 }
-    
+.ri {
+  vertical-align: text-bottom;
+}
