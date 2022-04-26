@@ -240,13 +240,13 @@ a.nav:hover {
   height: 1350px;
   margin: auto;
 }
+.rhead {
+  transform: translate(-75px,10px);
+}
 .headback {
   background: linear-gradient(to left, rgba(255,0,0,0), rgba(28,28,28,1));
   margin-bottom: 45px;
   transform: translateY(10px);
-}
-.rhead {
-  transform: translateX(-75px);
 }
 .lp {
   transform: translateX(75px);
