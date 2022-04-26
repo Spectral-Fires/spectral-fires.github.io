@@ -236,3 +236,21 @@ a.nav:hover {
   height: 900px;
   margin: auto;
 }
+
+
+.reveal {
+  position: relative;
+  opacity: 0;
+}
+.reveal.active {
+  opacity: 1;
+}
+.active.fade-bottom {
+  animation: fade-bottom 1s ease-in;
+}
+.active.fade-left {
+  animation: fade-left 1s ease-in;
+}
+.active.fade-right {
+  animation: fade-right 1s ease-in;
+}
