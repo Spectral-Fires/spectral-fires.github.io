@@ -14,7 +14,6 @@ h1 {
   font-family: Gill Sans, sans-serif;
   text-transform: uppercase;
   color: #3d97ff;
-  transform: translate(75px, 0px);
   padding: 10px;
 }
 h2 {
@@ -249,9 +248,6 @@ a.nav:hover {
   background: linear-gradient(to left, rgba(255,0,0,0), rgba(28,28,28,1));
   margin-bottom: 45px;
   transform: translate(0px,10px);
-}
-.lp {
-  transform: translateX(75px);
 }
 .catimgd {
   width: 20%;
