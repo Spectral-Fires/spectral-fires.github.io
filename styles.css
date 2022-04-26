@@ -123,11 +123,13 @@ a.nav:hover {
 
 .header {
   position: static;
-  background-image: url(../images/Header.png);
+  background-image: url(../images/FCHouse.png);
   background-position: top;
   background-size: cover;
   height: 350px;
   width: 100%;
+  overflow: hidden;
+  overflow-y: hidden;
   z-index: -1;
 }
 
