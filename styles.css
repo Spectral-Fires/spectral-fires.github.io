@@ -238,15 +238,17 @@ a.nav:hover {
   display: block;
   width: 80%;
   height: 1350px;
-  margin: auto;
+  margin: auto; 
 }
-.rhead {
-  transform: translate(-75px,10px);
-}
-.headback {
+.rheadback {
   background: linear-gradient(to left, rgba(255,0,0,0), rgba(28,28,28,1));
   margin-bottom: 45px;
-  transform: translateY(10px);
+  transform: translate(-75px,10px);
+}
+.lheadback {
+  background: linear-gradient(to left, rgba(255,0,0,0), rgba(28,28,28,1));
+  margin-bottom: 45px;
+  transform: translate(0px,10px);
 }
 .lp {
   transform: translateX(75px);
