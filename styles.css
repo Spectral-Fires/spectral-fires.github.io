@@ -239,9 +239,12 @@ a.nav:hover {
 }
 .headback {
   background: linear-gradient(to left, rgba(255,0,0,0), rgba(28,28,28,1));
-  transform: translate(-75px, 10px);
   margin-bottom: 45px;
 }
+.rhead {
+    transform: translate(-75px, 10px);
+}
+  
 
 .reveal {
   position: relative;
