@@ -237,7 +237,7 @@ a.nav:hover {
 .module {
   display: block;
   width: 80%;
-  height: 1200px;
+  height: inherit;
   margin: auto; 
 }
 .rheadback {
@@ -256,7 +256,7 @@ a.nav:hover {
 .catimgd {
   width: 20%;
   min-width: 300px;
-  height: 1200px;
+  height: 45vw;
   overflow: hidden;
   z-index: 2;
   overflow-y: hidden;
