@@ -246,7 +246,10 @@ a.nav:hover {
   margin-bottom: 45px;
 }
 .rhead {
-    transform: translate(-75px, 10px);
+  transform: translate(-75px, 10px);
+}
+.lp {
+  transform: translate(75px, 10px);
 }
   
 
