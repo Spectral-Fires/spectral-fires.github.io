@@ -230,4 +230,9 @@ a.nav:hover {
   right: 20px;
   max-width: 32px;
 }
-
+.module {
+  display: block;
+  width: 80%;
+  height: 900px;
+  margin: auto;
+}
