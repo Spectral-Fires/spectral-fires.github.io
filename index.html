@@ -4,6 +4,27 @@
     <link href="styles.css" rel="stylesheet">
   </head>
   <body>
+    
+  <script>
+    function reveal() {
+      var reveals = document.querySelectorAll(".reveal");
+
+      for (var i = 0; i < reveals.length; i++) {
+        var windowHeight = window.innerHeight;
+        var elementTop = reveals[i].getBoundingClientRect().top;
+        var elementVisible = 150;
+
+        if (elementTop < windowHeight - elementVisible) {
+          reveals[i].classList.add("active");
+        } else {
+          reveals[i].classList.remove("active");
+        }
+      }
+    }
+
+    window.addEventListener("scroll", reveal);
+  </script>
+
     <nav id="navbar">
       <a class="nav" href="/">Home</a> <span>|</span>
       <a class="nav" href="#About">About Us</a> <span>|</span>
@@ -12,9 +33,11 @@
       <a class="nav" href="#Events">Events</a> <span>|</span>
       <a class="nav" href="#Resources">Resources</a>
     </nav>
+    
     <div class="header">
     <img id="logo" src="../images/Logo.png">
     </div>
+    
     <div id="container">
       <div class="maincontainer">
         <div class="mainrow">
@@ -25,20 +48,25 @@
             <p style="text-align: right;">- Naoh'li Awandah</p>
           </div>
         </div>
+    
         <hr>
+    
         <div class="sidecontainer">
           <div class="sidebar" style="background-color: #FFFFFF;">
             <div>
               <a href="https://na.finalfantasyxiv.com/lodestone/community_finder/ce6c1a7364ed527dc128443852fb0af61eed3547/"><img style="display:block; margin: auto; width: 100%; box-shadow: 2px 2px 5px rgba(0,0,0,0.5);" src="../images/CommunityFinder-LogoWordmark-Black.png"></a>
             </div>
           </div>
+          
           <div class="sidebar discord">
             <div>
               <a href="https://discord.gg/bCcppJgTBQ"><img style="display:block; margin: auto; width: 100%; box-shadow: 2px 2px 5px rgba(0,0,0,0.5);" src="../images/Discord-LogoWordmark-White.png"></a>
             </div>
           </div>
         </div>
+    
         <hr>
+    
         <div class="mainrow">
           <div class="catthead">
             <a id="About"><h1>About Us</h1></a>
@@ -49,7 +77,17 @@
         </div>
       </div>
     </div>
-      <object class="module" data="info.html"></object>
+
+<section>
+    <div style="display: flex; gap: 20px;">
+    <div class="reveal fade-right" id="image" style="width: 20%;"><img src="../images/site1.png"  width="100%"></div>
+    <div class="reveal fade-bottom" id="text" style="width: 80%;">
+    <a id="Leadership"><h1>Leadership</h1></a>
+    <p>The Leadership of Spectral Fires has been designed to an ever-changing, readily adapative team relative to the needs of the Free Company. We mean to achieve this through a two-tier system of leadership: a permanent <span style="color:rgba(121, 41, 35, 1);"><b>Council</b></span> and a temporary elected team of <span style="color:#3d97ff;"><b>Officers</b></span>. At present, our combined leadership consists of <b>3 Council Members</b> and <b>0 Officers</b></p>
+    </div>
+  </div>
+</section>
+
   </body>
 
 </html>
