@@ -22,7 +22,7 @@ h2 {
   font-family: Gill Sans, sans-serif;
   color: rgba(121, 41, 35, 1);
   margin: 5px;
-  text-shadow: 2px 2px #000;
+  text-transform: uppercase;
   transform: translate(75px, 0px);
   padding: 10px;
 }
