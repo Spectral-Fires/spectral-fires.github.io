@@ -234,7 +234,7 @@ a.nav:hover {
 .module {
   display: block;
   width: 80%;
-  height: -webkit-fill-available;
+  height: 1350px;
   margin: auto;
 }
 .headback {
