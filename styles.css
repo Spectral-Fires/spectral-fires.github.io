@@ -233,7 +233,7 @@ a.nav:hover {
 .module {
   display: block;
   width: 80%;
-  height: 900px;
+  height: inherit;
   margin: auto;
 }
 
