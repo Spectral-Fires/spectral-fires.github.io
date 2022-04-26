@@ -47,7 +47,7 @@ ul {
   color: #BBB;
   font-family: Gill Sans, sans-serif;
   font-size: max(.9vw, 14px);
-  margin: 0;
+  margin: 20px 0px;
   line-height: 1.2;
 }
 ol {
