@@ -248,7 +248,7 @@ a.nav:hover {
   transform: translate(-75px, 10px);
 }
 .lp {
-  transform: translate(75px, 10px);
+  transform: translate(75px, 0px);
 }
   
 
