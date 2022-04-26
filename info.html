@@ -4,6 +4,25 @@
     <link href="styles.css" rel="stylesheet">
   </head>
   <body>
+        <script>
+      function reveal() {
+        var reveals = document.querySelectorAll(".reveal");
+
+        for (var i = 0; i < reveals.length; i++) {
+          var windowHeight = window.innerHeight;
+          var elementTop = reveals[i].getBoundingClientRect().top;
+          var elementVisible = 150;
+
+          if (elementTop < windowHeight - elementVisible) {
+            reveals[i].classList.add("active");
+          } else {
+            reveals[i].classList.remove("active");
+          }
+        }
+      }
+
+      window.addEventListener("scroll", reveal);
+    </script>
   <div style="display: flex; gap: 20px;">
     <div class="reveal fade-right" id="image" style="width: 20%;"><img src="../images/site1.png"  width="100%"></div>
     <div class="reveal fade-bottom" id="text" style="width: 80%;">
