@@ -236,6 +236,7 @@ a.nav:hover {
   width: 80%;
   height: inherit;
   margin: auto; 
+  margin-bottom: 50px;
 }
 .rheadback {
   background: linear-gradient(to left, rgba(255,0,0,0), rgba(28,28,28,1));
