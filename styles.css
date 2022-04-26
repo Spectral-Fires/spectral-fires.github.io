@@ -103,6 +103,13 @@ hr {
 a.nav:hover {
   color: #3d97ff;
 }
+link {
+  color: #3d97ff;
+}
+link:hover {
+  text-decoration: italic;
+  cursor: pointer;
+}
 #logo {
   display: block;
   margin: auto;
