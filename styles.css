@@ -95,7 +95,6 @@ hr {
   text-align: center;
   z-index: 3;
   background-color: rgba(18,18,18,0.9);
-  border: 2px solid #000;
   border-top: 0px;
   border-bottom-left-radius: 10em 2em;
   border-bottom-right-radius: 10em 2em;
@@ -142,7 +141,7 @@ a.nav:hover {
   align-items: flex-start;
   gap: 15px 15px;
   transform: translate(0px,-50px);
-  border-radius: 3px;
+  border-radius: 3px 3px 20px 20px;
   border: 4px solid #121212;
 }
 .maincontainer {
