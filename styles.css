@@ -243,12 +243,13 @@ a.nav:hover {
 .headback {
   background: linear-gradient(to left, rgba(255,0,0,0), rgba(28,28,28,1));
   margin-bottom: 45px;
+  transform: translateY(10px);
 }
 .rhead {
-  transform: translate(-75px, 10px);
+  transform: translateX(-75px);
 }
 .lp {
-  transform: translate(75px, 0px);
+  transform: translateX(75px);
 }
   
 
