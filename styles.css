@@ -215,10 +215,17 @@ a.nav:hover {
   align-items: center;
   justify-content: center;
 }
+.oinfo_name {
+  text-shadow: 2px 2px #000;
+  font-size: max(.9vw, 20px);
+  color: #EEE;
+  text-align: center;
+}
 .oinfo_text {
   text-shadow: 2px 2px #000;
   font-size: max(.7vw, 16px);
   color: #EEE;
+  text-align: center;
 }
 .c_color {
   background: rgba(121, 41, 35, 0.8);
