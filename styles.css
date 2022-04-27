@@ -109,9 +109,10 @@ a.nav:hover {
   font-size: max(.9vw, 14px);
   margin: 0px;
   line-height: 1.2;
+  transition: color .5s;
 }
 .link:hover {
-  text-decoration: italic;
+  color: linear-gradient(to top, rgba(61,161,255,1), rgba(131,191,255,1));
   cursor: pointer;
 }
 #logo {
