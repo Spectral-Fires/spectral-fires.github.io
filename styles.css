@@ -112,7 +112,7 @@ a.nav:hover {
   transition: color .5s;
 }
 .link:hover {
-  color: linear-gradient(to top, rgba(61,161,255,1), rgba(131,191,255,1));
+  color: rgba(131,191,255,1);
   cursor: pointer;
 }
 #logo {
