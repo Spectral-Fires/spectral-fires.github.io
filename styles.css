@@ -103,10 +103,14 @@ hr {
 a.nav:hover {
   color: #3d97ff;
 }
-link {
+.link {
   color: #3d97ff;
+  font-family: Gill Sans, sans-serif;
+  font-size: max(.9vw, 14px);
+  margin: 0px;
+  line-height: 1.2;
 }
-link:hover {
+.link:hover {
   text-decoration: italic;
   cursor: pointer;
 }
