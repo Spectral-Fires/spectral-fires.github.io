@@ -21,6 +21,10 @@ input, textarea {
   padding: 5px;
 }
 
+.inline {
+  display: inline;
+}
+
 .inline label {
   padding: 0px 100px;
   color: #ccc
