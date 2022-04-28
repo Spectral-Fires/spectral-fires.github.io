@@ -1,1 +1,22 @@
+form {
+  padding: 60px;
+  width: 550px;
+  max-width: calc(100% - 60px);
+}
 
+.form-element {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+span {
+  margin-bottom: 10px;
+}
+
+input, textarea {
+  border: 1px solid #ccc;
+  line-height: 1.7;
+  border-radius: 5px;
+  padding: 5px;
+}
