@@ -204,6 +204,7 @@ a.nav:hover {
 }  
 .resource li {
   margin-bottom: 20px;
+  line-height: 1;
 }
 
 /* ---------- Officer Displays ---------- */
