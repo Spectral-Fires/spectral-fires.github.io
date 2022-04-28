@@ -1,4 +1,4 @@
-/* Main CSS */
+/* ---------- Main CSS ---------- */
 html {
   scroll-behavior: smooth;
   scroll-padding: 50px;
@@ -13,8 +13,7 @@ hr {
   width: 100%;
 }
 
-/* Text */
-
+/* ---------- General Text ---------- */
 h1 {
   font-size: max(1.3vw, 24px);
   font-family: Gill Sans, sans-serif;
@@ -90,7 +89,7 @@ ol ol > li:before {
   cursor: pointer;
 }
 
-/*Navigation*/
+/* ---------- Navigation ---------- */
 #navbar {
   position: fixed;
   padding: 10px 0px;
@@ -109,7 +108,7 @@ a.nav:hover {
   color: #3d97ff;
 }
 
-/* Header */
+/* ---------- Header ---------- */
 #logo {
   display: block;
   margin: auto;
@@ -137,8 +136,7 @@ a.nav:hover {
   box-shadow: 0px 2px 5px rgb(0 0 0 / 50%);
 }
 
-/* Body */
-
+/* ---------- Body ---------- */
 #container {
   width: 80%;
   margin: auto;
@@ -200,8 +198,7 @@ a.nav:hover {
   transform: translateX(-10%)
 }  
 
-/* Officer Display */
-
+/* ---------- Officer Displays ---------- */
 .officer {
   display: flex;
   flex-flow: row wrap;
@@ -256,8 +253,7 @@ a.nav:hover {
   max-width: 32px;
 }
 
-/* Animation CSS */
-  
+/* ---------- Animation CSS ---------- */
 .reveal {
   position: relative;
   opacity: 0;
