@@ -1,20 +1,19 @@
-/* Page */
+/* Main CSS */
 html {
   scroll-behavior: smooth;
   scroll-padding: 50px;
 }
-
 body {
   background-color: #121212;
   margin: 0px;
 }
-
-a {
-  color: #BBB;
-  font-family: Gill Sans, sans-serif;
-  font-size: max(.9vw, 14px);
-  text-decoration: none;
+hr {
+  border: 2px solid #222222;
+  margin: 15px 0px;
+  width: 100%;
 }
+
+/* Text */
 
 h1 {
   font-size: max(1.3vw, 24px);
@@ -23,7 +22,6 @@ h1 {
   color: #3d97ff;
   padding: 10px;
 }
-
 h2 {
   font-size: max(1vw, 20px);
   font-family: Gill Sans, sans-serif;
@@ -32,13 +30,11 @@ h2 {
   text-transform: uppercase;
   padding: 10px;
 }
-
 h3 {
   font-size: max(1vw, 16px);
   font-family: Gill Sans, sans-serif;
   color: #555;
 }
-
 p {
   color: #BBB;
   font-family: Gill Sans, sans-serif;
@@ -46,20 +42,23 @@ p {
   margin: 0px;
   line-height: 1.2;
 }
-
 span {
   color: #333;
   font-family: Gill Sans, sans-serif;
   font-size: max(.9vw, 14px);;
 }
-
+a {
+  color: #BBB;
+  font-family: Gill Sans, sans-serif;
+  font-size: max(.9vw, 14px);
+  text-decoration: none;
+}
 ul {
   color: #BBB;
   font-family: Gill Sans, sans-serif;
   font-size: max(.9vw, 14px);
   line-height: 1.7;
 }
-
 ol {
   counter-reset: item;
   color: #BBB;
@@ -68,37 +67,30 @@ ol {
   margin: 0;
   line-height: 1.7;
 }
-
 ol > li {
   counter-increment: item;
 }
-
 ol ol > li {
   display: block;
 }
-
 ol ol > li:before {
   content: counters(item, ".") ". ";
   margin-left: -20px;
 }
+.link {
+  color: #3d97ff;
+  font-family: Gill Sans, sans-serif;
+  font-size: max(.9vw, 14px);
+  margin: 0px;
+  line-height: 1.2;
+  transition: color .5s;
+}
+.link:hover {
+  color: rgba(131,191,255,1);
+  cursor: pointer;
+}
 
-hr {
-  border: 2px solid #222222;
-  margin: 15px 0px;
-  width: 100%;
-}
-#ToC {
-    width: 25%;
-    background-color: rgba(18,18,18,1.0);
-    gap: 10px 25px;
-    line-height: 1.5;
-    white-space: nowrap;
-    margin: 10px 10px;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    color: #BBB;
-}
+/*Navigation*/
 #navbar {
   position: fixed;
   padding: 10px 0px;
@@ -116,18 +108,8 @@ hr {
 a.nav:hover {
   color: #3d97ff;
 }
-.link {
-  color: #3d97ff;
-  font-family: Gill Sans, sans-serif;
-  font-size: max(.9vw, 14px);
-  margin: 0px;
-  line-height: 1.2;
-  transition: color .5s;
-}
-.link:hover {
-  color: rgba(131,191,255,1);
-  cursor: pointer;
-}
+
+/* Header */
 #logo {
   display: block;
   margin: auto;
@@ -142,7 +124,6 @@ a.nav:hover {
   max-width: 256px;
   z-index: 0;
 }
-
 .header {
   position: static;
   background-image: url(../images/Header.png);
@@ -155,6 +136,8 @@ a.nav:hover {
   z-index: -1;
   box-shadow: 0px 2px 5px rgb(0 0 0 / 50%);
 }
+
+/* Body */
 
 #container {
   width: 80%;
@@ -177,33 +160,48 @@ a.nav:hover {
   align-items: flex-start;
   gap: 15px 15px;
 }
-.sidecontainer {
-  width: 100%;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
-  align-items: flex-start;
-  gap: 15px 15px;
-}
 .mainrow {
   width: 100%;
-}
-.sidebar {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 35%;
-  max-height: 145px;
-  border-radius: 5px;
 }
 .content {
   padding: 20px;
 }
-.discord {
- background-image: url(../images/FC1.png);
- background-position: center;
- background-size: 100%;
+.module {
+  display: block;
+  width: 80%;
+  height: inherit;
+  margin: auto; 
+  margin-bottom: 50px;
 }
+.rheadback {
+  background: linear-gradient(to left, rgba(255,0,0,0), rgba(28,28,28,1));
+  margin-bottom: 45px;
+  transform: translate(-75px,10px);
+}
+.lheadback {
+  background: linear-gradient(to left, rgba(255,0,0,0), rgba(28,28,28,1));
+  margin-bottom: 45px;
+  transform: translate(0px,10px);
+}
+.catimgd {
+  width: 20%;
+  min-width: 300px;
+  height: 45vw;
+  min-height: 1200px;
+  overflow: hidden;
+  z-index: 2;
+  overflow-y: hidden;
+  border-radius: 3px 3px 20px 20px;
+  box-shadow: 2px 2px 5px rgb(0 0 0 / 50%);
+}
+.catimg {
+  position: relative; 
+  right: 125px; 
+  transform: translateX(-10%)
+}  
+
+/* Officer Display */
+
 .officer {
   display: flex;
   flex-flow: row wrap;
@@ -246,12 +244,6 @@ a.nav:hover {
 .o_color {
   background: rgba(58, 92, 171, 0.8);
 }
-.catthead {
-  width: 100%;
-  display: block;
-  margin: auto;
-  text-align: center;
-}
 .portrait {
   width: 100%;
   max-width: 450px;
@@ -263,39 +255,8 @@ a.nav:hover {
   right: 20px;
   max-width: 32px;
 }
-.module {
-  display: block;
-  width: 80%;
-  height: inherit;
-  margin: auto; 
-  margin-bottom: 50px;
-}
-.rheadback {
-  background: linear-gradient(to left, rgba(255,0,0,0), rgba(28,28,28,1));
-  margin-bottom: 45px;
-  transform: translate(-75px,10px);
-}
-.lheadback {
-  background: linear-gradient(to left, rgba(255,0,0,0), rgba(28,28,28,1));
-  margin-bottom: 45px;
-  transform: translate(0px,10px);
-}
-.catimgd {
-  width: 20%;
-  min-width: 300px;
-  height: 45vw;
-  min-height: 1200px;
-  overflow: hidden;
-  z-index: 2;
-  overflow-y: hidden;
-  border-radius: 3px 3px 20px 20px;
-  box-shadow: 2px 2px 5px rgb(0 0 0 / 50%);
-}
-.catimg {
-  position: relative; 
-  right: 125px; 
-  transform: translateX(-10%)
-}  
+
+/* Animation CSS */
   
 .reveal {
   position: relative;
