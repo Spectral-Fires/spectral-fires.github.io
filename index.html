@@ -25,15 +25,24 @@
     window.addEventListener("scroll", reveal);
   </script>
 
-    <nav id="navbar">
-      <img id="crest" src="../images/FC Crest.png" style="position: absolute; width: max(2.2vw, 32px); top: 5; left:2%; display: inline;">
-      <a class="nav" href="#">Home</a> <span>|</span>
-      <a class="nav" href="#About">About Us</a> <span>|</span>
-      <a class="nav" href="#Events">Events</a> <span>|</span>
-      <a class="nav" href="#Officers">Officers</a> <span>|</span>
-      <a class="nav" href="#Resources">Resources</a> <span>|</span>
-      <a class="nav" href="#Signup">Join Today</a>
-    </nav>
+  <div id="navbar">
+    <ul id="nav">
+      <li><a class="nav" href="#">Home</a></li> <li><span>|</span></li>
+      <li><a class="nav" href="#About">About Us</a>
+      <ul>
+        <li class="sub"><a class="nav" href="#Structure">Leadership Structure</li>
+        <li class="sub"><a class="nav" href="#Rules">Rules</li>
+      </ul></li> <li><span>|</span></li>
+      <li><a class="nav" href="#Events">Events</a>
+      <ul>
+        <li class="sub"><a class="nav" href="#Lotto">Monthly Lotto</a></li>
+        <li class="sub"><a class="nav" href="#Maps">Map Nights</a></li>
+      </ul></li> <li><span>|</span></li>
+      <li><a class="nav" href="#Officers">Officers</a> <li><span>|</span></li>
+      <li><a class="nav" href="#Resources">Resources</a> <li><span>|</span></li>
+      <li><a class="nav" href="#Signup">Join Today</a></li>
+    </ul>
+  </div>
     
     <div class="header">
     <img id="logo" src="../images/Logo.png">
@@ -60,11 +69,11 @@
           <p>Recruitment Began May 2022</p> <br>
           <p>Housed in Empyreum, Ward 17, Plot 32</p> <br>
           <p>Rank 30</p>
-          <div class="rheadback rhead"><h2 style="transform: translate(50px, 0px);">Leadership Structure</h1></div>
+          <div id="Structure" class="rheadback rhead"><h2 style="transform: translate(50px, 0px);">Leadership Structure</h1></div>
         <p>When planning our FC, we wanted to ensure from the start that we had a leadership system that would be readily adaptible to the needs of the Free Company, and always allow for fresh ideas and new input. At the same time, we know that there needs to be a stable core to maintain the guiding principles of the organization and ensure we stay true to our goals. As a result we settled on having a two-house system of leadership: a permanent <span style="color:rgba(121, 41, 35, 1);"><b>Council</b></span> and a temporary elected team of <span style="color:#3d97ff;"><b>Officers</b></span>. <br><br>
           
           Our current leadership team consists of <b>3 Council Members</b> and <b>0 Officers</b>. For more information about how our leadership works, check out the static charter. You can also find a full list of our officers and council members further down!</p>
-          <div class="rheadback rhead"><a id="Leadership"><h2 style="transform: translate(50px, 0px);">Rules</h1></a></div>
+          <div id="Rules" class="rheadback rhead"><h2 style="transform: translate(50px, 0px);">Rules</h1></div>
           <p>Below is the most basic outline of our expectations for members and officers alike to follow.</p>
             <ul>
             <li>First and foremost be an adult. If you are under 18 and we find out, you're gone. No exception.
@@ -88,7 +97,7 @@
         <div class="reveal fade-bottom" id="text" style="width: 80%; z-index: 1;">
           <div class="lheadback"><h1>Events</h1></div>
             <p class="lp">Fridays mean Fire! Join us every Friday for events, contests and more!</p>
-          <div class="lheadback"><h2>Phoenix's Favor - Monthly Lottery</h1> </div>
+          <div id="Lotto" class="lheadback"><h2>Phoenix's Favor - Monthly Lottery</h1> </div>
             <p class="lp">The last Friday of every month is Lotto time! Throw your gil into the pyre and take a chance to rise from the ashes with newfound wealth and riches!</p>
             <h3 class="lp">How to Enter</h3>
             <ul class="lp">
@@ -116,7 +125,7 @@
         <div style="display: flex; gap: 75px;">
         <div class="reveal fade-left catimgd" id="image"><img class="catimg" src="../images/site4.png"></div>
         <div class="reveal fade-bottom" id="text" style="width: 80%; z-index: 1;">
-          <div class="rheadback"><h2 style="transform: translate(50px, 0px);">Fire's Fortune - Weekly Treasure Maps</h1></div>
+          <div id="Maps" class="rheadback"><h2 style="transform: translate(50px, 0px);">Fire's Fortune - Weekly Treasure Maps</h1></div>
             <p>Join us every Friday at 9:00PM ET in the FC House yard for Treasure Maps!</p>
             <h3>How to Enter</h3>
             <ul>
