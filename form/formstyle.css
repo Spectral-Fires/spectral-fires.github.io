@@ -1,6 +1,6 @@
 form {
   padding: 60px;
-  width: 550px;
+  width: 80%;
   max-width: calc(100% - 60px);
 }
 
@@ -26,6 +26,6 @@ input, textarea {
 }
 
 .inline label {
-  padding: 0px 100px;
+  padding: 0px 20px;
   color: #ccc
 }
