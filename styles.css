@@ -205,7 +205,7 @@ a.nav:hover {
 .resource li {
   margin-bottom: 20px;
   line-height: 1.2;
-  list-style-type: "🔥";
+  list-style-type: "🔥 ";
 }
 
 /* ---------- Officer Displays ---------- */
