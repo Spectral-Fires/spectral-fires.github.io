@@ -88,6 +88,11 @@ ol ol > li:before {
   color: rgba(131,191,255,1);
   cursor: pointer;
 }
+.desc {
+  color: #555;
+  font-style: italic;
+  font-size: max(.7vw, 12px);
+}
 
 /* ---------- Navigation ---------- */
 #navbar {
