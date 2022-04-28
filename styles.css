@@ -184,6 +184,7 @@ a.nav:hover {
   /* this should be the same width as the parent list item */
   margin-top: -35px;
   /* aligns top of sub menu with top of list item */
+}
 
 /* ---------- Header ---------- */
 #logo {
