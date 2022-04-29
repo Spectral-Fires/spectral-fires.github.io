@@ -6,6 +6,7 @@ form {
   padding: 60px;
   width: 80%;
   max-width: calc(100% - 60px);
+  max-height: calc(100% - 60px);
 }
 
 .form-element {
@@ -18,19 +19,24 @@ span {
   margin-bottom: 10px;
   color: #BBB;
   font-family: Gill Sans, sans-serif;
-  font-size: max(.9vw, 14px);
+  font-size: max(1.2vw, 14px);
   margin: 0px;
-  line-height: 1.2;
+  line-height: 1.7;
 }
 
 input, textarea {
   border: 5px double #222;
   color: #BBB;
   font-family: Gill Sans, sans-serif;
-  line-height: 1.2;
+  font-size: max(1.2vw, 14px);
+  line-height: 1.7;
   border-radius: 5px;
   padding: 5px;
   background: #1C1C1C;
+}
+
+input[type=radio] {
+  margin: 20px 0px;
 }
 
 .inline {
