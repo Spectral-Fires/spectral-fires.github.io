@@ -3,7 +3,7 @@ body {
 }
 
 form {
-  width: 80%;
+  width: 100%;
   max-width: calc(100% - 60px);
   max-height: calc(100% - 60px);
 }
@@ -42,8 +42,12 @@ input[type=radio] {
   display: inline;
 }
 
+.inline span {
+  color: #555;
+}
+
 .inline label {
-  padding: 0px 20px;
+  padding: 0px 10px;
   color: #ccc
 }
 
