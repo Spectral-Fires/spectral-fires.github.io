@@ -23,6 +23,7 @@ input, textarea {
   line-height: 1.7;
   border-radius: 5px;
   padding: 5px;
+  background: #1C1C1C;
 }
 
 .inline {
