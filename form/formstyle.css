@@ -51,7 +51,7 @@ input[type=radio] {
   color: #ccc
 }
 
-.button {
+button {
   background-color: #3d97ff;
   border-radius: 5px;
   color: #BBB;
@@ -62,6 +62,6 @@ input[type=radio] {
   font-size: max(1.2vw, 14px);
 }
 
-.button:hover {
+button:hover {
   background-color: rgba(131,191,255,1);
 }
