@@ -221,6 +221,9 @@ a.nav:hover {
   height: 450px;
   width: 450px;
 }
+.oinfo:hover {
+  transform: scale(1.1);
+}
 .oinfo_layer {
   position: absolute;
   top: 350px;
@@ -232,6 +235,7 @@ a.nav:hover {
   flex-flow: column;
   align-items: center;
   justify-content: center;
+  border: 0px 0px 10px 10px;
 }
 .oinfo_name {
   text-shadow: 2px 2px #000;
@@ -254,8 +258,9 @@ a.nav:hover {
 .portrait {
   width: 100%;
   max-width: 450px;
-  border-radius: 3px;
+  border-radius: 10px;
   box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+  border-radius: 10px 10px (15em 1em) (15em 1em);
 }
 .job {
   position: absolute;
