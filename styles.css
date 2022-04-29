@@ -235,7 +235,7 @@ a.nav:hover {
   flex-flow: column;
   align-items: center;
   justify-content: center;
-  border: 0px 0px 10px 10px;
+  border-radius: 0px 0px 10px 10px;
 }
 .oinfo_name {
   text-shadow: 2px 2px #000;
