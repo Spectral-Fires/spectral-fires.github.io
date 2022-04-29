@@ -1,78 +1,124 @@
 body {
   background-color: #000000;
-  margin: 0px;
+  margin: 0;
+  scroll-behavior: smooth;
 }
+
 a {
   color: #BBB;
   font-family: Gill Sans, sans-serif;
   font-size: max(.9vw, 14px);
   text-decoration: none;
+  transition: color .5s, margin .5s;
 }
+
+a:hover {
+  color: #3d97ff ;
+  margin: 5px;
+}
+
 h1 {
-  font-size: max(1.3vw, 24px);
-  font-family: Gill Sans, sans-serif;
-  text-transform: uppercase;
   color: #3d97ff;
-}
-h2 {
-  font-size: max(.9vw, 20px);
   font-family: Gill Sans, sans-serif;
+  font-size: max(1.3vw, 24px);
+  text-transform: uppercase;
+}
+
+h2 {
   color: #EEE;
+  font-family: Gill Sans, sans-serif;
+  font-size: max(.9vw, 20px);
   margin: 5px;
   text-shadow: 2px 2px #000;
+  text-transform: capitalize;
 }
+
 h3 {
+  font-size: max(.8vw, 16px);
+  font-family: Gill Sans, sans-serif;
+  color: rgba(121, 41, 35, 1);
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+h4 {
   font-size: max(1vw, 16px);
   font-family: Gill Sans, sans-serif;
   color: #555;
+  line-height: 1;
+  margin-bottom: 4;
 }
+
 p {
   color: #BBB;
   font-family: Gill Sans, sans-serif;
-  font-size: max(.9vw, 14px);
+  font-size: max(1.1vw, 18px);
   margin: 0px;
-  line-height: 1.2;
+  line-height: 1.5;
 }
+
 span {
   color: #CCC;
   font-family: Gill Sans, sans-serif;
-  font-size: max(2.5vw, 14px);;
+  font-size: max(2.5vw, 14px);
 }
+
 ul {
   color: #BBB;
   font-family: Gill Sans, sans-serif;
-  font-size: max(.9vw, 14px);
-  margin: 0;
-  line-height: 1.2;
+  font-size: max(1.1vw, 18px);
+  margin: 20 -10;
+  line-height: 1.5;
 }
+
 ol {
   counter-reset: item;
   color: #BBB;
   font-family: Gill Sans, sans-serif;
   font-size: max(.9vw, 14px);
   margin: 0;
-  line-height: 1.2;
+  line-height: 1.5;
 }
+
+section {
+  display: block;
+  height: 1200px;
+}
+
+hr {
+  width: 75%;
+  margin: -15px 0px 25px 0px;
+  border: 1px solid #555;
+}
+
 #ToC {
-    width: 25%;
-    background-color: rgba(18,18,18,0.9);
-    line-height: 1.5;
-    padding: 10px 10px;
-    margin: 10px 10px;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    color: #BBB;
+  width: 25%;
+  background-color: rgba(18, 18, 18, 0.9);
+  line-height: 1.5;
+  padding: 10px 10px;
+  margin: 10px 10px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #BBB;
 }
-#content {    
-    width: 75%;
-    background-color: rgba(28,28,28,0.9);
-    padding: 10px 10px;
-    margin: 10px 10px;
-    border-radius: 3px;
-    border: 4px solid #121212;
+
+#content {
+  width: 75%;
+  max-height: 1200px;
+  background-color: rgba(28, 28, 28, 0.9);
+  padding: 10px 10px;
+  margin: 10px 10px;
+  border-radius: 3px;
+  border: 4px solid #121212;
+  overflow-y: scroll
+    ;
 }
+
 .ri {
   vertical-align: text-bottom;
   padding-right: 10px;
+}
+.indent {
+  margin-left: 20px;
 }
