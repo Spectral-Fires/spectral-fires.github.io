@@ -18,12 +18,14 @@ span {
   margin-bottom: 10px;
   color: #BBB;
   font-family: Gill Sans, sans-serif;
+  font-size: max(.9vw, 14px);
   margin: 0px;
   line-height: 1.2;
 }
 
 input, textarea {
-  border: 1px solid #ccc;
+  border: 5px double #222;
+  color: #BBB;
   font-family: Gill Sans, sans-serif;
   line-height: 1.2;
   border-radius: 5px;
