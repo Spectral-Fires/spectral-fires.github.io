@@ -53,6 +53,7 @@ input[type=radio] {
 
 button {
   background-color: #3d97ff;
+  border: 0px;
   border-radius: 5px;
   color: #BBB;
   padding: 15px 32px;
@@ -60,8 +61,10 @@ button {
   text-decoration: none;
   display: inline-block;
   font-size: max(1.2vw, 14px);
+  transition: color .5s;
 }
 
 button:hover {
   background-color: rgba(131,191,255,1);
+  color: #fff;
 }
