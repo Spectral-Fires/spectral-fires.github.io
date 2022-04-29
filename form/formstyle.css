@@ -42,7 +42,7 @@ input[type=radio] {
   display: inline;
 }
 
-.inline span {
+.subtext {
   color: #555;
 }
 
