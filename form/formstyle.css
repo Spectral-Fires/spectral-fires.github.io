@@ -3,7 +3,6 @@ body {
 }
 
 form {
-  padding: 60px;
   width: 80%;
   max-width: calc(100% - 60px);
   max-height: calc(100% - 60px);
