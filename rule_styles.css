@@ -1,7 +1,6 @@
 body {
   background-color: #000000;
   margin: 0;
-  scroll-behavior: smooth;
 }
 
 a {
@@ -111,14 +110,16 @@ hr {
   margin: 10px 10px;
   border-radius: 3px;
   border: 4px solid #121212;
-  overflow-y: scroll
-    ;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 10px;
 }
 
 .ri {
   vertical-align: text-bottom;
   padding-right: 10px;
 }
+
 .indent {
   margin-left: 20px;
 }
