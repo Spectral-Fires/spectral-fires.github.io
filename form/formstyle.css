@@ -61,7 +61,7 @@ button {
   text-decoration: none;
   display: inline-block;
   font-size: max(1.2vw, 14px);
-  transition: color .5s;
+  transition: color .5s, background-color .5s;
 }
 
 button:hover {
