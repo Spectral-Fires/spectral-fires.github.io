@@ -16,11 +16,16 @@ form {
 
 span {
   margin-bottom: 10px;
+  color: #BBB;
+  font-family: Gill Sans, sans-serif;
+  margin: 0px;
+  line-height: 1.2;
 }
 
 input, textarea {
   border: 1px solid #ccc;
-  line-height: 1.7;
+  font-family: Gill Sans, sans-serif;
+  line-height: 1.2;
   border-radius: 5px;
   padding: 5px;
   background: #1C1C1C;
