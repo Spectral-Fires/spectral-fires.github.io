@@ -9,8 +9,8 @@
   <body>
     
     <script type="text/javascript">var submitted=false;</script>
-    <iframe id="redirect" style="display:none;" onload="if(submitted) {window.location='https://spectral-fires.github.io/';}"></iframe>
-    <form action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSffTUMXrK6nnGHlThqc4ELuEZ0rCjaVacRQeQINJX8XN3lDvA/formResponse" method="post" target="redirect" onsubmit="submitted=true;">
+    <iframe id="redirectme" style="display:none;" onload="if(submitted) {window.location='https://spectral-fires.github.io/';}"></iframe>
+    <form action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSffTUMXrK6nnGHlThqc4ELuEZ0rCjaVacRQeQINJX8XN3lDvA/formResponse" method="post" target="redirectme" onsubmit="submitted=true;">
       
       <div class="form-element">
         <span>Character Name (Please make sure this is accurate!)</span>
@@ -77,7 +77,7 @@
         </label>
       </div>
         
-        <button type="submit">Send Application</button>
+        <button type="submit" id="submit" value="submit">Send Application</button>
       
     </form>
   </body>
