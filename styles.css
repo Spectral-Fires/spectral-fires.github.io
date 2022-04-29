@@ -260,7 +260,7 @@ a.nav:hover {
   max-width: 450px;
   border-radius: 10px;
   box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
-  border-radius: 10px 10px (15em 1em) (15em 1em);
+  border-radius: 5px 5px 10px 10px;
 }
 .job {
   position: absolute;
