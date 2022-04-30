@@ -35,7 +35,7 @@ input, textarea {
 }
 
 input[type=radio] {
-  margin: 10px 0px;
+  margin: 10px 0px 20px 0px;
 }
 
 .inline {
@@ -44,11 +44,11 @@ input[type=radio] {
 
 .subtext {
   color: #555;
-  padding-right: 145px;
+  padding-right: 195px;
 }
 
 .inline label {
-  padding: 0px 20px;
+  padding: 0px 25px;
   color: #ccc
 }
 
