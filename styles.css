@@ -279,6 +279,7 @@ a.nav:hover {
   margin: auto;
   width: 20%;
   transition: 1s ease all;
+  opacity: 25%;
 }
 
 .hov {
