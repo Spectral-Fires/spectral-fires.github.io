@@ -283,13 +283,14 @@ a.nav:hover {
 }
 
 .hov {
+  max-width: 5%;
   position: relative;
   display: inline-block;
 }
 
 .hov .hovtext {
   visibility: hidden;
-  width: 75%;
+  width: 100%;
   background-color: #555;
   color: #fff;
   text-align: center;
