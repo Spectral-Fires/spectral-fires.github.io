@@ -277,13 +277,13 @@ a.nav:hover {
 .footimg {
   display: block;
   margin: auto;
-  width: 75%;
+  width: 50%;
   transition: 1s ease all;
   opacity: 25%;
 }
 
 .hov {
-  max-width: 5%;
+  max-width: 10%;
   position: relative;
   display: inline-block;
 }
