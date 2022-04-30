@@ -301,12 +301,13 @@ a.nav:hover {
   margin-left: -60px;
 
   opacity: 0;
-  transition: opacity 0.3s;
+  transition: opacity 1s, scale 1s;
 }
 
 .hov:hover .hovtext {
   visibility: visible;
   opacity: 1;
+  transform: scale(1.1)
 }
 
 /* ---------- Animation CSS ---------- */
