@@ -44,7 +44,7 @@ input[type=radio] {
 
 .subtext {
   color: #555;
-  padding: 145px;
+  padding-right: 145px;
 }
 
 .inline label {
