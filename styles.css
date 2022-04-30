@@ -278,7 +278,7 @@ a.nav:hover {
   display: block;
   margin: auto;
   width: 20%;
-  transition: scale .5s
+  transition: 1s ease all;
 }
 
 .hov {
@@ -298,7 +298,7 @@ a.nav:hover {
   z-index: 1;
   margin: auto;
   opacity: 0;
-  transition: opacity .5s,
+  transition: 1s ease all;
 }
 
 .footimg:hover {
