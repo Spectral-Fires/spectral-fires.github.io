@@ -297,7 +297,7 @@ a.nav:hover {
   position: absolute;
   z-index: 1;
   bottom: 125%;
-  left: 50%;
+  left: 40%;
   margin-left: -60px;
 
   opacity: 0;
