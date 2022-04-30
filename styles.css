@@ -287,18 +287,16 @@ a.nav:hover {
 
 .hov .hovtext {
   visibility: hidden;
-  width: auto;
+  width: 75%;
   background-color: #555;
   color: #fff;
   text-align: center;
   padding: 5px 0;
   border-radius: 6px;
 
-  position: absolute;
+  display: block
   z-index: 1;
-  bottom: 125%;
-  left: 40%;
-  margin-left: -60px;
+  margin: auto;
 
   opacity: 0;
   transition: opacity 1s, scale 1s;
