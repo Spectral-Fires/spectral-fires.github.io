@@ -39,8 +39,9 @@ input[type=radio] {
 }
 
 .inline {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
 }
 
 .subtext {
