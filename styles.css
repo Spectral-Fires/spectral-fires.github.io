@@ -232,7 +232,11 @@ a.nav:hover {
 
 .imgb {
   padding: 15px;
+  transition: 1s ease;
 }
+
+.imgb:hover {
+  transform: scale(1.1);
 
 span.small {
   font-size: smaller;
